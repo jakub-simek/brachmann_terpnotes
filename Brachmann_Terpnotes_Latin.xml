@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="hc" matchPattern="(.+)"
+               replacementPattern="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/$1"
+            > </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text ana="hc:Poem">
+      <front>
+         <titlePage>
+            <titlePart>
+               ΤΕΡΠΝΟΤΗΣ
+               Illu
+            </titlePart>
+         </titlePage>
+      </front>
+      <body>
+         <div ana="hc:Dedication">
+            <l n="1">Accipe clementi PRINCEPS CEL-
+SISSIME vultu;
+            </l>
+            <l n="2">quæ tibi submissa voce Thalia canit.</l>
+            <l n="3">Magna canit, numero tenui, modulamine
+               stricto;
+            </l>
+            <l n="4">Res superant vires artis, &amp; ingenium.</l>
+         </div>
+         <l n="1">﻿‌QValis in hoc Mundi, terræque, polique theatro Br</l>
+         <l n="2">Insita subsistit facies ab origine prima;</l>
+         <l n="3">Mille figurarum species, res mille, potestas</l>
+         <l n="4">Multiplici distincta gradu, distincta vigore:</l>
+         <l n="5">Talis inest parvo naturæ vultus in orbe</l>
+         <l n="6">Diversi cordis, diversi pectoris æstus;</l>
+         <l n="7">Atque caducus amor vitæ motusque fugaces.</l>
+         <l n="8">Quisque suæ sequitur naturæ semina, quisquis</l>
+         <l n="9">Exhibet occultum studiis, et moribus ignem:</l>
+         <l n="10">Ille furit, timet hic, pars humet, rideat alter.</l>
+         <l n="11">Adde quid hîc valeat virtus ignota tenebris</l>
+         <l n="12">Ingenii: quid res miranda, potentia cœli:</l>
+         <l n="13">Cujus ad effectus dubios mens libera curis</l>
+         <l n="14">Luxuriat: contra fuerint si nubila torpet.</l>
+         <l n="15">Hinc aliis Venetas placet enumerare paludes</l>
+         <l n="16">Eridani ripas: inflexus Tethyos omnes.</l>
+         <l n="17">Quot medio classes Echeneis marmore sistat;</l>
+         <l n="18">Quot Gladius mergat, quot Syrtes, Scylla, Charybdis,</l>
+         <l n="19">Quæ freta, quas terras pelago vidisset in alto;</l>
+         <l n="20">Et quae jactata tetigisset sidera puppi:</l>
+         <l n="21">Et positis rursum bullis ad tartara lapsus.</l>
+         <l n="22">Ad Mauros alii, sævos Garamantas, et Indos</l>
+         <l n="23">Antipodasque, Tagi, Pactoli flumen, et Hermi,</l>
+         <l n="24">Merces quæsitum currunt: seroque reversi</l>
+         <l n="25">Exponunt longi non vana pericula cursus,</l>
+         <l n="26">Vim multam, cœlique minas, fera saxa, latrones.</l>
+         <l n="27">Cernis ut insultet miles: tumidusque secundo</l>
+         <l n="28">Marte ferat cædes: et tela, sonantia tela;</l>
+         <l n="29">Deletas acies; actos in funera reges:‌ Bv</l>
+         <l n="30">Ostentat spolium, gliscentia somniat arma;</l>
+         <l n="31">Pro stipe dat vitam: sanum pro vulnere corpus.</l>
+         <l n="32">Furfure natus homo naturæ nomina mille,</l>
+         <l n="33">Annos narrabit centum, proavos, atavosque;</l>
+         <l n="34">Inflatus parmas monstrat, partasque labore</l>
+         <l n="35">Majorum ceras: hunc alea decoquit: illum</l>
+         <l n="36">Enervat tacitum tacito sub pectore vulnus.</l>
+         <l n="37">Vim referunt alij Glauci, vim capsidis herbæ,</l>
+         <l n="38">Finibus utopiæ, natum sub vertice Tapsi</l>
+         <l n="39">Cilendrum: quibus adjungunt secreta Sibyllæ:</l>
+         <l n="40">Quîs jecur absumtum, pulmones, viscera, cordis</l>
+         <l n="41">Et cerebri reddunt partes: quin crimine nullo</l>
+         <l n="42">His frutices stomacho natos se tollere jurant.</l>
+         <l n="43">Templa calent Genii; sertisque recentibus halant</l>
+         <l n="44">Pectora: nulla quies; non voto vivitur uno;</l>
+         <l n="45">Lingua lobo follis volat irrevocabilis acta:</l>
+         <l n="46">Officii cristas, et spartæ syrmata tollit:</l>
+         <l n="47">Quisque suo gaudet: trahit et sua quemque voluptas.</l>
+         <l n="48">Ergo chelyn tangas cœlo ridente Thalia;</l>
+         <l n="49">Atque voluptatum tibi si tamen ulla voluptas</l>
+         <l n="50">Naturæ, si quid virtutis, si qua Poesis</l>
+         <l n="51">Ad ripas Moltæ rosea sub fronde Roseti</l>
+         <l n="52">Pande sinus, Cereris fœcundos pande canistros.</l>
+         <l n="53">Perpetuo nec inulta feras contraria nostro</l>
+         <l n="54">Dira solo Momi; veris ulciscere vana.</l>
+         <l n="55">At quo me vertam? quænam primordia? rerum</l>
+         <l n="56">Quæ mihi materies? Dictu quid suavius oro;</l>
+         <l n="57">Atque tuis oculis, mentique frequentius horto:</l>
+         <l n="58">Quem Dux Vrsinus varios plantavit in usus</l>
+         <l n="59">Sive voluptates cordi, seu cura salutis. ‌B2r</l>
+         <l n="60">Quo solet exhaustus cura sucurrere lapsis</l>
+         <l n="61">Viribus et solitum rursus reparare vigorem,</l>
+         <l n="62">Quo tædas animi leni recreare susurro;</l>
+         <l n="63">Et sermone graves jucundo fallere fluctus.</l>
+         <l n="64">Quo rerum species, quo vim, quo pharmaca novit</l>
+         <l n="65">Corporibus pariter, pariterque salubria menti.</l>
+         <l n="66">Quas numerabis opes? nemorum quas occulit umbra</l>
+         <l n="67">Delicias? quænam surgunt in vepribus herbæ?</l>
+         <l n="68">Num quid ager dumis, obductaque sentibus arva</l>
+         <l n="69">Difficiles colles, ac scabra crepidine campi</l>
+         <l n="70">Balsama terga ferant? frondentes num quid olivas?</l>
+         <l n="71">Extremo circum circa se jactat in orbe</l>
+         <l n="72">Proceris, alias fœcunda Bohemia, sylvis</l>
+         <l n="73">Montanisque jugis; radiis impervia Phœbi</l>
+         <l n="74">Sunt loca; solstitio quibus indurata recumbit</l>
+         <l n="75">Nix; illis certe res  exitiosa polique</l>
+         <l n="76">Temperies inimica gelu, damnosaque plantis.</l>
+         <l n="77">Segnis vena soli sit, et inclementia cœli</l>
+         <l n="78">Mitius ista tamen sunt obiicienda; labore</l>
+         <l n="79">Non subigenda seges, et non adeunda colonis</l>
+         <l n="80">Terra datur; quid enim? non omnibus inde negata</l>
+         <l n="81">Fertilitas agris, nec florum gloria campo.</l>
+         <l n="82">Quippe solo natura subest: tamen hæc quoque si quis</l>
+         <l n="83">Inserat; aut multúm mandet sudore subacto</l>
+         <l n="84">Sylvestres ponat vires: cultuque frequenti</l>
+         <l n="85">Ad quascunque voces herbas fœcunda sequatur.</l>
+         <l n="86">Momus in his igitur si quis sit finibus hospes</l>
+         <l n="87">Det mihi se facilem: sensus adhibendo sequaces</l>
+         <l n="88">Det patulas aures; oculos per singula volvat;</l>
+         <l n="89">Vt vigili solers manu assuetudine mutet ‌B2v</l>
+         <l n="90">Naturam, viresque loci, superumque vigorem</l>
+         <l n="91">Dixerit Hesperiæ trans Alpes arva tulisse</l>
+         <l n="92">Particulam cœlo Solis traxisse Deorum</l>
+         <l n="93">Natam: quæ nostros adeó fœcundat agellos.</l>
+         <l n="94">Planicies jocunda jacet sub montibus altis</l>
+         <l n="95">Intuitu multúm multis perspecta Bohemis:</l>
+         <l n="96">Nobilis ac aliis alio sub sole repostis:</l>
+         <l n="97">Seu dextra lævaque lubet transire, videbis</l>
+         <l n="98">Mille voluptates, rerum miracula mille.</l>
+         <l n="99">Illac legitimo sine flore stat ordine ficus;</l>
+         <l n="100">Ficus quæ gravidis pandit sua pinguia ramis</l>
+         <l n="101">Brachia: quæ foliis latis, et divite cornu</l>
+         <l n="102">Exultat gemini diverso tempore fœtus.</l>
+         <l n="103">Ecce noverca peregrinis radicibus almos</l>
+         <l n="104">Suppeditat succos, occultaque pabula tellus.</l>
+         <l n="105">Ac ne forte nives noceant, ne forte fragore</l>
+         <l n="106">Turbo: nec hybernis moriatur operta pruinis,</l>
+         <l n="107">Alpina glacie concreta: vel imbribus atris</l>
+         <l n="108">Sede sua maneat; sunt cœca cubilia circum</l>
+         <l n="109">Tecta fimo: cujus sic est munita calore:</l>
+         <l n="110">Vt si tristis hyems etiam nunc frigore saxa</l>
+         <l n="111">Rumperet: haud posset tamen ulla creare pericla.</l>
+         <l n="112">Regia crede mihi res est PISCINA voluptas;</l>
+         <l n="113">Principibus concessa viris, et regibus apta;</l>
+         <l n="114">Gratia si qua tenet, movet aut quos prompta supellex.</l>
+         <l n="115">Occulto terræ ductu gravis advehit arbos</l>
+         <l n="116">Exterebrata procul per cœca foramina fontis</l>
+         <l n="117">Oblitam vires, gratæ dulcedinis, undam;</l>
+         <l n="118">Quae gemino gemini stridore per ora canalis</l>
+         <l n="119">Labitur; et molli lapsuque geluque ministrat‌ B3r</l>
+         <l n="120">Vitales auras, plenosque libidine motus</l>
+         <l n="121">Piscibus; haud musco viret, haud limosa putrescit</l>
+         <l n="122">More jacentis aquæ: non isthac sede moratur</l>
+         <l n="123">Longius, et squallet: sed fluxu ducta fugaci</l>
+         <l n="124">Per loca rursus abit venienti pervia lintre.</l>
+         <l n="125">Paribus oppositis semper contecta superne;</l>
+         <l n="126">Ne quod bruma gelu damnum, ne Sirius æstu</l>
+         <l n="127">Inferat; hinc paries compactis assibus hæret,</l>
+         <l n="128">Atque pavimentum? ne fibris pendula tellus</l>
+         <l n="129">Continuo ruat, et pisces conturbet, et undam;</l>
+         <l n="130">Nec potis artifici lapidum compage tueri;</l>
+         <l n="131">Vix anguilla potest tenera lanugine falli.</l>
+         <l n="132">Quin etiam fundi videas in margine palmum</l>
+         <l n="133">Altos é regione trabes, ac lignea tecta;</l>
+         <l n="134">Lævibus, et latis saxis adoperta: quibus sub</l>
+         <l n="135">Lubrica tencha latet: repitque volubilis anguis;</l>
+         <l n="136">Omnigeni cancri: stellataque tergora dura</l>
+         <l n="137">Purpureis aurata notis: fugitivaque trutta.</l>
+         <l n="138">Quid grati pariant reptantes agmine denso</l>
+         <l n="139">Pisciculi? Quî pars pinnis, alvoque supinis</l>
+         <l n="140">Innatat? Et pars mortua? quin semesa?  pericli</l>
+         <l n="141">Quænam causa? fames reliquos si dira fatiget,</l>
+         <l n="142">Arboribus clausi circúm letalibus umbris</l>
+         <l n="143">Crudeli subito lapsu ludentibus adsunt:</l>
+         <l n="144">Insidiis captos inimico dente trahentes</l>
+         <l n="145">Diripiunt: et præcipites in terga supinant:</l>
+         <l n="146">Et saturi rursus fugientes vulnera tanta</l>
+         <l n="147">Semesæ prædæ, vestigia tanta relinquunt.</l>
+         <l n="148">In turmam medio jacet altus acervus arenæ;</l>
+         <l n="149">Quod nemus, et fontes nobis id piscibus illa‌ B3v</l>
+         <l n="150">Præstat, ut huc illuc velut in torrente vagentur.</l>
+         <l n="151">Ac ne sublimi saltu, ne littora septi</l>
+         <l n="152">Transiliant; miluo ne fiant esca rapaci;</l>
+         <l n="153">Inclinata vetant summa laquearia parte.</l>
+         <l n="154">Dulce voluptatum genus, insatiabile visu;</l>
+         <l n="155">Dum lenem sonitum variis erroribus undæ</l>
+         <l n="156">Audis: et sic ludier, et sic ludere pisces.</l>
+         <l n="157">Inter laticomas ficus, et Neridos inter</l>
+         <l n="158">Molle penu;  recta vernanti gramine ducit</l>
+         <l n="159">Adspectu rerum titubantes semita gressus;</l>
+         <l n="160">Et bivias aperit portas, flexusque viarum</l>
+         <l n="161">Ambiguos; placet ut, licet ire per atria calle.</l>
+         <l n="162">In quasvis producta vias est pergula; fronde</l>
+         <l n="163">Pulchra; periclimenon primum se tollit in auras;</l>
+         <l n="164">Motibus aurai gratum coma spargit odorem.</l>
+         <l n="165">Adversa laterum porca latet alma racemis;</l>
+         <l n="166">Serpit humi: mox se partes diffundit in omnes;</l>
+         <l n="167">Atque potens fulcris manuum ceu glutine prendit</l>
+         <l n="168">Tignos: et gradibus sursum super æthera tranat.</l>
+         <l n="169">Hîc folium folio, ramusque dat oscula ramis;</l>
+         <l n="170">Porticuumque tegunt concordi concava nexu.</l>
+         <l n="171">Suave fluunt flores; et versicolore nitore</l>
+         <l n="172">Oblectant oculos, pascunt et odore cerebrum;</l>
+         <l n="173">Distribuunt operas: sit ut hæc æterna voluptas.</l>
+         <l n="174">Principio varii trudunt calcaria flores;</l>
+         <l n="175">Lactea naturæ nisu pars colla recludit;</l>
+         <l n="176">Gemmatas vibrat linguas: blandoque tenore</l>
+         <l n="177">Ilicet emergit: clauso pars ore reservat</l>
+         <l n="178">Divitias: donec deflorens illa senescit;</l>
+         <l n="179">Fasce gravans ditat baccarum pignore ramos:‌ B4r</l>
+         <l n="180">Huc iter esto; dabit liquidus FONS saxeus undas;</l>
+         <l n="181">Fons circumscriptus cancellis undique pictis;</l>
+         <l n="182">Quos ex ære faber dedit: arte, manuque sagaci</l>
+         <l n="183">Duxit in hos gyros: et ferrum cedere ferro</l>
+         <l n="184">Igne jubens varios multo conamine finxit</l>
+         <l n="185">Circuitus miré cæcis ambagibus actos.</l>
+         <l n="186">Simius insultat pomis; et glande Sciurus;</l>
+         <l n="187">Psittacus omnisono venientes  ore salutat,</l>
+         <l n="188">Ludit et in ramo volucris mavortia picus.</l>
+         <l n="189">Scilicet ad valuas alienis frondibus arbor</l>
+         <l n="190">Floret, et ignavis te fructibus æmula fallit</l>
+         <l n="191">Longius absentem: fulgente putamine mala,</l>
+         <l n="192">Aurea mala vides, pyra ferrea lumina pascunt.</l>
+         <l n="193">Vt Iove nata soror tenet, ut Cyllenia proles</l>
+         <l n="194">Dia trophæa ROSAE, magnique trophæa triumphi</l>
+         <l n="195">Threicius princeps Europæ condita fastis.</l>
+         <l n="196">Ima tubi saxo surgit sublimis in auras,</l>
+         <l n="197">Altera pars stanno, circi stant vertice summo,</l>
+         <l n="198">Dotibus ingenii dives Tritonia Pallas,</l>
+         <l n="199">Imperiis Iuno, cœcis amathuntia philtris:</l>
+         <l n="200">Tritonis pallet, rubet altera, tertia ridet:</l>
+         <l n="201">Corporis, atque suæ certantes dotis honore.</l>
+         <l n="202">Idæus pugnæ judex, Priameius audax</l>
+         <l n="203">Astat: ut ipse levis levis est sententia menti.</l>
+         <l n="204">Cynnamei crines, et lubrica tempora, lævis</l>
+         <l n="205">Frons, et molle supercillium: volitantibus hirquis,</l>
+         <l n="206">Gilua genæ species, os udum: punica labra,</l>
+         <l n="207">Lingua dicax: mentum tornatile, mobile corpus,</l>
+         <l n="208">Larga manus, talus velox, artusque fugaces,</l>
+         <l n="209">Sindone purpurea vestis: premit ilia circum‌ B4v</l>
+         <l n="210">Baltheus auratus, gemino serpente coruscans.</l>
+         <l n="211">Dextera monstrat opus: miratur læva dearum</l>
+         <l n="212">Formas; miratur sopitæ præmia litis.</l>
+         <l n="213">Quælibet ære cavo celebrat sua munera: dulci,</l>
+         <l n="214">Dardaniumque sono tentat mulcere favorem:</l>
+         <l n="215">Tibia dulce canit placidé stridentibus undis:</l>
+         <l n="216">Vt precio, precibus, blandis pellectus ocellis</l>
+         <l n="217">Iudicio pomum dignæ communicet æquo.</l>
+         <l n="218">Proxima quæque sibi: sistro sibi quærit honorem.</l>
+         <l n="219">Ast animi sensus turbante Cupidinis arcu</l>
+         <l n="220">Fallitur, et fallit: vincit Dea turpis AMOREM.</l>
+         <l n="221">Aeolii versus Pincernæ compita longum</l>
+         <l n="222">Vrget utrinque latus protenta cucurbita, stirpe</l>
+         <l n="223">Alta levi: summoque cacumine culmina jungit</l>
+         <l n="224">Amplexu; lentis umbracula frondea parmis</l>
+         <l n="225">Suscitat; annectens nodis retinacula stringit</l>
+         <l n="226">Tortilibus caules amentis? brachia ligno</l>
+         <l n="227">Implicat, et fixas valuas tenet unguibus uncis.</l>
+         <l n="228">Firma sat humanis res usibus apta patellis</l>
+         <l n="229">Expromit croceis: imaque voragine florum</l>
+         <l n="230">Nudant poma caput; paulatim robora sumens</l>
+         <l n="231">Crescit in immensum; bis septem pondere libras</l>
+         <l n="232">Sæpe dabit corpus: si lanx examinis ansa</l>
+         <l n="233">AEstimet: haud minor et majestas: illa rotunda,</l>
+         <l n="234">Hæc teres: illa virescenti pulcherrima veste:</l>
+         <l n="235">Hæc auro pellucidior: num discolor aer?</l>
+         <l n="236">Mireris: velata virent ut hypetria texto.</l>
+         <l n="237">Hujus ad exemplum tergo viridantia tempe,</l>
+         <l n="238">Tempe, quæ vites cingunt super impendentes.</l>
+         <l n="239">Contiguo tecto sua sustentacula vitis‌ Cr</l>
+         <l n="240">Nexa jugis spargit: bifidas amplexa novellis</l>
+         <l n="241">Capreolis radicas vires acquirit inermis.</l>
+         <l n="242">Hac ope sublimem laeta se palmite sursum</l>
+         <l n="243">Erigit; atque cavi potis assurgente vigore</l>
+         <l n="244">Fornicis erectos arcus superare dolatos.</l>
+         <l n="245">Iam trudit gemmas: Iam frondes atque racemos</l>
+         <l n="246">Explicat, et tignis umbracula pendula vincit:</l>
+         <l n="247">Vt tua virgo faces umbrosis mitiget ulnis,</l>
+         <l n="248">Atque viam Zephyri pandat spirantibus auris:</l>
+         <l n="249">Porrigit autumno dulces tibi pampinus uvas;</l>
+         <l n="250">Munera rara soli: crescunt tamen ampla sat horto.</l>
+         <l n="251">Vt viret, ut juvat, ut ridet quadrangulus ordo</l>
+         <l n="252">Circuitus; transversa placet diversa voluptas,</l>
+         <l n="253">Arida quæ circum ducit via gramine tonso.</l>
+         <l n="254">Egrediens quocunque pedes, quocunque reflectis</l>
+         <l n="255">Lumina; nil nisi suavis erit dulcedo locorum.</l>
+         <l n="256">Area multicolor vernans et amœna vireta,</l>
+         <l n="257">Lætaque se vario tellus hîc flore coronat.</l>
+         <l n="258">Sit licet haud mihi mens herbarum scribere flores;</l>
+         <l n="259">Et calamo species, nomen, multosque colores</l>
+         <l n="260">Pingere: non ea vis, non est fiducia menti.</l>
+         <l n="261">At mirante tamen digito tetigisse licebit:</l>
+         <l n="262">Vt quae sit videas in nostra copia valle.</l>
+         <l n="263">Vere novo pinguis segni super insinuatur</l>
+         <l n="264">Terra minutatim rastello trita tenaci;</l>
+         <l n="265">Quae si plana subest Topiarius ipse pererrat</l>
+         <l n="266">Arte locum, variè filo disponit acuto</l>
+         <l n="267">Miris inter se spaciis, ac ordine miro</l>
+         <l n="268">Areolas: et eas ad amußim dividit herbis</l>
+         <l n="269">Indigenis: quibus intertexit  germina nostro‌ Cv</l>
+         <l n="270">Rara loco, nec nota solo, nec nota colonis.</l>
+         <l n="271">Stirpibus antiquis nonnullas educat, illas</l>
+         <l n="272">Semine projecto terris concredit aratis.</l>
+         <l n="273">Iam metit, &amp; plantat; jam curat sedulus omnes</l>
+         <l n="274">Nulla dies transit qua non has visere plantas</l>
+         <l n="275">Convenit; æternus labor est, æternaque cura:</l>
+         <l n="276">Cum mulcent auræ, firmat sol, irrigat imber.</l>
+         <l n="277">Illa tamen crescunt magno fervore Leonis</l>
+         <l n="278">Qvo reboante solum sitis implacabilis urit,</l>
+         <l n="279">Quæ vires aufert: quæ succis exuit almis</l>
+         <l n="280">Omnia consumens.  Hujus formidine campi</l>
+         <l n="281">Limitibus biviis cortina stat ænea, lymphis</l>
+         <l n="282">Plena: suis cœli radiis quas excoquit ignis:</l>
+         <l n="283">Ut marcescentes riget herbas amphora coli</l>
+         <l n="284">Mille foraminibus, tanquam pluvialibus austris:</l>
+         <l n="285">Cum jam prima novo Sol spargit lumine terras,</l>
+         <l n="286">Túm tenues dare rursus aquas, &amp; pascere rursus</l>
+         <l n="287">Solis ad occasum sitientes viribus haustis</l>
+         <l n="288">Interdum solet: &amp; priscam revocare juventam.</l>
+         <l n="289">Hic Iovis ales erat plantatus in orbe perennis</l>
+         <l n="290">Imperii virtus: oculis trux: ore patenti,</l>
+         <l n="291">Exerta lingua, porrectis cruribus uncis,</l>
+         <l n="292">Ac si iam plaudens pernicibus increpet alis,</l>
+         <l n="293">Aurai flatu motis huc floribus illuc.</l>
+         <l n="294">Hîc sonipes cujus Rex Aeolus ora lupatis</l>
+         <l n="295">Incitat ambiguis, jam molli  calce reponit.</l>
+         <l n="296">Armos, jam solido graviter sonat ungula cornu.</l>
+         <l n="297">Arduus insinuans alterna volumina crurum</l>
+         <l n="298">Non procumbit humi: generosus ad ardua tendit.</l>
+         <l n="299">Ad lituos ardens volat intrepidusque tubarum‌ C2r</l>
+         <l n="300">Iam retró, citró, tardis, velocibus, altis</l>
+         <l n="301">Pro ratione Ducis, caudaque jubaque volante,</l>
+         <l n="302">Paßibus: ut loris levis aut gravis aura gubernat,</l>
+         <l n="303">Nescit stare loco: micat auribus, &amp; tremit artus.</l>
+         <l n="304">Adde quod ARTIFICI ROSA sit formata labore:</l>
+         <l n="305">Mentita facie: fictoque colore canorus</l>
+         <l n="306">Haud procul alarum se pennis concitet Anser.</l>
+         <l n="307">Hæc audire libet, dulcis vidisse voluptas,</l>
+         <l n="308">Floribus innumeris, &amp; versicoloribus herbis,</l>
+         <l n="309">E summo credas simulatæ nescius artis</l>
+         <l n="310">Te vivis depicta videre coloribus arma.</l>
+         <l n="311">Omnifero sese gremio spectantibus offert</l>
+         <l n="312">Læta Dei cultu Tellus, dat gramen odorem</l>
+         <l n="313">Quodque suum, rupta stringentes extrahit enses</l>
+         <l n="314">Vagina calamus, justum quæ tempus arandi</l>
+         <l n="315">Innuit, incidens viscosos Scylla liquores.</l>
+         <l n="316">Pone capillata fibris radice virescit</l>
+         <l n="317">Veratrum: Tulipæ species, simplexque Melissa</l>
+         <l n="318">Turcica, caltha, soporiferique papaveris omnes</l>
+         <l n="319">Quis referat formas? fulget  pulcherrimus inter</l>
+         <l n="320">Gramina cum grato Narcissus odore sub auras</l>
+         <l n="321">Exilit, &amp; rupto flores ostentat amictu.</l>
+         <l n="322">Stelliferisque rotis vehitur lethale metallis</l>
+         <l n="323">Martagon, &amp; Cyperus: diverso plura colore</l>
+         <l n="324">Lilia: montanis gratissima lilia pratis.</l>
+         <l n="325">Serpit humi longé, laté diffundit Adipsos</l>
+         <l n="326">Radices: Cyani vario splendore colorum.</l>
+         <l n="327">Sambucique rosæ roseæ, buglossaque, lotos,</l>
+         <l n="328">Smyrnia, sanguineis accommoda fluctibus herba,</l>
+         <l n="329">Est et Chærephylon; serpentibus utile læsis‌ C2v</l>
+         <l n="330">Fœniculum, nobis quoque porrum, sectile porrum;</l>
+         <l n="331">Et flos Bettonicæ fruticis latet abditus umbra.</l>
+         <l n="332">Regia pulchra, vide, gelida quæ rore riganda;</l>
+         <l n="333">Non cum fumantes operire crepuscula montes</l>
+         <l n="334">Incipiant: Sed cum medio  Sol igneus orbe</l>
+         <l n="335">AEstuet; ipsa solet fœcundis insita lymphis</l>
+         <l n="336">Ceu terræ  florere sinu; mirabile dictu;</l>
+         <l n="337">Sæpé solet privata solo dare semina, sæpe</l>
+         <l n="338">Nativos ponit vultus, aliosque resumit</l>
+         <l n="339">Aut menthæ, vel serpylli: mutata facultas.</l>
+         <l n="340">Arboreo prægnans aurescit stipite malua,</l>
+         <l n="341">Malua velut reliquas inter regina, cumini</l>
+         <l n="342">Grana, Leo, ranunculus, hyssopusque, thymusque,</l>
+         <l n="343">Omnibus hinc invisa feris, invisaque flammis</l>
+         <l n="344">Perpetuas detexit opes Berecynthia buxus;</l>
+         <l n="345">Insultans reliquis crispata cacumine crasso:</l>
+         <l n="346">Quod neque concutiat frigus, neque turbinis æstus.</l>
+         <l n="347">Exultat vacuis calathis exultat opimis</l>
+         <l n="348">Pæoniæ genus; &amp; quondam lethalis amanti,</l>
+         <l n="349">Salvia degustata proco, lethalis amicæ.</l>
+         <l n="350">Italus urticæ torris, digitalis &amp; alvum</l>
+         <l n="351">Quæ levat &amp; matrem quæ ditat crispula, ruta,</l>
+         <l n="352">Ruta venenatis bufonibus improba pestis.</l>
+         <l n="353">Sceptrum cum violis; &amp; amaracus apta cerebro,</l>
+         <l n="354">Borrago, molocheque, cupressina, longa, rotunda</l>
+         <l n="355">Crescit Aristolochia, lybistica,  nuncia veris</l>
+         <l n="356">Primula, vernalisque Lavendula, Spica, pyretrum.</l>
+         <l n="357">Andrachne dentes acuens. Rhabarbara bilem</l>
+         <l n="358">Pota movens gravibus morbis virtute saluti.</l>
+      </body>
+   </text>
+</TEI>
