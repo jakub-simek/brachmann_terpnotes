@@ -25,6 +25,18 @@
    </teiHeader>
    <text ana="hc:Poem">
       <body>
+         <div>
+            <!-- Epigramme -->
+            <div>
+               <head>O PORTRÉTU</head>
+               <lg>
+                  <l n="1">Tvář hodná králů zsvěcuje těla hrdinské údy:</l>
+                  <l n="2">ctnosti ozdobou jsouc <caesura/> delší nad každou čest.</l>
+               </lg>
+            </div>
+
+
+         </div>
          <l n="1">﻿Jaká tu v tomto jevišti světa, země i nebe,</l>
          <l n="2">od samých počátků trvale přebývá vrozená tvářnost,</l>
          <l n="3">na tisíc podob a tvarů, na tisíc věcí, a schopnost</l>

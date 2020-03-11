@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
    xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
    <teiHeader>
@@ -23,25 +25,128 @@
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
+
    <text ana="hc:Poem">
       <front>
+         <pb n="Ar"/>
+         <milestone ana="hc:ZoneBeginning"/>
          <titlePage>
-            <titlePart>
-               ΤΕΡΠΝΟΤΗΣ
-               Illu
-            </titlePart>
+            <docTitle>
+               <titlePart ana="hc:MainTitle">
+                  <lb n="1"/><hi rendition="hc:SmallCaps hc:Enlarged">Τερπνοτης</hi>
+                  <lb n="2"/>Illuﬆriſs. Principis ac
+                  <lb n="3"
+                     />Domini Dn.
+                  <lb n="4"/>Petri VVog
+                  <lb
+                     n="5"/>a Rosen-
+                  <lb n="6"/>berg
+                  <lb n="7"
+                     />Domvs Rosenbergicæ
+                  <lb n="8"
+                  />Gvbernatoris.
+               </titlePart>
+               <titlePart ana="hc:Subtitle">
+                  <lb n="9"/>Cum deſcriptione illuﬆris
+                  <lb n="10"
+                     />Horti
+                  <lb n="11"/>IN NOVA VRBE 
+                  <lb
+                     n="12"/>CROMLOV.
+                  <lb n="13"
+                  />plantati.                  
+               </titlePart>
+            </docTitle>
+            <milestone ana="hc:ZoneBeginning"/>
+            <docImprint>
+               <pubPlace>
+                  <lb n="14"/>Lignicii
+               </pubPlace>
+               <publisher>typis Sartorianis</publisher>
+               <docDate when="1600">
+                  <lb n="15"/>M DC.
+               </docDate>
+            </docImprint>
          </titlePage>
       </front>
       <body>
+         <pb n="Av"/>
+         <milestone ana="hc:ZoneBeginning"/>
          <div ana="hc:Dedication">
-            <l n="1">Accipe clementi PRINCEPS CEL-
-SISSIME vultu;
+            <l n="1">
+               <lb n="1"/>
+               <w><hei:initial hei:heightLines="1">A</hei:initial>Ccipe</w>
+               <w>clementi</w>
+               <w>PRINCEPS</w>
+               <w>CEL<metamark ana="hc:Hyphen">-</metamark><lb n="2" rendition="hc:FlushRight"
+                  />SISSIME</w>
+               <w>vultu</w>
+               <pc>;</pc>
             </l>
-            <l n="2">quæ tibi submissa voce Thalia canit.</l>
-            <l n="3">Magna canit, numero tenui, modulamine
-               stricto;
+            <l n="2">
+               <lb n="3" rendition="hc:Indent"
+               />Quæ tibi ſubmiſſa <caesura/> voce Thalia canit.
             </l>
-            <l n="4">Res superant vires artis, &amp; ingenium.</l>
+            <l n="3">
+               <lb n="4"/>Magna canit, numero tenui, modulamine
+               <lb n="5"
+                  rendition="hc:FlushRight"/>ﬆri<g ref="char:lig_ct"></g>o;
+            </l>
+            <l n="4">
+               <lb rendition="hc:Indent"
+               />Res ſuperant vires <caesura/> artis, &amp; ingenium.
+            </l>
+         </div>
+         <div>
+            <!-- Epigramme -->
+            <pb n="A2r"/>
+            <cb/>
+            <div>
+               <!-- Epigramm -->
+               <head>
+                  <lb n="1"/>IN EFFIGIEM
+               </head>
+               <lg>
+                  <l n="1">
+                     <lb n="2"/><hei:initial hei:heightLines="2"
+                     >C</hei:initial>Orporis illuﬆrat FACIES heroica MEMBRA
+                  </l>
+                  <l n="2">
+                     <lb n="3" rendition="hc:Indent"
+                     />Regia: virtutis dius honore decor.
+                  </l>
+               </lg>
+            </div>
+            <div>
+               <head>
+                  <lb n="4"/>Anagramma.
+                  <lb n="5"
+                  />VT RVBES PRO SANO GREGE.
+               </head>
+               <lg>
+                  <l n="1">
+                     <lb n="6"/>Sic ROSA, sic VIRTVS terra, cœloq́ꝫ manebit;
+                  </l>
+                  <l n="2">
+                     <lb n="7"/>VT GREGE PRO SANO, DUX Generoſe
+                     <lb n="8"/>RVBES.
+                  </l>
+               </lg>
+            </div>
+            <div>
+               <head>
+                  <lb n="9"/>SYMBOLVM.
+                  <lb n="10"/>IN SILENTIO ET SPE.
+               </head>
+               <lg>
+                  <l n="1">
+                     <lb n="11"/>Spes fidei requies: tranquilla SILENTIA vitae:
+                  </l>
+                  <l n="2">
+                     <lb n="12"/>Qui SILET &amp; SPERAT tutus ubiq́ꝫ sedet.
+                  </l>
+               </lg>
+            </div>
          </div>
          <l n="1">﻿‌QValis in hoc Mundi, terræque, polique theatro Br</l>
          <l n="2">Insita subsistit facies ab origine prima;</l>
