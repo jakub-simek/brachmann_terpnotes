@@ -1,2 +1,2 @@
-# brachmann_terpnotes
+# Johannes Brachmann: Terpnotes
 A scholarly digital edition and translation of "Johannes Brachmann: Terpnotes (Liegnitz 1600)" 
