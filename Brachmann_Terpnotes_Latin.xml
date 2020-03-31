@@ -101,7 +101,7 @@
             <!-- Epigramme -->
             <pb n="A2r"/>
             <cb/>
-            <div>
+            <div xml:id="ep_1" n="1">
                <!-- Epigramm -->
                <head>
                   <lb n="1"/>IN EFFIGIEM
@@ -113,11 +113,11 @@
                   </l>
                   <l n="2">
                      <lb n="3" rendition="hc:Indent"
-                     />Regia: virtutis dius honore decor.
+                     />Regia: virtutis <caesura/> dius honore decor.
                   </l>
                </lg>
             </div>
-            <div>
+            <div xml:id="ep_2" n="2">
                <head>
                   <lb n="4"/>Anagramma.
                   <lb n="5"
@@ -128,12 +128,12 @@
                      <lb n="6"/>Sic ROSA, sic VIRTVS terra, cœloq́ꝫ manebit;
                   </l>
                   <l n="2">
-                     <lb n="7"/>VT GREGE PRO SANO, DUX Generoſe
+                     <lb n="7"/>VT GREGE PRO SANO, <caesura/> DVX Generoſe
                      <lb n="8"/>RVBES.
                   </l>
                </lg>
             </div>
-            <div>
+            <div xml:id="ep_3" n="3">
                <head>
                   <lb n="9"/>SYMBOLVM.
                   <lb n="10"/>IN SILENTIO ET SPE.
@@ -143,8 +143,267 @@
                      <lb n="11"/>Spes fidei requies: tranquilla SILENTIA vitae:
                   </l>
                   <l n="2">
-                     <lb n="12"/>Qui SILET &amp; SPERAT tutus ubiq́ꝫ sedet.
+                     <lb n="12"/>Qui SILET &amp; SPERAT <caesura/> tutus ubiq́ꝫ sedet.
                   </l>
+               </lg>
+            </div>
+            <div xml:id="ep_4" n="4">
+               <head>EQVVS ALBVS.</head>
+               <lg>
+                  <l n="1">VIRTVTEM Sonipes, CANDOREM candidus, ARMA</l>
+                  <l n="2">Altus, VICTOREM <caesura/> ſtragula rubra DVCEM.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_5" n="5">
+               <head>ROSA RVBRA.</head>
+               <lg>
+                  <l n="1">CONSILIVM ROSA dat prudens, &amp; PACIS amorem;</l>
+                  <l n="2">Sangvineus dextræ <caesura/> fortia FACTA color.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_6" n="6">
+               <head>ILLVSTRIS FAMILIAE CELSITVDO.</head>
+               <lg>
+                  <l n="1">URſinis inſerta ROSAE domus inclita vivit;</l>
+                  <l n="2">REGIBVS Europæ floret amica toro.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_7" n="7">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_8" n="8">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_9" n="9">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_10" n="10">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_11" n="11">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_12" n="12">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_13" n="13">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_14" n="14">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_15" n="15">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_16" n="16">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_17" n="17">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_18" n="18">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_19" n="19">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_20" n="20">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_21" n="21">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_22" n="22">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_23" n="23">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_24" n="24">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_25" n="25">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_26" n="26">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_27" n="27">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_28" n="28">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_29" n="29">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_30" n="30">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_31" n="31">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_32" n="32">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_33" n="33">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_34" n="34">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_35" n="35">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_36" n="36">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_37" n="37">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_38" n="38">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_39" n="39">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
+               </lg>
+            </div>
+            <div xml:id="ep_40" n="40">
+               <head></head>
+               <lg>
+                  <l n="1"></l>
+                  <l n="2"></l>
                </lg>
             </div>
          </div>

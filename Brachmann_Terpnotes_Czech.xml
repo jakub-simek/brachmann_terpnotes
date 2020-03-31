@@ -27,11 +27,284 @@
       <body>
          <div>
             <!-- Epigramme -->
-            <div>
+            <div xml:id="ep_1" n="1">
                <head>O PORTRÉTU</head>
                <lg>
                   <l n="1">Tvář hodná králů zsvěcuje těla hrdinské údy:</l>
-                  <l n="2">ctnosti ozdobou jsouc <caesura/> delší nad každou čest.</l>
+                  <l n="2">ctnosti ozdobou jsouc <caesura/>delší nad každou čest.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_2" n="2">
+               <head>Anagram. Jak se zardíváš pro zdravé stádce [anagram: Petr Vok z Rožmberku].</head>
+               <lg>
+                  <l n="1">Tak bude růže, tak ctnost přebývat na zemi, v nebi,</l>
+                  <l n="2">jak se pro zdraví stád, <caesura/>šlechetný vévodo, rdíš.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_3" n="3">
+               <head>Heslo. V tichosti a naději</head>
+               <lg>
+                  <l n="1">V naději odpočne víra, tichost dá poklidné žití,</l>
+                  <l n="2">kdo v tichu, v naději dlí, <caesura/>bezpečný všude má byt.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_4" n="4">
+               <head>Bílý kůň</head>
+               <lg>
+                  <l n="1">Oř ctnost znamená, bílý pak jasnost, vysoký vojnu,</l>
+                  <l n="2">čabraka červená zas <caesura/>kníže vítězný jest.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_5" n="5">
+               <head>Rudá růže</head>
+               <lg>
+                  <l n="1">Růže dá úradek moudrý, lásku k životu v míru,</l>
+                  <l n="2">zbarvení zas jako krev <caesura/>pravici udatný čin.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_6" n="6">
+               <head>Urozenost slavného rodu</head>
+               <lg>
+                  <l n="1">Slovutný růže dům je mezi Ursíny vsazen,</l>
+                  <l n="2">v záhonu evropských vlád <caesura/>spřátelen uvykl kvést.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_7" n="7">
+               <head>Prvenství mezi velmoži českými</head>
+               <lg>
+                  <l n="1">Po králi první sídlo má růže, prvenství v moci,</l>
+                  <l n="2">mezi velmoži čest <caesura/>na prvním <!-- prvém? --> usedat z míst.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_8" n="8">
+               <head>Slavné ctnosti</head>
+               <lg>
+                  <l n="1">Jsou to: k zbožnosti úcta, šlechetná vlídnost, pak péče</l>
+                  <l n="2">o právo, vojenství dbát, <caesura/>milovat pokoj a mír.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_9" n="9">
+               <head>Dvořané</head>
+               <lg>
+                  <l n="1">Ten živí mysl slovem; jiní předsedat soudům</l>
+                  <l n="2">ochotni jsou v každý čas; <caesura/>o tělo onen zas dbá.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_10" n="10">
+               <head>Slavná modlitebna</head>
+               <lg>
+                  <l n="1">Moudrý je muž, jenž k občanské zbroji posvátnou přidá,</l>
+                  <l n="2">jehož upřímný duch <caesura/>Krista pobožně ctí.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_11" n="11">
+               <head>Chrám Svaté Trojice</head>
+               <lg>
+                  <l n="1">Na skále Kristův položils kámen, pobožný Petře,</l>
+                  <l n="2">Petrovi ctnému nechť vstup <caesura/>skála Kristova dá.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_12" n="12">
+               <head>Koleje a školy</head>
+               <lg>
+                  <l n="1">Trojici ústavy tři on založil v záměru svatém,</l>
+                  <l n="2">nám zbývá naděje jen, <caesura/>že školu obnoví zas.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_13" n="13">
+               <head>Vlídnost vůči poddaným a přistěhovalcům</head>
+               <lg>
+                  <l n="1">Co že cizincům dal? Jak penězi pomáhá bídným?</l>
+                  <l n="2">Kolik otvírá dlaň <caesura/>z lásky k štědrosti jen!</l>
+               </lg>
+            </div>
+            <div xml:id="ep_14" n="14">
+               <head>Soudní dvůr</head>
+               <lg>
+                  <l n="1">Z tolika zemí zřídila zde si Panna své sídlo,</l>
+                  <l n="2">vládne spravedlivě <caesura/>moudrým úradkem svým.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_15" n="15">
+               <head>Dvorská zbrojnice</head>
+               <lg>
+                  <l n="1">Jaké dřív bývaly štíty, jaké zbraně jsou dneška,</l>
+                  <l n="2">jaká je sudlice, meč, <caesura/>kopí i chocholy zříš.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_16" n="16">
+               <head>Zbrojnice na Novém městě</head>
+               <lg>
+                  <l n="1">Kdo by bronzová děla po městech v království hledal,</l>
+                  <l n="2">stěží kde viděl by víc <caesura/>nežli na místě tom.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_17" n="17">
+               <head>Hrad</head>
+               <lg>
+                  <l n="1">K Vltavě přiléhá hrad – zdi s cimbuřím, vysoké síně –</l>
+                  <l n="2">římského císaře snad <caesura/>hoden je takový dům.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_18" n="18">
+               <head>Knihovna</head>
+               <lg>
+                  <l n="1">S pokladem můžeš autorů hned se odvážit v souboj:</l>
+                  <l n="2">počtem je dřívějším kvit, <caesura/>vírou tvou skýtá však víc.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_19" n="19">
+               <head>Vojenská spolehlivost</head>
+               <lg>
+                  <l n="1">Panonce v údiv přivádí ctnosti, vláda a věrnost,</l>
+                  <l n="2">když zbraní věren a stál <caesura/>zboží Kristova dbáš.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_20" n="20">
+               <head>Stříbrné nádoby</head>
+               <lg>
+                  <l n="1">Uzříš-li věci zrobené z stříbra anebo zlata,</l>
+                  <l n="2">řekl bys, že kníže náš <caesura/>Kroisovy poklady má.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_21" n="21">
+               <head>Umění destilace</head>
+               <lg>
+                  <l n="1">Zde tvoří zlato, jež k chorobám lidským co lék se hodí:</l>
+                  <l n="2">onen hotoví kov, <caesura/>ten vodu pováří zas.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_22" n="22">
+               <head>Plodnost země</head>
+               <lg>
+                  <l n="1">Země otvírá náruč, posílá stříbro a zlato,</l>
+                  <l n="2">půda se plodností skví, <caesura/>že jímá člověka žas.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_23" n="23">
+               <head>Doly na kov</head>
+               <lg>
+                  <l n="1">Bohatství hodné králů pod vrchy vysokých kopců;</l>
+                  <l n="2">zlata a stříbra se zde <caesura/>nalézá bohatý zdroj.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_24" n="24">
+               <head>Mince</head>
+               <lg>
+                  <l n="1">Vpravdě výsadou králů zlaté mince je razit;</l>
+                  <l n="2">kolik jich zdobeno již <caesura/>růží Petrovou jest!</l>
+               </lg>
+            </div>
+            <div xml:id="ep_25" n="25">
+               <head>Sýpky</head>
+               <lg>
+                  <l n="1">Zásoba zrna tvoří se v létech plodných a hojných;</l>
+                  <l n="2">ta lidu uleví pak, <caesura/>tíživý přijde-li čas.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_26" n="26">
+               <head>Rybník Rožmberk</head>
+               <lg>
+                  <l n="1">Rybník pro mnohé skýtá zásobu rozkoší hojnou,</l>
+                  <l n="2">prolomí-li se však hráz, <caesura/>veškeré nivy dá vplen.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_27" n="27">
+               <head>Rosnatka</head>
+               <lg>
+                  <l n="1">Ó Bože, sluneční rosou tuto zemi též věnčíš,</l>
+                  <l n="2">právem Kristovým hruď <caesura/>co rosou svlažit nám rač.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_28" n="28">
+               <head>Umělecká díla</head>
+               <lg>
+                  <l n="1">Návrh od ruky umné provede práce a píle:</l>
+                  <l n="2">božské památky tu <caesura/>stojí již na místě svém.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_29" n="29">
+               <head>Obora</head>
+               <lg>
+                  <l n="1">Ať již chceš zajíce honit či lovit jeleny sítí,</l>
+                  <l n="2">luňáky či psy si vem <caesura/>anebo kulí je střel.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_30" n="30">
+               <head>Vinice</head>
+               <lg>
+                  <l n="1">Révu, jíž povaha místa nedává v zahradě dozrát:</l>
+                  <l n="2">tento nahradí dar <caesura/>přízeň sousedních sfér.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_31" n="31">
+               <head>Ptáčnice</head>
+               <lg>
+                  <l n="1">Ptákům lze tu pokládat léčky, klamat je lepem,</l>
+                  <l n="2">můžeš nalíčit síť <caesura/>či zchystat kámen a prak.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_32" n="32">
+               <head>Posvátné zřídlo</head>
+               <lg>
+                  <l n="1">Z horkého zřídla pára tu stoupá: posvátné všem je;</l>
+                  <l n="2">chorobným k užitku; když <caesura/>v koupel tu vstoupíš, jsi zdráv.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_33" n="33">
+               <head>Drahokamy</head>
+               <lg>
+                  <l n="1">Uzřel jsem rovněž kameny drahé z tohoto kraje;</l>
+                  <l n="2">z nich tu vyrábí vše, <caesura/>co si jen můžeš přát.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_34" n="34">
+               <head>Mlýny</head>
+               <lg>
+                  <l n="1">Ten drahé kameny leští, onen pak dřeva vzácná,</l>
+                  <l n="2">řeže prkna zas ten, <caesura/>nejvíc z nich mouku však dá.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_35" n="35">
+               <head>Velbloudi a medvědi</head>
+               <lg>
+                  <l n="1">Mohutný velbloud zvyklý je nosit břemena těžká;</l>
+                  <l n="2">vále se po zemi řve <caesura/>medvěd strašně jak ďas.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_36" n="36">
+               <head>Lesy</head>
+               <lg>
+                  <l n="1">Kolem dokola hluboký hvozd tu otvírá náruč;</l>
+                  <l n="2">stavbám hmotu svou dá <caesura/>a živí palivem krb.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_37" n="37">
+               <head>Uhlírny, sklárny, cihelny, vápenice</head>
+               <lg>
+                  <l n="1">Uhlí, cihly, sklo, vápno, vše je zde v takovém množství,</l>
+                  <l n="2">že pro potřeby všech <caesura/>těchto zásob je dost.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_38" n="38">
+               <head>Hudba</head>
+               <lg>
+                  <l n="1">Citera rozezní struny, horna roh rozechví spolem,</l>
+                  <l n="2">harfa vydá svůj tón, <caesura/>bubny se zvukem trub.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_39" n="39">
+               <head>Chov koní</head>
+               <lg>
+                  <l n="1">Divit se budeš nádheře stájí i tvarům koní,</l>
+                  <l n="2">jak jezdec rukou svou <caesura/>pěkný opíše kruh.</l>
+               </lg>
+            </div>
+            <div xml:id="ep_40" n="40">
+               <head>Bažantnice</head>
+               <lg>
+                  <l n="1">Na březích kachny si hrají, v zahradě pobíhá bažant,</l>
+                  <l n="2">jeřábek s koroptví též <caesura/>i jeřáb, povzduší pán.</l>
                </lg>
             </div>
 
