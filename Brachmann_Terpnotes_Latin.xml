@@ -73,29 +73,33 @@
          <pb n="Av"/>
          <milestone ana="hc:ZoneBeginning"/>
          <div ana="hc:Dedication">
-            <l n="1">
-               <lb n="1"/>
-               <w><hei:initial hei:heightLines="1">A</hei:initial>Ccipe</w>
-               <w>clementi</w>
-               <w>PRINCEPS</w>
-               <w>CEL<metamark ana="hc:Hyphen">-</metamark><lb n="2" rendition="hc:FlushRight"
-                  />SISSIME</w>
-               <w>vultu</w>
-               <pc>;</pc>
+            <lg ana="hc:ElegiacDistich">
+               <l xml:id="ded_1" n="1">
+                  <lb n="1"/>
+                  <w><hei:initial hei:heightLines="1">A</hei:initial>Ccipe</w>
+                  <w>clementi</w>
+                  <w>PRINCEPS</w>
+                  <w>CEL<metamark ana="hc:Hyphen">-</metamark><lb n="2" rendition="hc:FlushRight"
+                     />SISSIME</w>
+                  <w>vultu</w>
+                  <pc>;</pc>
+               </l>
+               <l xml:id="ded_2" n="2">
+                  <lb n="3" rendition="hc:Indent"
+                  />Quæ tibi ſubmiſſa <caesura/> voce Thalia canit.
             </l>
-            <l n="2">
-               <lb n="3" rendition="hc:Indent"
-               />Quæ tibi ſubmiſſa <caesura/> voce Thalia canit.
-            </l>
-            <l n="3">
-               <lb n="4"/>Magna canit, numero tenui, modulamine
+            </lg>
+            <lg ana="hc:ElegiacDistich">
+               <l xml:id="ded_3" n="3">
+                  <lb n="4"/>Magna canit, numero tenui, modulamine
                <lb n="5"
-                  rendition="hc:FlushRight"/>ﬆri<g ref="char:lig_ct"></g>o;
+                     rendition="hc:FlushRight"/>ﬆri<g ref="char:lig_ct"></g>o;
             </l>
-            <l n="4">
-               <lb rendition="hc:Indent"
-               />Res ſuperant vires <caesura/> artis, &amp; ingenium.
+               <l xml:id="ded_4" n="4">
+                  <lb rendition="hc:Indent"
+                  />Res ſuperant vires <caesura/> artis, &amp; ingenium.
             </l>
+            </lg>
          </div>
          <div>
             <!-- Epigramme -->
@@ -129,21 +133,25 @@
                   </l>
                   <l n="2">
                      <lb n="7"/>VT GREGE PRO SANO, <caesura/> DVX Generoſe
-                     <lb n="8"/>RVBES.
+                     <lb
+                        n="8"/>RVBES.
                   </l>
                </lg>
             </div>
             <div xml:id="ep_3" n="3">
                <head>
                   <lb n="9"/>SYMBOLVM.
-                  <lb n="10"/>IN SILENTIO ET SPE.
+                  <lb n="10"
+                  />IN SILENTIO ET SPE.
                </head>
                <lg>
                   <l n="1">
-                     <lb n="11"/>Spes fidei requies: tranquilla SILENTIA vitae:
+                     <lb n="11"
+                     />Spes fidei requies: tranquilla SILENTIA vitae:
                   </l>
                   <l n="2">
-                     <lb n="12"/>Qui SILET &amp; SPERAT <caesura/> tutus ubiq́ꝫ sedet.
+                     <lb n="12"
+                     />Qui SILET &amp; SPERAT <caesura/> tutus ubiq́ꝫ sedet.
                   </l>
                </lg>
             </div>
@@ -165,91 +173,91 @@
                <head>ILLVSTRIS FAMILIAE CELSITVDO.</head>
                <lg>
                   <l n="1">URſinis inſerta ROSAE domus inclita vivit;</l>
-                  <l n="2">REGIBVS Europæ floret amica toro.</l>
+                  <l n="2">REGIBVS Europæ <caesura/>floret amica toro.</l>
                </lg>
             </div>
             <div xml:id="ep_7" n="7">
-               <head></head>
+               <head>PRIMATVS INTER BOHE-<lb/>MIAE PROCERES.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">PRima ROSAE ſedes: prior ac á Rege poteſtas:</l>
+                  <l n="2">Et proceres inter <caesura/>primus honore locus.</l>
                </lg>
             </div>
             <div xml:id="ep_8" n="8">
-               <head></head>
+               <head>ILLVSTRES VIRTVTES.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">ESt PIETATIS honor: CLEMENTIA libe-<lb/>ra: cultus</l>
+                  <l n="2">IVSTICIAE: BELLI <caesura/>curaq́; PACIS amor.</l>
                </lg>
             </div>
             <div xml:id="ep_9" n="9">
-               <head></head>
+               <head>AVLICI.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">VNus alit mentem verbo: conſtanter &amp; illi</l>
+                  <l n="2">Ius dicunt: curam <caesura/>corporis alter agit.</l>
                </lg>
             </div>
             <div xml:id="ep_10" n="10">
-               <head></head>
+               <head>ILLVSTRE ORATORIVM.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">VIr ſapiens armis qui jungit SACRA TOGATIS;</l>
+                  <l n="2">Et vera Chriſtum <caesura/>Relligione colit.</l>
                </lg>
             </div>
             <div xml:id="ep_11" n="11">
-               <head></head>
+               <head>TEMPLVM S. TRINITATIS.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">IN petra Chriſti petram pie PETRE locaſti:</l>
+                  <l n="2">Sit PETRO Chriſti <caesura/>petra recluſa pio.</l>
                </lg>
             </div>
             <div xml:id="ep_12" n="12">
-               <head></head>
+               <head>COLLEGIA ET SCHOLAE.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">TRes Triadi poſuit sancto fundamine ludos;</l>
+                  <l n="2">Nos inſtaurandæ <caesura/>ſpes manet alta Scholæ.</l><!-- "spes alta" scheint keine feste Junktur zu sein. -->
                </lg>
             </div>
             <div xml:id="ep_13" n="13">
-               <head></head>
+               <head>CLEMENTIA ERGA SVBDI-<lb/>TOS ET EXVLES</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">QVæ dedit exulibus? quo preſſos erigit ære?</l>
+                  <l n="2">Quot libertatis <caesura/>mittit amore manu.</l>
                </lg>
             </div>
             <div xml:id="ep_14" n="14">
-               <head></head>
+               <head>FORVM POLITICVM.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">HIc ſedem fixit fines Astræa tot inter:</l>
+                  <l n="2">Et res juſticia, <caesura/>conſilioq́ regit.</l>
                </lg>
             </div>
             <div xml:id="ep_15" n="15">
-               <head></head>
+               <head>ARMAMENTARIVM AVLICVM.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">QVi veterum clypei: quæ noſtri temporis arma:</l>
+                  <l n="2">Quid romphæa, dolon, <caesura/> lancea, criſta, vides.</l>
                </lg>
             </div>
             <div xml:id="ep_16" n="16">
-               <head></head>
+               <head>ARMAMENTARIVM  IN <lb/> NOVA VRBE.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">AEnea quis quærat REGNI tormenta per urbes:</l>
+                  <l n="2">Plurima vix ullo <caesura/>viderit eſſe loco.</l>
                </lg>
             </div>
             <div xml:id="ep_17" n="17">
-               <head></head>
+               <head>ARX.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">ARX jacet ad Moltam: pinnatis ardua muris</l>
+                  <l n="2">Atria: Romano <caesura/>Cæſare digna DOMVS.</l>
                </lg>
             </div>
             <div xml:id="ep_18" n="18">
-               <head></head>
+               <head>BIBLIOTHECA.</head>
                <lg>
-                  <l n="1"></l>
-                  <l n="2"></l>
+                  <l n="1">AVthorum gaza possis certare: vetustis</l>
+                  <l n="2">Par numero: major relligione TUA</l>
                </lg>
             </div>
             <div xml:id="ep_19" n="19">

@@ -23,13 +23,36 @@
          </listPrefixDef>
       </encodingDesc>
    </teiHeader>
-   <text ana="hc:Poem">
+   <text ana="hc:Poem hc:CompleteExpression">
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart ana="hc:MainTitle">Potěcha nejjasnějšího knížete a pána, pana Petra Voka z Rožmberku, vládce domu rožmberského.</titlePart>
+               <titlePart ana="hc:Subtitle">S popisem proslulé zahrady založené na Novém Městě krumlovském.</titlePart>
+            </docTitle>
+            <docImprint>
+               <pubPlace>V Lehnici</pubPlace>
+               <publisher>nákladem Sartoriovým</publisher>
+               <docDate when="1600">1600</docDate>
+            </docImprint>
+         </titlePage>
+      </front>
       <body>
+         <div ana="hc:Dedication">
+            <lg ana="hc:ElegiacDistich">
+               <l xml:id="ded_1" n="1">Přijmi, nejvyšší kníže, s tváří vlídnou a jasnou,</l>
+               <l xml:id="ded_2" n="2">co ti ve zpěvu svém <caesura/>Thalie pokorně dí.</l>
+            </lg>
+            <lg ana="hc:ElegiacDistich">
+               <l xml:id="ded_3" n="3">Pěje o věcech velkých prostým, vázaným veršem,</l>
+               <l xml:id="ded_4" n="4">na ně nestačí um, <caesura/>nadání nemá dost sil.</l>
+            </lg>
+         </div>
          <div>
             <!-- Epigramme -->
-            <div xml:id="ep_1" n="1">
+            <div xml:id="ep_1" n="1" ana="hc:Epigram">
                <head>O PORTRÉTU</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Tvář hodná králů zsvěcuje těla hrdinské údy:</l>
                   <l n="2">ctnosti ozdobou jsouc <caesura/>delší nad každou čest.</l>
                </lg>
@@ -215,6 +238,7 @@
                   <l n="1">Ó Bože, sluneční rosou tuto zemi též věnčíš,</l>
                   <l n="2">právem Kristovým hruď <caesura/>co rosou svlažit nám rač.</l>
                </lg>
+               <!-- Srv. Mathioli, Herbář, 1596, s. 471: Když jsme Herbář tento již téměř dokonati měli, posláno nám z Krumlova ode dvora Jeho Milosti Vysoce Urozeného Pána, pana Petra Voka z Rožmberka, vladaře domu Rožmberského, velikého a předního těchto časů milovníka i fedrovníka rei Herbariae v Čechách, vypsání této rosičky anebo bylinky sluneční, z latinského spisu Joannis Isacii Holandi v jazyk český přeložené. V němžto poněvadž předivné moci její obšírněji se vypravují, a bylinka tato namnoze v Čechách a zvláště okolo Třeboně a Sudoměřic na gruntech téhož Jeho milosti Pána se nachází, vidělo se nám za dobré a slušné, abychom tuto při zavírce herbáře něco krátce odtud vyberouce o ní položili a k lepší známosti její Čechům naším jakous takous pomoc učinili. -->
             </div>
             <div xml:id="ep_28" n="28">
                <head>Umělecká díla</head>
