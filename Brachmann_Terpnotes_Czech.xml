@@ -27,8 +27,10 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart ana="hc:MainTitle">Potěcha nejjasnějšího knížete a pána, pana Petra Voka z Rožmberku, vládce domu rožmberského.</titlePart>
-               <titlePart ana="hc:Subtitle">S popisem proslulé zahrady založené na Novém Městě krumlovském.</titlePart>
+               <titlePart ana="hc:MainTitle"
+                  >Potěcha nejjasnějšího knížete a pána, pana Petra Voka z Rožmberku, vládce domu rožmberského.</titlePart>
+               <titlePart ana="hc:Subtitle"
+                  >S popisem proslulé zahrady založené na Novém Městě krumlovském.</titlePart>
             </docTitle>
             <docImprint>
                <pubPlace>V Lehnici</pubPlace>
@@ -38,1242 +40,1250 @@
          </titlePage>
       </front>
       <body>
-         <div ana="hc:Dedication">
+         <div ana="hc:Dedication" xml:id="div_ded">
             <lg ana="hc:ElegiacDistich">
-               <l xml:id="ded_1" n="1">Přijmi, nejvyšší kníže, s tváří vlídnou a jasnou,</l>
-               <l xml:id="ded_2" n="2">co ti ve zpěvu svém <caesura/>Thalie pokorně dí.</l>
+               <l xml:id="l_ded_1" n="1">Přijmi, nejvyšší kníže, s tváří vlídnou a jasnou,</l>
+               <l xml:id="l_ded_2" n="2">co ti ve zpěvu svém <caesura/>Thalie pokorně dí.</l>
             </lg>
             <lg ana="hc:ElegiacDistich">
-               <l xml:id="ded_3" n="3">Pěje o věcech velkých prostým, vázaným veršem,</l>
-               <l xml:id="ded_4" n="4">na ně nestačí um, <caesura/>nadání nemá dost sil.</l>
+               <l xml:id="l_ded_3" n="3">Pěje o věcech velkých prostým, vázaným veršem,</l>
+               <l xml:id="l_ded_4" n="4">na ně nestačí um, <caesura/>nadání nemá dost sil.</l>
             </lg>
          </div>
-         <div>
+         <div ana="hc:Section">
             <!-- Epigramme -->
-            <div xml:id="ep_1" n="1" ana="hc:Epigram">
-               <head>O PORTRÉTU</head>
+            <div xml:id="div_ep_1" n="1" ana="hc:Epigram">
+               <head>O portrétu</head>
                <lg ana="hc:ElegiacDistich">
                   <l n="1">Tvář hodná králů zsvěcuje těla hrdinské údy:</l>
                   <l n="2">ctnosti ozdobou jsouc <caesura/>delší nad každou čest.</l>
                </lg>
             </div>
-            <div xml:id="ep_2" n="2">
+            <div xml:id="div_ep_2" n="2" ana="hc:Epigram">
                <head>Anagram. Jak se zardíváš pro zdravé stádce [anagram: Petr Vok z Rožmberku].</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Tak bude růže, tak ctnost přebývat na zemi, v nebi,</l>
                   <l n="2">jak se pro zdraví stád, <caesura/>šlechetný vévodo, rdíš.</l>
                </lg>
             </div>
-            <div xml:id="ep_3" n="3">
+            <div xml:id="div_ep_3" n="3" ana="hc:Epigram">
                <head>Heslo. V tichosti a naději</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">V naději odpočne víra, tichost dá poklidné žití,</l>
                   <l n="2">kdo v tichu, v naději dlí, <caesura/>bezpečný všude má byt.</l>
                </lg>
             </div>
-            <div xml:id="ep_4" n="4">
+            <div xml:id="div_ep_4" n="4" ana="hc:Epigram">
                <head>Bílý kůň</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Oř ctnost znamená, bílý pak jasnost, vysoký vojnu,</l>
                   <l n="2">čabraka červená zas <caesura/>kníže vítězný jest.</l>
                </lg>
             </div>
-            <div xml:id="ep_5" n="5">
+            <div xml:id="div_ep_5" n="5" ana="hc:Epigram">
                <head>Rudá růže</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Růže dá úradek moudrý, lásku k životu v míru,</l>
                   <l n="2">zbarvení zas jako krev <caesura/>pravici udatný čin.</l>
                </lg>
             </div>
-            <div xml:id="ep_6" n="6">
+            <div xml:id="div_ep_6" n="6" ana="hc:Epigram">
                <head>Urozenost slavného rodu</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Slovutný růže dům je mezi Ursíny vsazen,</l>
                   <l n="2">v záhonu evropských vlád <caesura/>spřátelen uvykl kvést.</l>
                </lg>
             </div>
-            <div xml:id="ep_7" n="7">
+            <div xml:id="div_ep_7" n="7" ana="hc:Epigram">
                <head>Prvenství mezi velmoži českými</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Po králi první sídlo má růže, prvenství v moci,</l>
                   <l n="2">mezi velmoži čest <caesura/>na prvním <!-- prvém? --> usedat z míst.</l>
                </lg>
             </div>
-            <div xml:id="ep_8" n="8">
+            <div xml:id="div_ep_8" n="8" ana="hc:Epigram">
                <head>Slavné ctnosti</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Jsou to: k zbožnosti úcta, šlechetná vlídnost, pak péče</l>
                   <l n="2">o právo, vojenství dbát, <caesura/>milovat pokoj a mír.</l>
                </lg>
             </div>
-            <div xml:id="ep_9" n="9">
+            <div xml:id="div_ep_9" n="9" ana="hc:Epigram">
                <head>Dvořané</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Ten živí mysl slovem; jiní předsedat soudům</l>
                   <l n="2">ochotni jsou v každý čas; <caesura/>o tělo onen zas dbá.</l>
                </lg>
             </div>
-            <div xml:id="ep_10" n="10">
+            <div xml:id="div_ep_10" n="10" ana="hc:Epigram">
                <head>Slavná modlitebna</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Moudrý je muž, jenž k občanské zbroji posvátnou přidá,</l>
                   <l n="2">jehož upřímný duch <caesura/>Krista pobožně ctí.</l>
                </lg>
             </div>
-            <div xml:id="ep_11" n="11">
+            <div xml:id="div_ep_11" n="11" ana="hc:Epigram">
                <head>Chrám Svaté Trojice</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Na skále Kristův položils kámen, pobožný Petře,</l>
                   <l n="2">Petrovi ctnému nechť vstup <caesura/>skála Kristova dá.</l>
                </lg>
             </div>
-            <div xml:id="ep_12" n="12">
+            <div xml:id="div_ep_12" n="12" ana="hc:Epigram">
                <head>Koleje a školy</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Trojici ústavy tři on založil v záměru svatém,</l>
                   <l n="2">nám zbývá naděje jen, <caesura/>že školu obnoví zas.</l>
                </lg>
             </div>
-            <div xml:id="ep_13" n="13">
+            <div xml:id="div_ep_13" n="13" ana="hc:Epigram">
                <head>Vlídnost vůči poddaným a přistěhovalcům</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Co že cizincům dal? Jak penězi pomáhá bídným?</l>
                   <l n="2">Kolik otvírá dlaň <caesura/>z lásky k štědrosti jen!</l>
                </lg>
             </div>
-            <div xml:id="ep_14" n="14">
+            <div xml:id="div_ep_14" n="14" ana="hc:Epigram">
                <head>Soudní dvůr</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Z tolika zemí zřídila zde si Panna své sídlo,</l>
                   <l n="2">vládne spravedlivě <caesura/>moudrým úradkem svým.</l>
                </lg>
             </div>
-            <div xml:id="ep_15" n="15">
+            <div xml:id="div_ep_15" n="15" ana="hc:Epigram">
                <head>Dvorská zbrojnice</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Jaké dřív bývaly štíty, jaké zbraně jsou dneška,</l>
                   <l n="2">jaká je sudlice, meč, <caesura/>kopí i chocholy zříš.</l>
                </lg>
             </div>
-            <div xml:id="ep_16" n="16">
+            <div xml:id="div_ep_16" n="16" ana="hc:Epigram">
                <head>Zbrojnice na Novém městě</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Kdo by bronzová děla po městech v království hledal,</l>
                   <l n="2">stěží kde viděl by víc <caesura/>nežli na místě tom.</l>
                </lg>
             </div>
-            <div xml:id="ep_17" n="17">
+            <div xml:id="div_ep_17" n="17" ana="hc:Epigram">
                <head>Hrad</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">K Vltavě přiléhá hrad – zdi s cimbuřím, vysoké síně –</l>
                   <l n="2">římského císaře snad <caesura/>hoden je takový dům.</l>
                </lg>
             </div>
-            <div xml:id="ep_18" n="18">
+            <div xml:id="div_ep_18" n="18" ana="hc:Epigram">
                <head>Knihovna</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">S pokladem můžeš autorů hned se odvážit v souboj:</l>
                   <l n="2">počtem je dřívějším kvit, <caesura/>vírou tvou skýtá však víc.</l>
                </lg>
             </div>
-            <div xml:id="ep_19" n="19">
+            <div xml:id="div_ep_19" n="19" ana="hc:Epigram">
                <head>Vojenská spolehlivost</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Panonce v údiv přivádí ctnosti, vláda a věrnost,</l>
                   <l n="2">když zbraní věren a stál <caesura/>zboží Kristova dbáš.</l>
                </lg>
             </div>
-            <div xml:id="ep_20" n="20">
+            <div xml:id="div_ep_20" n="20" ana="hc:Epigram">
                <head>Stříbrné nádoby</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Uzříš-li věci zrobené z stříbra anebo zlata,</l>
                   <l n="2">řekl bys, že kníže náš <caesura/>Kroisovy poklady má.</l>
                </lg>
             </div>
-            <div xml:id="ep_21" n="21">
+            <div xml:id="div_ep_21" n="21" ana="hc:Epigram">
                <head>Umění destilace</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Zde tvoří zlato, jež k chorobám lidským co lék se hodí:</l>
                   <l n="2">onen hotoví kov, <caesura/>ten vodu pováří zas.</l>
                </lg>
             </div>
-            <div xml:id="ep_22" n="22">
+            <div xml:id="div_ep_22" n="22" ana="hc:Epigram">
                <head>Plodnost země</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Země otvírá náruč, posílá stříbro a zlato,</l>
                   <l n="2">půda se plodností skví, <caesura/>že jímá člověka žas.</l>
                </lg>
             </div>
-            <div xml:id="ep_23" n="23">
+            <div xml:id="div_ep_23" n="23" ana="hc:Epigram">
                <head>Doly na kov</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Bohatství hodné králů pod vrchy vysokých kopců;</l>
                   <l n="2">zlata a stříbra se zde <caesura/>nalézá bohatý zdroj.</l>
                </lg>
             </div>
-            <div xml:id="ep_24" n="24">
+            <div xml:id="div_ep_24" n="24" ana="hc:Epigram">
                <head>Mince</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Vpravdě výsadou králů zlaté mince je razit;</l>
                   <l n="2">kolik jich zdobeno již <caesura/>růží Petrovou jest!</l>
                </lg>
             </div>
-            <div xml:id="ep_25" n="25">
+            <div xml:id="div_ep_25" n="25" ana="hc:Epigram">
                <head>Sýpky</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Zásoba zrna tvoří se v létech plodných a hojných;</l>
                   <l n="2">ta lidu uleví pak, <caesura/>tíživý přijde-li čas.</l>
                </lg>
             </div>
-            <div xml:id="ep_26" n="26">
+            <div xml:id="div_ep_26" n="26" ana="hc:Epigram">
                <head>Rybník Rožmberk</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Rybník pro mnohé skýtá zásobu rozkoší hojnou,</l>
                   <l n="2">prolomí-li se však hráz, <caesura/>veškeré nivy dá vplen.</l>
                </lg>
             </div>
-            <div xml:id="ep_27" n="27">
+            <div xml:id="div_ep_27" n="27" ana="hc:Epigram">
                <head>Rosnatka</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Ó Bože, sluneční rosou tuto zemi též věnčíš,</l>
                   <l n="2">právem Kristovým hruď <caesura/>co rosou svlažit nám rač.</l>
                </lg>
                <!-- Srv. Mathioli, Herbář, 1596, s. 471: Když jsme Herbář tento již téměř dokonati měli, posláno nám z Krumlova ode dvora Jeho Milosti Vysoce Urozeného Pána, pana Petra Voka z Rožmberka, vladaře domu Rožmberského, velikého a předního těchto časů milovníka i fedrovníka rei Herbariae v Čechách, vypsání této rosičky anebo bylinky sluneční, z latinského spisu Joannis Isacii Holandi v jazyk český přeložené. V němžto poněvadž předivné moci její obšírněji se vypravují, a bylinka tato namnoze v Čechách a zvláště okolo Třeboně a Sudoměřic na gruntech téhož Jeho milosti Pána se nachází, vidělo se nám za dobré a slušné, abychom tuto při zavírce herbáře něco krátce odtud vyberouce o ní položili a k lepší známosti její Čechům naším jakous takous pomoc učinili. -->
             </div>
-            <div xml:id="ep_28" n="28">
+            <div xml:id="div_ep_28" n="28" ana="hc:Epigram">
                <head>Umělecká díla</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Návrh od ruky umné provede práce a píle:</l>
                   <l n="2">božské památky tu <caesura/>stojí již na místě svém.</l>
                </lg>
             </div>
-            <div xml:id="ep_29" n="29">
+            <div xml:id="div_ep_29" n="29" ana="hc:Epigram">
                <head>Obora</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Ať již chceš zajíce honit či lovit jeleny sítí,</l>
                   <l n="2">luňáky či psy si vem <caesura/>anebo kulí je střel.</l>
                </lg>
             </div>
-            <div xml:id="ep_30" n="30">
+            <div xml:id="div_ep_30" n="30" ana="hc:Epigram">
                <head>Vinice</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Révu, jíž povaha místa nedává v zahradě dozrát:</l>
                   <l n="2">tento nahradí dar <caesura/>přízeň sousedních sfér.</l>
                </lg>
             </div>
-            <div xml:id="ep_31" n="31">
+            <div xml:id="div_ep_31" n="31" ana="hc:Epigram">
                <head>Ptáčnice</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Ptákům lze tu pokládat léčky, klamat je lepem,</l>
                   <l n="2">můžeš nalíčit síť <caesura/>či zchystat kámen a prak.</l>
                </lg>
             </div>
-            <div xml:id="ep_32" n="32">
+            <div xml:id="div_ep_32" n="32" ana="hc:Epigram">
                <head>Posvátné zřídlo</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Z horkého zřídla pára tu stoupá: posvátné všem je;</l>
                   <l n="2">chorobným k užitku; když <caesura/>v koupel tu vstoupíš, jsi zdráv.</l>
                </lg>
             </div>
-            <div xml:id="ep_33" n="33">
+            <div xml:id="div_ep_33" n="33" ana="hc:Epigram">
                <head>Drahokamy</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Uzřel jsem rovněž kameny drahé z tohoto kraje;</l>
                   <l n="2">z nich tu vyrábí vše, <caesura/>co si jen můžeš přát.</l>
                </lg>
             </div>
-            <div xml:id="ep_34" n="34">
+            <div xml:id="div_ep_34" n="34" ana="hc:Epigram">
                <head>Mlýny</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Ten drahé kameny leští, onen pak dřeva vzácná,</l>
                   <l n="2">řeže prkna zas ten, <caesura/>nejvíc z nich mouku však dá.</l>
                </lg>
             </div>
-            <div xml:id="ep_35" n="35">
+            <div xml:id="div_ep_35" n="35" ana="hc:Epigram">
                <head>Velbloudi a medvědi</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Mohutný velbloud zvyklý je nosit břemena těžká;</l>
                   <l n="2">vále se po zemi řve <caesura/>medvěd strašně jak ďas.</l>
                </lg>
             </div>
-            <div xml:id="ep_36" n="36">
+            <div xml:id="div_ep_36" n="36" ana="hc:Epigram">
                <head>Lesy</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Kolem dokola hluboký hvozd tu otvírá náruč;</l>
+                  <!-- "vůkol" by bylo pěkné -->
                   <l n="2">stavbám hmotu svou dá <caesura/>a živí palivem krb.</l>
                </lg>
             </div>
-            <div xml:id="ep_37" n="37">
+            <div xml:id="div_ep_37" n="37" ana="hc:Epigram">
                <head>Uhlírny, sklárny, cihelny, vápenice</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Uhlí, cihly, sklo, vápno, vše je zde v takovém množství,</l>
                   <l n="2">že pro potřeby všech <caesura/>těchto zásob je dost.</l>
                </lg>
             </div>
-            <div xml:id="ep_38" n="38">
+            <div xml:id="div_ep_38" n="38" ana="hc:Epigram">
                <head>Hudba</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Citera rozezní struny, horna roh rozechví spolem,</l>
                   <l n="2">harfa vydá svůj tón, <caesura/>bubny se zvukem trub.</l>
                </lg>
             </div>
-            <div xml:id="ep_39" n="39">
+            <div xml:id="div_ep_39" n="39" ana="hc:Epigram">
                <head>Chov koní</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Divit se budeš nádheře stájí i tvarům koní,</l>
                   <l n="2">jak jezdec rukou svou <caesura/>pěkný opíše kruh.</l>
                </lg>
             </div>
-            <div xml:id="ep_40" n="40">
+            <div xml:id="div_ep_40" n="40" ana="hc:Epigram">
                <head>Bažantnice</head>
-               <lg>
+               <lg ana="hc:ElegiacDistich">
                   <l n="1">Na březích kachny si hrají, v zahradě pobíhá bažant,</l>
                   <l n="2">jeřábek s koroptví též <caesura/>i jeřáb, povzduší pán.</l>
                </lg>
             </div>
-
-
          </div>
-         <l n="1">﻿Jaká tu v tomto jevišti světa, země i nebe,</l>
-         <l n="2">od samých počátků trvale přebývá vrozená tvářnost,</l>
-         <l n="3">na tisíc podob a tvarů, na tisíc věcí, a schopnost</l>
-         <l n="4">odlišnost nabýt rozličných stupňů, rozličné síly,</l>
-         <l n="5">tak je tomu i v okrsku malém rozličných srdcí</l>
-         <l n="6">s podobou povahy, v rozličných hrudích rozdílná touha,</l>
-         <l n="7">nestálá k životu láska, hnutí prchavé mysli.</l>
-         <l n="8">Kdokoli skrytý vydává plamen v práci a mravech,</l>
-         <l n="9">každý sleduje sémě, jež je mu do vínku dáno,</l>
-         <l n="10">ten běsní, onen se bojí, slzí ten, jiný se směje.</l>
-         <l n="11">K tomu přidej, co zmůže síla, jež skryta je temnu</l>
-         <l n="12">našeho ducha,  podivná věc: moc nebeských těles,</l>
-         <l n="13">účinky jejíž tajemné působí, že mysl bují</l>
-         <l n="14">zproštěna obav nebo je naopak zchromena v mracích.</l>
-         <l n="15">Proto jedněm se líbí líčit benátská blata</l>
-         <l n="16">a břehy Pádu, veškeré potom zálivy mořské.</l>
-         <l n="17">Kolik štítovec flotil zastaví uprostřed moří,</l>
-         <l n="18">kolik jich potopí mečoun, Syrty, Skylla, Charybdis,</l>
-         <l n="19">jaké vody či země na širém uviděl moři,</l>
-         <l n="20">jakých pak dotknul se hvězd, když byla loď mrštěna vzhůru,</l>
-         <l n="21">bublin zanechav vír pak když se v podsvětí řítil.</l>
-         <l n="22">Jiní zas k Maurům, lítým Garamantům a k Indům</l>
-         <l n="23">či k protinožcům, dál k řekám Tagu, Paktolu, Hermu,</l>
-         <l n="24">za obchodem se honí, a když se za notný čas vrátí,</l>
-         <l n="25">nemalé líčí nástrahy ze své předlouhé cesty:</l>
-         <l n="26">hrozby počasí a jeho sílu, lupiče, skály.</l>
-         <l n="27">Vidíš, jak voják jásá, za přízně Marta jak chlubně</l>
-         <l n="28">krvavou strhává řež, a střely všude jen sviští,</l>
-         <l n="29">vojska zmařená vniveč, krále zahnané v zkázu;</l>
-         <l n="30">na odiv dává svou kořist, bájí o třpytu zbraní,</l>
-         <l n="31">dává za mamon život, tělo na pospas ranám.</l>
-         <l n="32">Člověk zrozený v plevách na tisíc jmen svého rodu,</l>
-         <l n="33">stovky jmenuje roků, předky a prapředky čítá,</l>
-         <l n="34">chvástavě předvádí na štítech erby, námahou předků</l>
-         <l n="35">nabyté bysty; toho kostky zruinují, toho</l>
-         <l n="36">nehlučná ochromí rána ukrytá v nehlučné hrudi.</l>
-         <l n="37">Píší pak o umu Glaukově, o síle byliny Kapsis</l>
-         <l n="38">z utopijského kraje, i o Cilendru vzešlém</l>
-         <l n="39">pod vrchem Thapsu; a k tomu taje Sibylly mísí:</l>
-         <l n="40">k těm pak čítají svařená játra, plíce, útroby, části</l>
-         <l n="41">srdce a mozku, ba aniž by kdo co namítal, tvrdí,</l>
-         <l n="42">že tak zneplatní byliny zrozené pro naše břicho.</l>
-         <l n="43">Chrámy génia žhnou a srdce čerstvými voní</l>
-         <l n="44">věnci; klidu tu není; cílem se nežije jedním;</l>
-         <l n="45">jazyk nevratně letí poháněn lalokem měchu;</l>
-         <l n="46">chocholy hodnosti nadzvedává i vlečky Sparty:</l>
-         <l n="47">těší se ze svého každý, unášen vlastní svou vášní.</l>
-         <l n="48">Nuže, Thalie, za přízně nebes lyry se ujmi,</l>
-         <l n="49">a je-li mezi rozkošmi tvými nějaká rozkoš</l>
-         <l n="50">z přírody, nějaká síla, schopnost uchopit veršem,</l>
-         <l n="51">u břehů Vltavy v sadu růžovém, ve stínu Růže,</l>
-         <l n="52">otevři náruč a žírné košíky bohyně Ceres.</l>
-         <l n="53">Neponech navždy beze msty výsměch, posměšky hrubé</l>
-         <l n="54">nad naší půdou; nicotnost odplať pravdivou zprávou!</l>
-         <l n="55">Kam se však obrátit? Kdepak mám začít? A jakou látku</l>
-         <l n="56">za námět zvolit? Táži se: Co je pro jazyk sladší,</l>
-         <l n="57">co máš častěji nežli zahradu v očích i v mysli,</l>
-         <l n="58">tu, již k účelům různým vysázel ursínský kníže,</l>
-         <l n="59">ať již k potěše srdci anebo k prospěchu zdraví.</l>
-         <l n="60">Tam si navykl znaven na pomoc přispěchat zchablým</l>
-         <l n="61">silám, nazpátek přivést svoji obvyklou živost,</l>
-         <l n="62">tam chce ulevit mrzosti ducha zurčením libým,</l>
-         <l n="63">rozptýlit těžkost tíživých úvah veselou řečí.</l>
-         <l n="64">Tam zná rozličné druhy rostlin, tam jejich sílu,</l>
-         <l n="65">tam jejich léčivost tělu jakož i pro zdraví mysli.</l>
-         <l n="66">Jaké tam mohou být skvosty? Jaké ve stínu lesů</l>
-         <l n="67">mohou být krásy, pod trním jaké že byliny rostou?</l>
-         <l n="68">Cožpak křovité role, nivy pokryté šábím</l>
-         <l n="69">na strmých svazích, u krajů polí nerovné meze</l>
-         <l n="70">mohou nést balzám či snad zelené olivy rodit?</l>
-         <l n="71">Kolem dokola mimo prstenec rozlehlých hvozdů,</l>
-         <l n="72">zdejších hřebenů horských, všude se rozléhá žírná</l>
-         <l n="73">krajina česká; tu jsou však místa, která se brání</l>
-         <l n="74">paprskům slunce, kde leží ba i uprostřed léta</l>
-         <l n="75">zatvrdlý sníh, zde mrazy jsou zhoubné, povaha nebe</l>
-         <l n="76">zavile krutá, rostlinám jistě záhubou hrozíc.</l>
-         <l n="77">Nechť si je půda v plodnosti mdlá, nechť nebe je strohé,</l>
-         <l n="78">tímto přec třeba jim vlídně vstříc vyjít: cožpak se prací</l>
-         <l n="79">nečiní poddajnou setba, což není rolníkům země</l>
-         <l n="80">k obdělávání dána? Co tedy? Upřena není</l>
-         <l n="81">proto všem polím plodnost, roli nádhera květin.</l>
-         <l n="82">V půdě je síla přírody skryta, vloží-li však kdo</l>
-         <l n="83">takové sémě a není mu líto potu a dřiny,</l>
-         <l n="84">odloží půda divokost, a díky snaživé pěstbě</l>
-         <l n="85">plodna ti poslušně vydá byliny, jež se ti zlíbí.</l>
-         <l n="86">Je-li hostem snad tedy zde v kraji posměvač jaký,</l>
-         <l n="87">nechť se přesvědčit nechá: smysly vnímaje svolně</l>
-         <l n="88">nechť si poslechne, očima jedno po druhém zhlédne:</l>
-         <l n="89">Jak ruka zručná trvalou pílí přírodu mění,</l>
-         <l n="90">mění povahu místa, sílu mocností nebe:</l>
-         <l n="91">tu řekne, že snad přes Alpy přenesla hesperské nivy,</l>
-         <l n="92">že stáhla částečku slunce zrozenou u bohů v nebi,</l>
-         <l n="93">která v políčkách našich probouzí takovou žírnost.</l>
-         <l n="94">Veselá planinka leží pod svahy vysokých kopců,</l>
-         <l n="95">kterou mnozí již Češi mohli zrakem svým zhlédnout,</l>
-         <l n="96">důstojná avšak i v očích jiných ze zemí cizích.</l>
-         <l n="97">Ať se ti zlíbí projít se zprava anebo zleva,</l>
-         <l n="98">rozkoší uvidíš tisíc, na tisíc zázračných věcí.</l>
-         <l n="99">Tam stojí fíkovník v květu – řádný nemaje původ –</l>
-         <l n="100">fíkovník, který ztěžklými větvemi vztahuje tučné</l>
-         <l n="101">paže; s širokým listím, jež má laloků hojnost,</l>
-         <l n="102">v rozdílném čase pyšní se vesel z dvojího plodu.</l>
-         <l n="103">Hle však, macecha cizími kořeny živoucí skýtá</l>
-         <l n="104">mízu a rovněž země dodává živiny skryté.</l>
-         <l n="105">By mu však nebyly ku škodě sněhy, nápory vichru,</l>
-         <l n="106">ni by nezhynul pokryt zimní námrazou, zkřehlý</l>
-         <l n="107">alpským ledem, či aby na svém zůstal stát místě,</l>
-         <l n="108">když přijdou ponuré deště, jsou kolem přístřešky temné</l>
-         <l n="109">pokryté hnojem, který jej takto svým teplem chrání:</l>
-         <l n="110">pročež i kdyby zima snad chmurná lámala mrazem</l>
-         <l n="111">skály, nemůže přece tu býti pražádnou hrozbou.</l>
-         <l n="112">Rybníček – můžeš mi věřit – vpravdě je královskou slastí,</l>
-         <l n="113">určenou knížecím pánům, králům samotným vhodnou,</l>
-         <l n="114">zmůže-li krása je jaká či zjev osádky dojme.</l>
-         <l n="115">Skrytým vedením v zemi kmen sem přivádí těžký</l>
-         <l n="116">schovaným vrtaným otvorem zdálky pramennou vodu,</l>
-         <l n="117">jež již pozbyvši prudkost je tu líbezně sladká;</l>
-         <l n="118">a ta s dvojitým klokotem ústím dvojité trubky</l>
-         <l n="119">vytéká, svým měkkým tokem a chladem přináší doušky</l>
-         <l n="120">živného vzduchu, hýbání rybám rozkoše plné;</l>
-         <l n="121">není zelená mechem, nehnije v bahnitém kalu</l>
-         <l n="122">jako stojací voda; v tomto se nezdrží bytu</l>
-         <l n="123">déle, že by se mohla snad kazit: odtokem svižným</l>
-         <l n="124">průběžně odchází zase skrze pozemky strouhou.</l>
-         <l n="125">Na stranách vzájemně protějších povždy svrchu je krytá,</l>
-         <l n="126">by zima mrazem nemohla škodu působit, ani</l>
-         <l n="127">Sirius žárem. Proč jsou stěna i podlaha pevně</l>
-         <l n="128">stlučeny z prken? Proto, by vlákna převislé půdy</l>
-         <l n="129">nemohly stále spadávat, ryby rušit ni vodu.</l>
-         <l n="130">skrze dovedně zsazené kameny není však vidět,</l>
-         <l n="131">ač lze sotva jen zmýlit úhoře s chmýřitou kůží,</l>
-         <l n="132">na dna okraji uvidíš ovšem na délku pídě</l>
-         <l n="133">vysoké kmeny z těchto končin a dřevěný příkryv,</l>
-         <l n="134">zakryté hladkými plochými kameny: pod nimi pak se</l>
-         <l n="135">ukrývá kluzký lín a had se ohebný plazí,</l>
-         <l n="136">raci všech druhů – poseté hvězdami krunýře tvrdé,</l>
-         <l n="137">zlacené rudými tečkami, a také plašiví pstruzi.</l>
-         <l n="138">Copak milého přináší rybičky, jež se loudají v hustém</l>
-         <l n="139">hejnu? Proč však některé plavou s ploutvemi, břichem</l>
-         <l n="140">vzhůru? Copak jsou mrtvé? Nebo spíš sežrané způli?</l>
-         <l n="141">Copak jim hrozí? Když krutý hlad ty ostatní zmáhá,</l>
-         <l n="142">schované mezi stromy ve smrtonosném stínu</l>
-         <l n="143">náhle surovým skokem vyrazí k těm, co si hrají,</l>
-         <l n="144">chycené v pasti trhají, rvouce je nepřátelskými</l>
-         <l n="145">zuby, hřbetem dolů je o překot převracejíce,</l>
-         <l n="146">a syty hned zas prchají, za sebou takové rány</l>
-         <l n="147">kořisti sežrané způli zanechávají, takové stopy.</l>
-         <l n="148">Uprostřed na kupě leží vysoká hromada písku,</l>
-         <l n="149">ta nám pro ryby slouží coby lesík a zřídla,</l>
-         <l n="150">kde by se sem a tam mohly jako v potoce toulat.</l>
-         <l n="151">Aby však vysokým skokem nemohly přeskočit přes kraj</l>
-         <l n="152">břehu a by je co kořist dravý nesežral moták,</l>
-         <l n="153">tomu svrchu skloněný strop tu účinně brání.</l>
-         <l n="154">Líbezný druh to rozkoší, zrak se nabažit nechce,</l>
-         <l n="155">když slyšíš lehce klokotat vodu v rozličných toulkách</l>
-         <l n="156">a tak s rybami hrát si, tak ryby samy si hrávat.</l>
-         <l n="157">Mezi fíky s širokým vlasem a měkkým bytem</l>
-         <l n="158">dcery Nérea pěšinka přímo zelenou travou</l>
-         <l n="159">vede kroky, jichž z tolika věcí chápe se závrať,</l>
-         <l n="160">a dvojí otvírá branku, dvojznačný chodníku ohyb,</l>
-         <l n="161">jak je libo, po stezce možno do chodeb vejít.</l>
-         <l n="162">Kterou chceš cestou, tam vede loubí, listovím pěkně</l>
-         <l n="163">porostlé; jako první zimolez vzhůru se zdvihá,</l>
-         <l n="164">jeho vlas pohybem vánku vůni vydává milou.</l>
-         <l n="165">V záhoně z opačné strany libá réva se skrývá:</l>
-         <l n="166">po zemi plazí se, na strany všechny hned se však člení,</l>
-         <l n="167">mocnými pilíři rukou co klihem chytá se tyčí,</l>
-         <l n="168">stupeň po stupni vzhůru směle ovzduším pluje.</l>
-         <l n="169">Zde se list líbá s listem, větev líbá se s větví,</l>
-         <l n="170">spojením svorným klenbě sloupoví vytváří příkryv.</l>
-         <l n="171">Sladce květy se vznáší, leskem třpytivých barev</l>
-         <l n="172">lichotí očím a krmí mysl líbeznou vůní.</l>
-         <l n="173">O své dílo se dělí, rozkoš by byla věčná.</l>
-         <l n="174">Prvně rozličné květy do ostruh rázně se opřou:</l>
-         <l n="175">část jich v rodivé snaze bělostné odhalí šíje,</l>
-         <l n="176">zdobnými jazyky kývá, vzhůru ve svůdném běhu</l>
-         <l n="177">ihned se dere; jiná část ovšem v zavřených ústech</l>
-         <l n="178">svůj poklad skrývá, než ona první odkvete stárnouc,</l>
-         <l n="179">ve hroznech těžknouc závdavkem bobulí obdaří větve.</l>
-         <l n="180">Sem pojď: v kamenné kašně průzračná voda tu tryská,</l>
-         <l n="181">kašna, již dokola obhání ze všech stran zdobené mříže,</l>
-         <l n="182">jež dělník vytvořil z bronzu. zručností, dovednou rukou,</l>
-         <l n="183">v kruhy tyto je vyved; železo železu uhnout</l>
-         <l n="184">ohněm přiměl a četnými postupy přichytil kruhy</l>
-         <l n="185">rozličné vedené podivuhodně v obězích skrytých.</l>
-         <l n="186">V ovoci opičák dovádí, veverka v žaludech zase,</l>
-         <l n="187">papoušek hlučnými ústy všechny příchozí zdraví,</l>
-         <l n="188">na větvi hraje si datel, pták ten Martovi vlastní.</l>
-         <l n="189">Pohleď, u křídel branky strom kvete v listoví cizím</l>
-         <l n="190">a byl pryč-li jsi déle, žárlivě klamat tě touží</l>
-         <l n="191">nestravitelnými plody: s blyštivou jablka slupkou,</l>
-         <l n="192">zlatá jablka vidíš, železné hrušky tu uzříš,</l>
-         <l n="193">jak syn z Kyllény drží, jak sestra, Jovova dcera,</l>
-         <l n="194">božské trofeje RŮŽE, thrácký jak také kníže</l>
-         <l n="195">trofeje velkého triumfu v evropský kalendář vpsané.</l>
-         <l n="196">Spodní část trubky z kamene vzhůru do výšky stoupá,</l>
-         <l n="197">druhá část zvedá se z cínu, na vršku kruhu pak stojí</l>
-         <l n="198">Trítónská Pallas bohatá dary moudrého ducha,</l>
-         <l n="199">Juno zas mocí, bohyně z Amathu nápoji lásky,</l>
-         <l n="200">Trítónka bledne, ta druhá rdí se, třetí se směje;</l>
-         <l n="201">zápasí spolu slávou svých těl i nadání svého.</l>
-         <l n="202">Ídský potomek Priamův, boje srdnatý sudí,</l>
-         <l n="203">stojí stranou: jak on sám, lehký je též jeho výrok.</l>
-         <l n="204">Vlasy skořicí vonné, hladké spánky a hebké</l>
-         <l n="205">čelo, obočí jemné, oční neklidné koutky,</l>
-         <l n="206">pleti vzezření žluté, zvlhčená ústa, rty rudé,</l>
-         <l n="207">výřečný jazyk, brada oblá, a tělo hbité,</l>
-         <l n="208">štědrá ruka, mrštná pata a čiperné údy,</l>
-         <l n="209">šat má z nachové látky, kolem boků pak upnut</l>
-         <l n="210">opasek zlatý, na němž se míhá dvojice hadů.</l>
-         <l n="211">Pravice předvádí dílo, levice obdivně míří</l>
-         <l n="212">na bohyň krásu, na cenu pře, jež došla tu klidu.</l>
-         <l n="213">Každá v dutém bronzu svoje velebí dary,</l>
-         <l n="214">líbezným zvukem uchvácí Dardaniovcovu přízeň,</l>
-         <l n="215">flétna líbezně zpívá, voda pokojně zurčí,</l>
-         <l n="216">by zlákán odměnou, prosbami, svůdným pohledem oček</l>
-         <l n="217">v nestranném soudu jablko daroval té, jež ho hodna.</l>
-         <l n="218">Každá je stejně mu blízká a chrastítkem o čest se hlásí,</l>
-         <l n="219">avšak rozum je klamán, ošálen Cupida lukem,</l>
-         <l n="220">a klame sám zas: hanebná bohyně přemáhá LÁSKU.</l>
-         <l n="221">Proti křížení aiolského číšníka tiskne</l>
-         <l n="222">– vysoká na lehkém stonku – z obou stran protáhlá tykev</l>
-         <l n="223">své dlouhé boky, na samé špičce spojuje vršky</l>
-         <l n="224">v objetí; z listů slunečníky co pružné štíty</l>
-         <l n="225">vztyčuje, pomocí vinutých uzlů úponky poutá</l>
-         <l n="226">a svírá bezduché pruty, ke dřevu připlétá paže</l>
-         <l n="227">a pevných rámů drží se háky stočených drápů.</l>
-         <l n="228">Předměty pevné a pro lidské potřeby nemálo vhodné</l>
-         <l n="229">tvoří se ve žlutých pohárcích: ve květů nejzazším chřtánu</l>
-         <l n="230">obnažují plody svou hlavu; postupně nabývá sílu</l>
-         <l n="231">nezměrně rostouc: zhusta pak v tělo dospěje s váhou</l>
-         <l n="232">dvakrát po sedmi librách, ocení-li ji snad mísa</l>
-         <l n="233">kývavých vah; však půvab je nemenší: kulatá ona,</l>
-         <l n="234">tato zas oblá, ona je překrásná v zeleném šatu,</l>
-         <l n="235">ta zas nad zlato jasnější. – Copak je ovzduší pestré? –</l>
-         <l n="236">žasneš as, jak se zelená tkání tou zastřené loubí.</l>
-         <l n="237">Jemu předlohou stojí zelené údolí Tempé,</l>
-         <l n="238">Tempé, jež keře věnčí shora visící révy.</l>
-         <l n="239">V sousedním přístřeší rozkládá zas své úpony réva,</l>
-         <l n="240">připnuta k opěrným latím: s pomocí vidliček mladých</l>
-         <l n="241">obmyká zdvojené pruty a bezbranná získává síly.</l>
-         <l n="242">S takovou podporou – po výškách toužíc – výhonem bujným</l>
-         <l n="243">vzhůru se zvedá, v stoupavém elánu překonat schopna</l>
-         <l n="244">vzpřímené, tesařem zroubené oblouky vyduté klenby.</l>
-         <l n="245">Již žene pupeny, již zas rozkládá listoví i své</l>
-         <l n="246">hrozny, a takto po trámcích zdolává visuté loubí.</l>
-         <l n="247">Když tvá Panna stinnou svou náručí umírní horka</l>
-         <l n="248">a pak vanoucím větříkům Zefyra otevře cestu,</l>
-         <l n="249">s příchodem podzimu réva ti podá slaďoučké hrozny,</l>
-         <l n="250">vzácné to dary půdy; však v zahradě roste jich hojnost.</l>
-         <l n="251">Jak se zelená, jak těší, směje se čtverhranný pořad</l>
-         <l n="252">ochozu, zamlouvá po stranách podél se rozličná rozkoš,</l>
-         <l n="253">jak kolem stříhanou travou suchá vede tě cesta.</l>
-         <l n="254">Vykroče kamkoli obrátíš nohy, kamkoli zraky</l>
-         <l n="255">otočíš, nalezneš leda pozemků lahodnost libou.</l>
-         <l n="256">Plocha v pestrobarevném mládí a líbezná zeleň,</l>
-         <l n="257">bujná tu země věnčí se korunou z rozličných květin.</l>
-         <l n="258">Těžko jen pomyslet na to, vypsat bylin těch květy,</l>
-         <l n="259">vykreslit štětcem druhy a jména, početné barvy:</l>
-         <l n="260">k tomuto chybí síla, schází odvaha mysli.</l>
-         <l n="261">Možno však bude dotknout se přece obdivným prstem,</l>
-         <l n="262">bys viděl, jaká v údolím našem přebývá hojnost.</l>
-         <l n="263">Když se pomalu přiblíží jaro, úrodná země</l>
-         <l n="264">svrchu se kopáním rozhodnou motyčkou nadrobno zkypří;</l>
-         <l n="265">je-li pak rovná, sám pan zahradník umně si projde</l>
-         <l n="266">pozemek, všelijak nato ostrým provazem v zvláštních</l>
-         <l n="267">vzájemných odstupech, ve zvláštním pořádku rozvrhne přitom</l>
-         <l n="268">záhonky, a ty rozdělí podle pravítka skrze</l>
-         <l n="269">byliny tuzemské, do kterých vetká rostlinky vzácné</l>
-         <l n="270">v končině naší, rolníkům neznámé, neznámé půdě.</l>
-         <l n="271">Některé vyvádí ze starých kořenů, svěřuje jiné</l>
-         <l n="272">zas pak zorané zemi tak, že rozhodí sémě.</l>
-         <l n="273">Sklízí hned, hned pak sází, hned o vše pečuje snažně.</l>
-         <l n="274">Nepřejde jediný den, kdy nedošel dohlédnout by snad</l>
-         <l n="275">na své rostlinky; věčná to práce, věčná i starost,</l>
-         <l n="276">hladí když vánky, posilní slunce, svlažují deště.</l>
-         <l n="277">Ony však rostou ve velkém horku souhvězdí Lvova,</l>
-         <l n="278">za jehož řevu spaluje půdu bezcitná žízeň,</l>
-         <l n="279">která zbavuje sil a bere živoucí mízu</l>
-         <l n="280">stravujíc všechno. Z obavy před ní na krajích pole</l>
-         <l n="281">ve střetu cest tu stojí konev měděná, plna</l>
-         <l n="282">vody, již paprsky svými přihřívá nebeský oheň,</l>
-         <l n="283">vadnoucí byliny by džbán tisícem v cedníku dírek</l>
-         <l n="284">zavlažil, tak jako deště jižním přihnané větrem.</l>
-         <l n="285">Když Slunce novým světlem země začíná skrápět,</l>
-         <l n="286">tu opět slabými proudy vodu dávává, a pak</l>
-         <l n="287">někdy i se Slunce západem opět žíznivé sytí,</l>
-         <l n="288">když jim dochází sil, a k dřívější mladosti volá.</l>
-         <l n="289">Zde Jovův pták byl vysazen – na zemském okrsku stálý –;</l>
-         <l n="290">zjevuje moc svou: hněvivé zraky, zející tlama,</l>
-         <l n="291">vyplazen jazyk, k útoku zdviženy zahnuté drápy,</l>
-         <l n="292">tak jako mávaje by již tloukl mocnými křídly,</l>
-         <l n="293">když se v závanu vánku květy sem a tam hýbou.</l>
-         <l n="294">Zde oř, jehož ústa král Aiolos pobízí uzdou</l>
-         <l n="295">s ostny po obou stranách, již měkkou pokládá patou</l>
-         <l n="296">plece, již tvrdým rohem mocně kopyto duní.</l>
-         <l n="297">Strmě se hned na ty, hned zas na ony oblouky nohou</l>
-         <l n="298">stavě, nelehá na zem, ba hrdě směřuje k výškám.</l>
-         <l n="299">Po zvuku zahnutých trubek sálaje bez bázně letí</l>
-         <l n="300">hned zpět, hned kupředu, krokem tu vysokým, pomalým, rychlým,</l>
-         <l n="301">jak Kníže káže – létá mu sem tam ohon i hříva –</l>
-         <l n="302">a jak mu lehký či mocný vítr otěže řídí.</l>
-         <l n="303">Neumí postát: ušima míhá a třese údy.</l>
-         <l n="304">Dodej, že je tu UMĚLOU RŮŽE ztvárněna snahou</l>
-         <l n="305">s falešným vzhledem; a o kousek dále v smyšlené barvě</l>
-         <l n="306">perutěmi svých křídel se rozmáchá halasná Husa.</l>
-         <l n="307">Těší o tomto slyšet, vidět – toť líbezná rozkoš,</l>
-         <l n="308">z bezčetných květin a pestrých bylin všemožných barev:</l>
-         <l n="309">neznaje přeludu umění z výšky bys zajisté věřil,</l>
-         <l n="310">že vidíš erby, jež někdo z barev vykreslil živých.</l>
-         <l n="311">Lůnem všeplodným nabízí se tak divákům Země,</l>
-         <l n="312">radostná z Boží péče, každý vydává stonek</l>
-         <l n="313">svou vlastní vůni, ostré meče vysouvá rákos</l>
-         <l n="314">z rozprasklé pochvy, jež znamení dává, správný čas kdy je</l>
-         <l n="315">k orbě, co Skylla zjevujíc řezem lepivé šťávy.</l>
-         <l n="316">Vzadu se na chlupatém kořenu zelená vlákny</l>
-         <l n="317">kýchavice; tulipán různý, meduňka prostá,</l>
-         <l n="318"
-            >včelník [Dracocephalum moldavica; Melissa Moldavica seu Turcica], blatouch; kdo by pak všechny vyčetl tvary</l>
-         <l n="319">spánkonosného máku? Mezi stonky se blýská</l>
-         <l n="320">překrásný narcis, s příjemnou vůní vyráží vzhůru</l>
-         <l n="321">do vzduchu, roztrhav závoj ukazuje své květy.</l>
-         <l n="322">Tečkatými koly se točí smrtelný kovům [viz něm. Wikipedia Lilium martagon]</l>
-         <l n="323">zlatohlav; dále šáchor; vícero lilií s různou</l>
-         <l n="324">barvou: lilie, jež jsou nejhezčí na horských lukách.</l>
-         <l n="325">Po zemi plazí se, široko daleko kořeny klade</l>
-         <l n="326">lékořice; chrpy pak v lesku rozličných barev.</l>
-         <l n="327">Růžové růžice bezu, komonice [lotus: Melilotus sp.?] a pilát,</l>
-         <l n="328"
-            >tromín [Smyrnium olusatrum n. perfoliatum], bylina vhodná k zástavě výtoku krve,</l>
-         <l n="329">stejně tak kerblík; fenykl prospěšný raněným hadům,</l>
-         <l n="330">pórek zas pro nás, pórek ten snadno rozloupatelný,</l>
-         <l n="331">i květ bukvice skrývá se zahalen ve stínu křovin,</l>
-         <l n="332">Pelyněk krásný, hleď, jenž se zalévá ledovou rosou,</l>
-         <l n="333">ne když již šero přikrývat začne v oparu hory,</l>
-         <l n="334">alébrž když žhne vprostřed oblohy ohnivé Slunce;</l>
-         <l n="335">ona bylina kvítává vsazena v úrodné vody</l>
-         <l n="336">anebo do lůna země; – je mi divné to říci –;</l>
-         <l n="337">začasto dává semena, ana zbavena půdy,</l>
-         <l n="338">začasto odkládá vrozenou tvářnost a bere si jinou,</l>
-         <l n="339">může se proměnit v mátu anebo mateřídoušku.</l>
-         <l n="340">Obtěžkán zlátne dále tu sléz na dřevitém stonku,</l>
-         <l n="341">sléz coby královna mezi ostatními, pak zrna</l>
-         <l n="342">kumínu, potom hledík, pryskyřník, tymián, yzop,</l>
-         <l n="343">a dále – protivný zvěři, protivný plamenům – odkryl</l>
-         <l n="344">frygický zimostráz zde svou nádheru trvale stálou,</l>
-         <l n="345">nad ostatními se pyšní rozechvěn na silném vršku,</l>
-         <l n="346">jejž však nezvrátí ni mráz ani běsnění bouře.</l>
-         <l n="347">V kališích prázdných jásá, jásá v bohatě plných</l>
-         <l n="348">jistý druh pivoňky; milenci, galánu, smrtelná kdysi,</l>
-         <l n="349">ledva ji okusil, šalvěj, smrtelná i jeho milé.</l>
-         <l n="350">Italská žhavost kopřivy, náprstník, kadeřná routa,</l>
-         <l n="351">jež břichu v bolesti uleví, pomůže k mateřství ženě,</l>
-         <l n="352">routa, jedovým ropuchám nemilosrdná zhouba.</l>
-         <l n="353">Sporýš [Verbena officinalis] a fialy, majorán prospěšný mozku, (5!)</l>
-         <l n="354">brutnák, proskurník, brotan [altdeutsche gartenfl. 75], dlouhý a zakulacený</l>
-         <l n="355">roste podražec, libeček, jara ohlašovatel</l>
-         <l n="356">petrklíč, levandule jarní i běžná, a pertrám.</l>
-         <l n="357"
-            >Portulák [správně šrucha zelná, Portulaca oleracea] ostřící zuby, rebarbora, jež pita</l>
-         <l n="358">vyhání ven žluč v chorobách těžkých ozdravnou silou.</l>
-         <l n="359">Hle na svých záhonech orlíček, máta účinná při dně</l>
-         <l n="360">přírodě úkol svůj splní; bělolist [Evax (pygmaea?)], Minervin to štít,</l>
-         <l n="361">artyčok nebo ostnatec, Chrysippem chválené zelí</l>
-         <l n="362">skrývá zde hlavu v listech, koše z ohebných prutů</l>
-         <l n="363">spletené naplní sdostatek bujný hlávkový salát.</l>
-         <l n="364">Kolik karafiátů na věnce kříži i Trojici libých!</l>
-         <l n="365">Kolik ředviček! Plazivá, vonná mateřídouška!</l>
-         <l n="366">Polním záhonem  bloudí v šiškách podlouhlých také</l>
-         <l n="367"
-            >haditá okurka; dotykem rukou anebo nohou [Palladius IV, 9, 8: quotiens tonat, [cucumis] uelut timore conuertitur.]</l>
-         <l n="368">děsí ve svých šťávách a v semenu bezelstně dlící</l>
-         <l n="369">útroby; kolik jen nebdělých náhlým ovládne strachem</l>
-         <l n="370">chladná míza, kolikrát teplo opustí kosti,</l>
-         <l n="371">takže teprve po notné době k sobě zas přijdou?</l>
-         <l n="372">Vždy když plamene silou záblesk v povzduší zahřměl</l>
-         <l n="373">anebo když snad strašlivé hromy duněním budou</l>
-         <l n="374">skály lámat, budou-li blesky smrtí nám hrozit.</l>
-         <l n="375">Rozkoše očím dává a dává spočinout mysli</l>
-         <l n="376">spořádán po ploše místa, rozvržen v rozličných tvarech</l>
-         <l n="377">početný tento zástup bylin, potomstvo četné.</l>
-         <l n="378">Ty, jež se stlačeny dlouho skrývaly v zesláblé půdě</l>
-         <l n="379">pod jinou již teď vzcházejí hvězdou, střídání časů</l>
-         <l n="380">čas tak poctívá, aby nic nezbylo bez květů holé.</l>
-         <l n="381">Libo je vlevo či vpravo, nebo vepředu či snad</l>
-         <l n="382">vzadu shlédnout rozkošné věci vedle již známých?</l>
-         <l n="383">Nač je zeleným zimostrázem bující dráha?</l>
-         <l n="384">Nač cifry, uprostřed kruhu oblá k čemu je linka?</l>
-         <l n="385">Zdalipak určuje se čas kovu proměnným stínem</l>
-         <l n="386">a s ním zelená bylina přes den hodinu hlásí?</l>
-         <l n="387">Zde je námaha, zde dílo a spleť neřešitelná,</l>
-         <l n="388">která bludištním ohybem chodce na scestí svádí</l>
-         <l n="389">a tak zmýlené obhání z květin dvojitou hradbou.</l>
-         <l n="390">Bylinné radosti však již na chvíli opusťme; naše</l>
-         <l n="391">uši i mysli, zraky i nohy pohání sem dál</l>
-         <l n="392">vložená jiných líbeznost slastí, vymezujíc tu</l>
-         <l n="393">odlišnou tvářnost věcí, změněné též položení</l>
-         <l n="394">nádhernou směruje zelení jinam stočené kroky.</l>
-         <l n="395">Místo se zprostřed vody a zahrad vypíná jako</l>
-         <l n="396">rozhledna, vysoko zdvihlé, nástavba o stěnách dvojích.</l>
-         <l n="397">Ty na svých ramenou jako pilíře stropení nesou,</l>
-         <l n="398">kde skrze vzdušná okna fouká lehoučký vánek,</l>
-         <l n="399">ze kterých podle libosti lze nám spatřovat mnoho:</l>
-         <l n="400">Blankytné sídlo nymfy, rosou skropenou říši</l>
-         <l n="401">Neptuna i dravé proudy toku Vltavy mocné,</l>
-         <l n="402">zachce-li komu se zhlížet pěstěné zahrady krásy</l>
-         <l n="403">anebo komu se líbí u vod průzračných rybář,</l>
-         <l n="404">jak lstivě na ryby lačné políčeno má háčkem,</l>
-         <l n="405">aby je na červa chytil: chycené na dlouhém prutu</l>
-         <l n="406">jak pak do vzduchu tahá, aby je udičky zbavil.</l>
-         <l n="407">Zbloudí-li ovšem jaký kmet rybí ke krmi klamné</l>
-         <l n="408">a zbrklou hubou neblahou nabídku překotně zhltne,</l>
-         <l n="409">hravým prutem tahá sem, tahá pak zase onam</l>
-         <l n="410">a znovu zpátky, dlouho tak ve vlnách snaží se zůstat,</l>
-         <l n="411">než jej vysíleného, neznala proradné léčky,</l>
-         <l n="412">ke břehu přivolá vlasec, jenž v něm vzbuzuje neklid.</l>
-         <l n="413">Již je tu cosi pozoruhodného, hodného zmínky:</l>
-         <l n="414">veprostřed proudu závažím potápí rybáři vrši</l>
-         <l n="415">ve stínu listoví stromů; strany pod vodou cele</l>
-         <l n="416">sítěmi hradí, sevřeným aby nezbyla někde</l>
-         <l n="417">k úniku možnost, naděje, úkryt nějaký, leda</l>
-         <l n="418">by ryba urputná přehradu přelétla v kuráži hrdé.</l>
-         <l n="419">Notný kus odtud proti proudu pozvolným krokem</l>
-         <l n="420">houfec mužů kráčí, do kolen nahých a uzlem</l>
-         <l n="421">svázavších zmáchané šaty; s velkým úsilím míří</l>
-         <l n="422">k cílové čáře, tlukouce do břehů, kamenů, křovin.</l>
-         <l n="423">Silná je naděje na kořist; silná i dychtivost jmění</l>
-         <l n="424">žene je, aby nehleděli na zmáčené tváře,</l>
-         <l n="425">nýbrž tu stejným, tu zase krokem nestejným bloudí.</l>
-         <l n="426">Tak jako ohař svižným během a štěkotem žene</l>
-         <l n="427">bezbranné jeleny, stejně tak tito z hlubinných sídel</l>
-         <l n="428">ryby vypouzí; ozývají se halasným řevem</l>
-         <l n="429">křičících břehy, okolní svahy, údolí i les.</l>
-         <l n="430">Povyk k nebi se nese. Trojzubec vzduchem se míhá,</l>
-         <l n="431">u hrotu hrot, noha u nohy, natěsno u muže je muž.</l>
-         <l n="432">Část ryb snaží se hbitými ploutvemi soupeře zmýlit,</l>
-         <l n="433">muže přeskakujíce, část se zas bojí i doufá</l>
-         <l n="434">zvažuje únik ten i onen, kdejaký úskok,</l>
-         <l n="435">prchá a znovu prchá směrů tisícem, skály</l>
-         <l n="436">obíhá, hned se pod listy vrací, v hlubině dýchá;</l>
-         <l n="437">v léčce se ocitá, kdo se vyhnout bolesti snaží.</l>
-         <l n="438">Dotírají a tisknou, již jsou tu sítě a otvor</l>
-         <l n="439">koše, a lovec pobízí druhy vzrušené v křehkém</l>
-         <l n="440">soustojí, aby ty, jež jsou lapeny, neskočily zpět:</l>
-         <l n="441">Rychle přineste sítě, dravý proud obkličte vzadu</l>
-         <l n="442">dočasnou hrází, aby nám dřina zahnaná v koutu</l>
-         <l n="443">neprchla, bychom už darebné parmici nebyli k smíchu.</l>
-         <l n="444">Je tam? A co? Hle, co bude? Dost je jich a dost jsou velké!</l>
-         <l n="445">Postůjte, muži, námahu naši odmění kořist:</l>
-         <l n="446">Kolik je ve vrši okounů, v nevodu kranasů chytlých!</l>
-         <l n="447">Plná vatka pstruhy se blýská, pyskouny [Labrus turdus] tone!</l>
-         <l n="448">Domluvil a stáhnuv sítě, pažemi ztěžklými vahou</l>
-         <l n="449">– kolik jen trojzubec unese – úlovek do bečky vkládal</l>
-         <l n="450">jásaje a tu zavíral nato listěným krytem.</l>
-         <l n="451">A houf ozdoben větvemi, řítí se, vyzbrojen holí</l>
-         <l n="452">s páleným koncem, třesa se zmáčen a s halasným křikem.</l>
-         <l n="453">Obraťme pohled: pod střechu drátěnou postupme nyní</l>
-         <l n="454">pohlédnout, jaká je líbeznost a jaká rozkošnost zpěvné</l>
-         <l n="455">Melpomeny, jakým že půvabem vzpružují mysl</l>
-         <l n="456">ptáci se zbarveným peřím, kterak pak poutají k sobě</l>
-         <l n="457">naše zraky a jakými hlasy uši nám plní.</l>
-         <l n="458">Očarovával bohy, podsvětí očarovával</l>
-         <l n="459">thrácký pěvec, i byliny, květy, křoviny lyrou,</l>
-         <l n="460">uchvácel trubkou gryfy a delfíny, dokonce i lvy,</l>
-         <l n="461">tak proč by člověka obdařeného rozumu světlem,</l>
-         <l n="462">soudností, nemohla okouzlit ptáků zpěvavých píseň,</l>
-         <l n="463">pozvednout ducha posazeného pod tvrdou šíjí?</l>
-         <l n="464">Ledva jitřenka v běhu svém červeně obarví nebe,</l>
-         <l n="465">už je tu hrdlička, tesknými povzlyky rozráží první</l>
-         <l n="466">světlo, po dlouhé dny pak ze své hlásky žalostnou píseň</l>
-         <l n="467">přednáší znovu a znovu, hojné prolévá slzy</l>
-         <l n="468">nad popelem a urnou, vrk vrk nad údy druha,</l>
-         <l n="469">utonulé své oplaká mladé, oplaká chotě,</l>
-         <l n="470">žádná známost a žádný sňatek nezlomí nářky,</l>
-         <l n="471">nesnese manželství, žádnou se nechce uvázat láskou,</l>
-         <l n="472">samotu pouze hledaje, vrk vrk bránici vzpíná.</l>
-         <l n="473">Jiné však žijí zápalem jiným: se sobě rovným</l>
-         <l n="474">klapavé zobáčky pojí, snaží se navzájem měřit</l>
-         <l n="475">v plnění závazků, ve vlídné lásce, ve věrné péči.</l>
-         <l n="476">Žárem vzněcují žár a lásce plameny lásky</l>
-         <l n="477">vdechují, ve svorném objetí předtím okoušejíce</l>
-         <l n="478">polibky, ke křídlu křídlo, k hubičce hubičku kladou.</l>
-         <l n="479">Tudy odchází a zas zpět vrací se vzájemný plamen,</l>
-         <l n="480">jeden druhému navzájem sladkou oplácí lásku.</l>
-         <l n="481"
-            >Hřivnáči vzdušní hojně strachem třesou se, nohy [aeriae palumbes Verg. Buc. 3, 69!]</l>
-         <l n="482">když kladou a zpět zas stahují přes známý práh, mávou křídly [Fasti VI, 334]</l>
-         <l n="483">ve skoku váhavém, s příchodem cizího rámusí prudkým</l>
-         <l n="484">poletováním, nevěří ani hlasu své milé.</l>
-         <l n="485">Mezi šábím se spoustou listů a planým křovím</l>
-         <l n="486">v srovnané řadě stojí pinie, planika, zimnář,</l>
-         <l n="487">lípa se zelená, jalovec, platan, dub, také olše,</l>
-         <l n="488">a na těch rejdí ptáci, již v větvoví hustém</l>
-         <l n="489">společně sedají, nedělajíce v pohlaví rozdíl.</l>
-         <l n="490">Obraz z peří tu skví se, podoben goblénům navlas.</l>
-         <l n="491">Táži se, kolik zaslechnout můžeš líbezných řečí?</l>
-         <l n="492">Na sto rozličných jazyků, na tisíc zpěvavých hlásků.</l>
-         <l n="493">Všichni se na svůj chystají úkol, neb zpěvné dílo</l>
-         <l n="494">o závod konají snažně, a to konopka milá,</l>
-         <l n="495">a s ní pěnkava, s nimi pak čečetka v zpěvu se měří.</l>
-         <l n="496">V souzvuku ladném otevírají nestejná ústa,</l>
-         <l n="497">bys dobře mohl rozeznat funkce jazýčků různých.</l>
-         <l n="498">Vedle pak BOHU žalmy polní chocholouš zpívá,</l>
-         <l n="499">v rákosí zvlněném přednáší písně odstupy sedmi.</l>
-         <l n="500">Křepelka, jež zrána vesele hlásí, že se den blíží,</l>
-         <l n="501">nejinak sokol, a hlídač kohout hlasitě tleská</l>
-         <l n="502">křídly a vyhání z lůžek naše supící údy.</l>
-         <l n="503">Všechny popohánějí k závodu jazýčků umných</l>
-         <l n="504">halasní kosi, ozvukem hlasů svých znavují lesy,</l>
-         <l n="505">vavříny v zvučení strhují na sebe i chválu pění.</l>
-         <l n="506">Hle, vztekle se tu vztekajíc na trnu zeleném visí</l>
-         <l n="507"
-            >křivka, čížek [asi Carduelis spinus] a stehlík [Carduelis carduelis], k nebesům vrhají hlasy</l>
-         <l n="508">plné BOŽÍ chvály, střídavě vzdávají jemu</l>
-         <l n="509">plesání chval, a lidskou mysl zlomenou bolem</l>
-         <l n="510">občerstvují a nápěvem vyhání starost a bázeň.</l>
-         <l n="511">Kým zpěvem líbezným mohlo by srdce se zanítit více?</l>
-         <l n="512">Ano, viděli jsme i ptáka, jenž v mnoha krajích</l>
-         <l n="513">cizí je, s pestrobarevným peřím, pro nás zdroj masa.</l>
-         <l n="514">Co bych zpěvy ty ptáků jeden po druhém líčil?</l>
-         <l n="515">Sám si vyslechni s myslí užaslou, se srdcem celým,</l>
-         <l n="516">můžeš-li vnímat harfy po čtyřech s paterem hlasů</l>
-         <l n="517">anebo na sto rozličných rolí z živého tónu.</l>
-         <l n="518">Zajatí jiné vábí, které v ovzduší celém</l>
-         <l n="519">matou ze sídel ne zcela zřejmých; umírá jeden</l>
-         <l n="520">zpěvem druhého; úmrtím zdolat za krásné platí,</l>
-         <l n="521">hanba je zdolán být tlakem. Jaká jen ze smrti sláva</l>
-         <l n="522">ostruhy dává, jak že se chopila i srdcí ptáků!</l>
-         <l n="523">Avšak, Král mocný, nejsa zajatcem v jemných těch klecích</l>
-         <l n="524">na břehu přilehlém Slavík v hustém ukrytý stínu,</l>
-         <l n="525">svoboden, posvátným žalmem vězněné k souboji volá,</l>
-         <l n="526">a tak zpěvem svým přidává ke dni i dobu noci.</l>
-         <l n="527">K čemu však obydlí četná kolem stropení slouží?</l>
-         <l n="528">K čemu otvory temné a k čemu dutiny ve zdi?</l>
-         <l n="529">To aby neustal prvotní věcí pořádek pevný:</l>
-         <l n="530">Zajaté neméně dráždí ony svým puzením šípy,</l>
-         <l n="531">šípy, jež trvalou vazbou zřízení uchovávají</l>
-         <l n="532">a povždy v podobě potomstva rozmnožují se dále,</l>
-         <l n="533">než ty, jež z nestálých bytů vzlétají v nejisté výšky</l>
-         <l n="534">a do obydlí vzdušných, by kladli bezpečná lože.</l>
-         <l n="535">Tam je svobody zbaveným sladko těšit se stínem</l>
-         <l n="536">žaláře, líbezno moci uměním předestírané</l>
-         <l n="537">dřiny ulevit žáru, který Venuše vzbouzí.</l>
-         <l n="538">S neklidnou myslí a s tělem těhotným budoucí matka</l>
-         <l n="539">sem a tam polétá, prohlíží věci a všechna místa,</l>
-         <l n="540">dokud nenajde to, co třeba jí k životu nutně,</l>
-         <l n="541">to, co dodává sil a co skrovné hnízdečko pojme.</l>
-         <l n="542">Na tom, co nalezne, zobákem, nohami svrchu se pachtí,</l>
-         <l n="543">roztřásá na různé částky, strká a odnáší s sebou,</l>
-         <l n="544">sama jsouc těžká těžké to břímě bedlivě nese.</l>
-         <l n="545">Sebravši všechny síly nejprve základy klade,</l>
-         <l n="546">nato vyvádí stěny, vztyčuje na tisíc sloupů,</l>
-         <l n="547">pevnými pilíři protkává vztyčené výstění celé,</l>
-         <l n="548">a tak je zpevňuje. Listěná chýše konečně stojí.</l>
-         <l n="549">Vedle vidíš, jak sousedka na vratkém potí se těle,</l>
-         <l n="550">stojí, sedí, nahýbá, na všechny kloní se strany</l>
-         <l n="551">oči tam točíc; břicho nadmula takovým tlakem,</l>
-         <l n="552">že je jak buben, a potom pevně dech zadrževši</l>
-         <l n="553">peří čepýří, údy se třese, slabiny vzpíná.</l>
-         <l n="554">Na nohy staví se a hlas jí vázne v nejhlubším hrdle,</l>
-         <l n="555">než břímě položí, šťastna pak – dřiny již nevzpomínajíc –</l>
-         <l n="556">svalům oddechu přeje a sil dodává silám,</l>
-         <l n="557">vzdává Gloria BOHU, chvalozpěv přírodě věrné.</l>
-         <l n="558">Ta první zatím pokojně hnízdí; po dlouhé noci</l>
-         <l n="559">táhlý přichází den; však ona únavou nikdy</l>
-         <l n="560">v dřímotu nesklouzne sladkou, žádná pro oči ni pro</l>
-         <l n="561">srdce noc není, starosti vzrůstají, potomstva žhavá</l>
-         <l n="562">naděje vzplává a bělostná vejce stěží ji tiší.</l>
-         <l n="563">Ta horká věrně pod prsy obrací a mezi křídly,</l>
-         <l n="564">mateřskou hřeje je přízní a věrného zápalu věrným</l>
-         <l n="565">ohněm tak dlouho, než správně zteplají a než je hřáním</l>
-         <l n="566">ke správné přivede podobě; před žádným neuhne dravcem,</l>
-         <l n="567">žádným lijavcem, žádnými bouřemi nedá se z místa</l>
-         <l n="568">odtrhnout; neboť přebývá usazen ve hloubce srdce</l>
-         <l n="569">elán plození, nutkavý zápal potomstvo přivést.</l>
-         <l n="570">Láskou k mláďatům novým sytí žaludek prázdný</l>
-         <l n="571">a něžným citem k budoucím kuřátkům tiší svou žízeň.</l>
-         <l n="572">Tu pak surová látka, nespořádaná hmota,</l>
-         <l n="573">jako semeno v poli, hnána klíčivou silou</l>
-         <l n="574">žhavě vyvřívá a z neprůhledné povstává kupky,</l>
-         <l n="575">a již změněna přijímá novou podobu věrné</l>
-         <l n="576">matky, a aby čerstvý vzduch posílil zbrocené slizem</l>
-         <l n="577">údy i lepší mocnost, matka kostěnou šavlí</l>
-         <l n="578">zobáku, zlomivši stěnu, otvírá skořápky hradbu</l>
-         <l n="579">a dělá živému kuřátku cestu, na světlo denní</l>
-         <l n="580">ven jej vyvádí, vlahými křídly utírá špínu</l>
-         <l n="581">a ve své teplé náruči halí holátko, by chlad</l>
-         <l n="582">nezvyklý bezbrannému neublížil snad náhle.</l>
-         <l n="583">Bez ustání pak dítkům droboučkým potravu nosí</l>
-         <l n="584">a, jako zuby ji břichu, ono pak předává játrům,</l>
-         <l n="585">tak jim ona též drobí a tak v ústech svých žvýká</l>
-         <l n="586">a pípajícím následně klade do lačných bříšek.</l>
-         <l n="587">Ona dolů se snáší a zase průzračným vzduchem</l>
-         <l n="588">ve výšce pluje a tichým letem snaží se svoje</l>
-         <l n="589">kuřátka pobídnout, do hejna s sebou vyvést je spolem.</l>
-         <l n="590">Začasto polétává nad hnízdem hravými křídly,</l>
-         <l n="591">lehkým pohybem pozvolna ve volném vzduchu se houpe,</l>
-         <l n="592">aby poklidnou plavbou mládě zlákané vyšlo</l>
-         <l n="593">ven a důvěřujíc svým křídlům do oblak vzlétlo.</l>
-         <l n="594">Jedno se rychle stopy své matky sledujíc vznese</l>
-         <l n="595">rovnou a přímo, jiné však, nerozhodnější, zase</l>
-         <l n="596">zřítí se, nebo když vprostřed běhu snad povolí vazy,</l>
-         <l n="597">zmoženo, ochablé svaly svých perutí ponechá pádu.</l>
-         <l n="598">Je místo v dlouhé průrvě zrakům odevšad skryté,</l>
-         <l n="599">kde se, zahnána strachem, v klamných ukrývá slujích,</l>
-         <l n="600">kde myslí na svolnou lásku k odstavenému houfu,</l>
-         <l n="601">kam se utíká, kam se stahuje a kde se skrývá,</l>
-         <l n="602">když snad Sírius žhoucí paprsků praživým ohněm</l>
-         <l n="603">zaplane či když střechou na ploché proniknou lože</l>
-         <l n="604">blesky, když v plen vydaným domem běsnícím vichrům</l>
-         <l n="605">jižní vítr i Severák od obou světových pólů</l>
-         <l n="606">lomcují či když v svištivých kroupách divoká bouře</l>
-         <l n="607">zaduní, ana lomcujíc kmenem slabého stromu</l>
-         <l n="608">suché větve i spolu s kořeny ze země vyrve.</l>
-         <l n="609">V hejna se shlukují velkým doprovázeni houfem</l>
-         <l n="610">Naupliovcovi jeřábi, vlaštovka, kachna i morčák,</l>
-         <l n="611">když se podzim o slovo hlásí, chladná část roku,</l>
-         <l n="612">drsná když přichází zima, tu chmurné opouští nivy,</l>
-         <l n="613">vracejíce se vyhledávají dalekou zemi,</l>
-         <l n="614">jež je zrodila, v polohách teplých, zákoutí známá,</l>
-         <l n="615">kde je trvalé jaro, potůčky na svěžích lukách.</l>
-         <l n="616">Co pak zde bude? Pokdy až naše žalostné hejno</l>
-         <l n="617">lkajících ptáků setrvá zavřené pod krytem střechy,</l>
-         <l n="618">napospas vydané mrazu, se sněhem dokola, šedé</l>
-         <l n="619">námrazou, kampak má letět? Zticha být na prazích dvířek?</l>
-         <l n="620">Což má pod holým nebem vydržet ukrutné mrazy?</l>
-         <l n="621">V sousedství k oněm přiléhá stěnám stavení jisté,</l>
-         <l n="622">jež pod umělým souhvězdím Raka co Egypt leží,</l>
-         <l n="623">kde se v pecích trvale drží hořící oheň,</l>
-         <l n="624">který zimní zahání mrazy, slzy a sněhy</l>
-         <l n="625">stravuje a svými paprsky slunná vytváří místa.</l>
-         <l n="626">A sem spěchají kuřata s matkami semknutá v houfu,</l>
-         <l n="627">shluknutá rota, spokojujíc se s prostorem těsným,</l>
-         <l n="628">stažená křídla, klapavý zobák, prochází se tou</l>
-         <l n="629">síní, lehává v hnízdech zrobených důmyslem vtipným,</l>
-         <l n="630">a tak nepociťuje časů ledové zimy.</l>
-         <l n="631">Jsou tu i kopečky z písku, jsou tu rozesypaná</l>
-         <l n="632">po zemi, příhodně pro zobák, semena – obživa četné</l>
-         <l n="633">rodiny, je tu i nápoj – svorně chodí sem k pití.</l>
-         <l n="634">Již se též kradmým krokem, s hrudí smáčknutou k zemi,</l>
-         <l n="635">kocour, ten střešní tulák, plíží, sleduje rychlé</l>
-         <l n="636">poskoky ptáků, očima po všem sem a tam rejdí,</l>
-         <l n="637">drápy vztažené k masu, tlama dokořán zejíc.</l>
-         <l n="638">Přijde-li jaký, s peřím jsa v bezpečí, chráněnou cestou,</l>
-         <l n="639">s ústy lačnými smrti onen vrhne se ze své</l>
-         <l n="640">zálohy výpadem prudkým, v neblahém běhu a skoku.</l>
-         <l n="641">A jak tak váhu těla všemi silami žena</l>
-         <l n="642">pobízí spěšně, řítí se ptáka uchvátit – ouvej! –,</l>
-         <l n="643">odražen kovem odskočí nazpět, s krvavou tlamou</l>
-         <l n="644">a drápy stažené ze šikmé plochy střechy se řítí</l>
-         <l n="645">přímo na hlavu, a pak se kutálí na nohy, na plec.</l>
-         <l n="646">Opusťme kosy, opusťme tyto přístřešky s peřím,</l>
-         <l n="647">přejděme dál, dí Bohyně, pohleďme, zdali kde ještě</l>
-         <l n="648">zbývají rozkoše další, navštivme ostatní krásy.</l>
-         <l n="649">Nemálo pěkná roste tu hrušeň – škoda ji minout –</l>
-         <l n="650">jež se pne v nezměrné výšky, větvemi vyčnívá nad vše,</l>
-         <l n="651">čerstvými silami rostouc, a jež úrodna kypí</l>
-         <l n="652">plody Lyaiovými; by ji náporem mocným</l>
-         <l n="653">alpský Severák hned sem, hned onam foukaje rázně</l>
-         <l n="654">nezvrátil, čelí mu hrazena plůtky a příčnými trámci.</l>
-         <l n="655">Když se vzduch vlahý naplní jarem a Zefyrové</l>
-         <l n="656">vlídně prování lístky, obětuj Cereři, Bakchu.</l>
-         <l n="657">Co že však meškám o duších předků povědět a též</l>
-         <l n="658">o našich podobách? Jak to, že mlčím o tvářích strážců</l>
-         <l n="659">hrůzně zbarvených, o nestvůrnosti obludy hrůzné,</l>
-         <l n="660">o tom i, jaké rozkoše a jaké poklady, v našich</l>
-         <l n="661">krajinách cizí, ukryty síně chovají, jež zdí</l>
-         <l n="662">trojitou v příchodu brání; s goblény nádherná předsíň</l>
-         <l n="663">zraky stíhá obrazem klamným, jakoby na sklo</l>
-         <l n="664">vmalován, částečně malby na druhou draly se stranu.</l>
-         <l n="665">I kdybych měl snad nastokrát jazyk, nastokrát ústa,</l>
-         <l n="666">nebyl bych přec s to, nebyl dle pravdy popsat tu brkem</l>
-         <l n="667">hrozné ty zjevy: bránily by mi děsivé stíny.</l>
-         <l n="668">Stojí nad vysokými dveřmi hrozivé malby:</l>
-         <l n="669">Král a Královna podsvětní říše; s výrazem chtivým</l>
-         <l n="670">coby strážci hlídají napříč pohledem kozli,</l>
-         <l n="671">strašlivé zuby, hlasitě cvakavé tlamy, a uši</l>
-         <l n="672">se psí podobou, zahnuté rohy, ježatá chřípí,</l>
-         <l n="673">sledují křídla dveří s průvodem Kerbera hodným:</l>
-         <l n="674"
-            >daleko odtud, daleko odtud zachraň se, prchni před harpyjemi zlými, tyrhénskými to ptáky,</l>
-         <l n="675">před obrem storukým, skyllami, hydrami, s Gorgonou také</l>
-         <l n="676">před sfingami a chimérami, jež oheň chrlí.</l>
-         <l n="677">Zhoubu nesoucí dým chrlí z chřtánů a žhavou výheň,</l>
-         <l n="678">ústy pochodně soptí, chřípím a očima louče,</l>
-         <l n="679">namísto veškerých vlasů visí jim stočení hadi,</l>
-         <l n="680">v smrtelném uzlu svíjející se okolo hrdel,</l>
-         <l n="681">by ohni odhnaly zloděje, lidi pak a také ptáky</l>
-         <l n="682">trojklatými pařáty, by vše bezpečné bylo.</l>
-         <l n="683">Ejhle, v kopulích stojí v první hned řadě velcí</l>
-         <l n="684">vojevůdcové dávní: tento – rek Amphitriónův –</l>
-         <l n="685">stojí zde a na svých zádech nese vznešené rouno;</l>
-         <l n="686">pán z Makedonie, Pyrrhus, Telamonovec Ájáx,</l>
-         <l n="687">Scipionovští, Deciové a Camillus mocný,</l>
-         <l n="688">statný ctnostmi, však statnější slavným ve zbrani zdarem.</l>
-         <l n="689">Bronzem hlava se skví, bok štítem, pavéza svírá</l>
-         <l n="690">břicho, purpurem barvený plášť a zářivá trofej:</l>
-         <l n="691">Ne ježat chocholem koňským, nýbrž ověnčen květy,</l>
-         <l n="692">smyšlené podoby ostatních samoten přerůstá statný</l>
-         <l n="693">vítěz transylvánský, po nikom v mužnosti druhý.</l>
-         <l n="694">V sloupoví tom však i dívky s růžemi věnce své vijí:</l>
-         <l n="695">Bríséjka, Dóris, Schoinejka, Dafné, Déianeira</l>
-         <l n="696">vlídná, Galatea i Neaira, Lykóris spolem;</l>
-         <l n="697">libé podobou tváře, v hávech půvabných krásné:</l>
-         <l n="698">Spona z ramenou splývající spojuje oděv</l>
-         <l n="699">umně zrobený, ohnivým purpurem zbarvený celý,</l>
-         <l n="700">na hladkém krku pak září klenoty z kamenů drahých.</l>
-         <l n="701">S těmito soupeří úctyhodností mravů i tváře</l>
-         <l n="702">pod nimi Hyacint, Apollón, Achelóus a Jásón,</l>
-         <l n="703">klamný Hippomenés, Aktaión, Adónis, Júlus –</l>
-         <l n="704">očima lákají k očím, svými květy zas k květům</l>
-         <l n="705">ze Sáby, přátelským kynutím hlavy šťastně se zdraví,</l>
-         <l n="706">za smíchu společně rostou, společně rozvíjejí se;</l>
-         <l n="707">trhají fialky chlapci, trhají fialky dívky.</l>
-         <l n="708">Jsou tu i Mohamedáni s turbany okolo skrání,</l>
-         <l n="709">Etiopané s bílými zuby, Hiéra, Sílén,</l>
-         <l n="710">divoši s tělem zeleným, s kudrnatými vlasy.</l>
-         <l n="711">Jsou tu též lidé vydutí, kterým namísto prsou</l>
-         <l n="712">visí pod zduřelým hrdlem napěchované vole.</l>
-         <l n="713">I zde jim společnost dělá temnovládná ta cháska</l>
-         <l n="714">s podobou na pohled strašnou, ve tvářích příšery hrůzné:</l>
-         <l n="715">tak mají divoké líce, z Plútona samého tolik</l>
-         <l n="716">raší hadů, i z fúrií, chřípí jak u nosorožců</l>
-         <l n="717">Flegetónovi i Proserpině roste, a děsnou</l>
-         <l n="718">pekelnou propast rozevírají široce, ústa</l>
-         <l n="719">s divými odhalujíce zuby, jak kdyby měli</l>
-         <l n="720">ve vlčím vzteku již roztrhat kořist; zde také stojí</l>
-         <l n="721">medvěd držený v železném obojku, a v těžké zbroji</l>
-         <l n="722">bouřlivý lev, a vzácný hřebec v kolena kleká.</l>
-         <l n="723">Hle, hlava holá a tělo tučnou otylé stravou,</l>
-         <l n="724">jak by se v rozlehlé tlamě plovoucí obludy údy</l>
-         <l n="725">Jonáše třásly, jakoby chodidly do vzduchu kopal.</l>
-         <l n="726">Po šatu možná poznáš, kdo že pochází odkud:</l>
-         <l n="727">Mezi nimi tu Tatar skvostný s vousatou tváří</l>
-         <l n="728">v dlouhé roucho si skládá oděv nachové barvy.</l>
-         <l n="729">Brútovci mají svou krásu, toto se Iberům líbí,</l>
-         <l n="730">na purpur falešný leckterý národ staví svou slávu.</l>
-         <l n="731">Takými bezpočetnými zjevy vzduch se zde plní;</l>
-         <l n="732">nejenže skrze obrazy sděluje milostné city,</l>
-         <l n="733">a tyto jsou tak dokladem vášně, která však míjí:</l>
-         <l n="734">Ne, mají užitek milý: Když jaro plodivé dává</l>
-         <l n="735">povstávat věcem novým, vezena Zefyry, Chlóris</l>
-         <l n="736">v průvodu vznešeném, obývá tělo kypící po krk,</l>
-         <l n="737">a vytahujíc ven upomínky na slavný triumf</l>
-         <l n="738">ze země, po holém povrchu klade konečky bylin,</l>
-         <l n="739">květů medové plásty a truhly s poklady semen.</l>
-         <l n="740">Nevemlouvá se odkryta zrakům příchozích hostů,</l>
-         <l n="741">v dutinách skrytých vyrašit dává rozkošným klíčkům.</l>
-         <l n="742">Nemá jakým se těšit pohledem na amon vonný,</l>
-         <l n="743">však sama ze svého chřípí do chřípí vydechá vůni,</l>
-         <l n="744">neubližuje zvláštními ústy či ostrým zubem,</l>
-         <l n="745">ale zpleněna v ústech květy ti podává rukou.</l>
-         <l n="746">A tak tě šálí mámivý obraz: nemaje smyslů</l>
-         <l n="747">smysly výjevem straší i ony výjevem těší.</l>
-         <l n="748">Na pláni zelené natáhli lana, vztyčili vzhůru</l>
-         <l n="749">vysokou dřevěnou žerď a na březích ležících kolem</l>
-         <l n="750">na pevně zatlouklých tyčích rozkládají tu stany:</l>
-         <l n="751">Nechť je pročistí vanoucí vzduch, nechť vypálí Slunce,</l>
-         <l n="752">aby v přístřeší klidném neshnily zatuchlou plísní,</l>
-         <l n="753">nýbrž bez újmy zchystány pro pole byly a válku.</l>
-         <l n="754">Prý je stráže povinně střeží, aby když zazní</l>
-         <l n="755">Martovo troubení z kovových trumpet v sousedních krajích,</l>
-         <l n="756">mohl se v opětné nouzi povždy Panonský ostrov</l>
-         <l n="757">bráněn spolehnout na stálou věrnost a mužnost RŮŽÍ.</l>
-         <l n="758">Je-li tu tyrhénský host či čeští velmoži nebo</l>
-         <l n="759">syn z rodu medvědičího, pohleď, jak REKU hraje</l>
-         <l n="760">thymbrejský Apollón na rohu břeskném pokaždé píseň</l>
-         <l n="761">líbeznou, jak ta zní v dáli, jak v dáli s sebou zní Echo.</l>
-         <l n="762">Nyní sem pojď, ó Pómóno, matko zahrad, a buď zde</l>
-         <l n="763">božskou přítomna přízní, do žil našich se velij,</l>
-         <l n="764">rozevři hesperskou náruč, vyjmi klenoty ze svých</l>
-         <l n="765">pokladů, kterým místní se diví, cizinec žasne</l>
-         <l n="766">ohromen, že v našem kraji takové pupeny raší</l>
-         <l n="767">mezi strmými kopci, skalními štíty a sněhy.</l>
-         <l n="768">V údolích bylinonosných z sazenic vyvádí  vánek</l>
-         <l n="769">ovoce, vonné plody tvé rodné půdy, ó země</l>
-         <l n="770">italská, pomeranče rozkošné, ohýbající</l>
-         <l n="771">větve mohutnou vahou zlatovlasého plodu.</l>
-         <l n="772">Stálezelené listí vidíš, jak nese bujný</l>
-         <l n="773">nysejský strom, totiž cedrát; nad něj silněji žádný</l>
-         <l n="774">nevysmívá se prudkému jedu uštknutí zmije;</l>
-         <l n="775">překypující cedrát, který dle staré víry</l>
-         <l n="776">Abrahámovci chovají v roce měsíc co měsíc.</l>
-         <l n="777">Tam mezi mladou zelení rostou spojené spolu</l>
-         <l n="778">dva stinné jasmíny, šťastné, že zeď u sebe mají,</l>
-         <l n="779">výšeji však své vztahují proutí a listoví bujné,</l>
-         <l n="780">přesadíš-li je, zelenají se – ač bez kořene – dlouho.</l>
-         <l n="781">Jazyk dvojitý chrání rozmarýn chvějivým hrotem,</l>
-         <l n="782">vedle zelené stonky jalovce mladistvou silou</l>
-         <l n="783">statečně snášejí mrazivé chladno i šedé jíní.</l>
-         <l n="784">Vzrůstají fialy zimní [chejr vonný, Cheiranthus cheiri], vytrvalý pak vedle</l>
-         <l n="785">stromek majoránový, menší i větší tabák,</l>
-         <l n="786"
-            >a mošusová růže, ločidlo s bělostným květem [laser Parthicum: Ferula asa-foetida],</l>
-         <l n="787"
-            >bazalka, tymián, fíkovník šplhavý [Ficus humilis = quercifo-lia], vytáhlý cypřiš</l>
-         <l n="788">v kuželi větve svírá, pistácie a kmín též</l>
-         <l n="789">s kamenným semenem, pinie, oliva, citron.</l>
-         <l n="790">Granátovníku květy s okrajem tečkatým, lístky</l>
-         <l n="791">nachové barvy, v jablku potom shluknutá zrna;</l>
-         <l n="792">parnaský vavřín věnčící bobulemi ti skráně</l>
-         <l n="793">trnoucí před ohněm blesků, ničivým úderem hromu.</l>
-         <l n="794">Copak nezmůže mysl lidská, píle a stálá</l>
-         <l n="795">práce, co si není s to obstarat svou zkušeností!</l>
-         <l n="796">Umí měnit přírodní síly, jedovost nebe.</l>
-         <l n="797">To je vláda danostem přírody, to vláda světu.</l>
-         <l n="798">Co zapovídá příroda, zdolají pokusy smělé,</l>
-         <l n="799">jejich ohnivá síla pomáhá rozhřátým údům.</l>
-         <l n="800">Když se rohy Měsíce po sedmé vyplní světlem</l>
-         <l n="801">a sled roku postoupí, přestane těšit se z bylin</l>
-         <l n="802">změkčilý noční hlídač, pod chráněnou se vrátí</l>
-         <l n="803">střechu, boje se zimy, políčka ponechá pustá.</l>
-         <l n="804">Co nyní zkusit, by vzduchu zhoubné vanutí zcela</l>
-         <l n="805">rostliny nemohlo zbavit mízy, mátožný spánek</l>
-         <l n="806">by je svou kosou nesťal? Bez odkladu tu činí</l>
-         <l n="807">opět práce, k nimž třeba mužů: schované kryty</l>
-         <l n="808">sem nosí, ze všech stran přikrývají poklady Flóry,</l>
-         <l n="809">a povrch podlahy podestýlají sušenou travou,</l>
-         <l n="810">ba i zející mezery na stranách snaží se mechem</l>
-         <l n="811">utěsnit tak, aby nezbyla ani jediná spára.</l>
-         <l n="812">Až leda vlažné slunce podá zas ozdravný vánek,</l>
-         <l n="813">lze bude tyto uvolnit svory, pod nebem jasným,</l>
-         <l n="814">aby v zavřeném vzduchu nezahynuly stonky</l>
-         <l n="815">dušením, zbaveny tepla od spřízněného světla.</l>
-         <l n="816">Ochrana tato výsadbě ovšem nestačí zcela:</l>
-         <l n="817">Výklenky duté proto na krajích nejzazších uzříš,</l>
-         <l n="818">kde se dá zapálit oheň: kamna ukrytá v kamnech</l>
-         <l n="819">pozvolna sálají, planouce životodárným žárem,</l>
-         <l n="820">který se jakoby kradmo, skrytými cestami šíří,</l>
-         <l n="821">aby snad žhoucí přísun horka prudkého všechno</l>
-         <l n="822">nespálil, onen sžíravý dech svou vydává výheň</l>
-         <l n="823">dlouhou rozvodů spletí, a své ztupuje síly</l>
-         <l n="824">pozvolným vějířem, takže co skrytým horkem se všechno</l>
-         <l n="825">zahřívá; co by rok co rok hynulo lítými mrazy,</l>
-         <l n="826">hřáto tak životním teplem pod světlem ožívá novým.</l>
-         <l n="827">Dvorana krásné síně pestrými zdobena skvostně</l>
-         <l n="828">barvami materiálů, goblény tkanými zlatem,</l>
-         <l n="829">má tyto věci, ty zdobí přilehlý palác a loubí:</l>
-         <l n="830">Umu veliké dílo, umění skvělého svědek</l>
-         <l n="831">umělce zrobena rukou, zrobena prací a snahou</l>
-         <l n="832">tabule v barvě bohata tolika drobnými díly,</l>
-         <l n="833">kolik je květů v zahradě či semen v pouzdérkách květů;</l>
-         <l n="834">noha též z mramoru, netvarována k účelu tomu.</l>
-         <l n="835">Má své poklady také zahrádka s plocením z pestrých</l>
-         <l n="836">latěk, u našich krbů známé i neznámé chová:</l>
-         <l n="837"
-            >Ceněna rozchodnice je růžová [Rhodia radix = Rhodiola rosea], divoká mrkev [Daucus carota = Staphilinus silvestris?],</l>
-         <l n="838">ceněny jsou tu melouny rostoucí s dužninou tučnou.</l>
-         <l n="839">Jsou zde cibule bílé, kozí brada [Tragopogon sp.] a hebký</l>
-         <l n="840"
-            >ptačinec [Stellaria alsine / nemorum] – dětská láska; náramně rozvětven rod je</l>
-         <l n="841">durmanu [Datura stramonium] s ostnatými jablky, s semenem černým.</l>
-         <l n="842">Druh pak brotanu, byliny se jménem účinným: vršky</l>
-         <l n="843">menšího kostivalu vstávají, kvetoucí různě,</l>
-         <l n="844">odporující zánětu hrdla; dále pak tykev.</l>
-         <l n="845"
-            >Hledík [Antirrhinum / nebO: kohoutek - Lychnis], chřest, vratič, řepa, oměj šalamounek,</l>
-         <l n="846">jenž barví, rozemnut, na rudo ruce krvavou šťávou,</l>
-         <l n="847">jenž ďábla zahání a jenž zhojuje surové rány.</l>
-         <l n="848">Byla tu také světlice; komonice a kopr,</l>
-         <l n="849"
-            >dobromysl (nebo jiné druhy Or.), lesknice [Phalaris canariensis], čočka, vlčí bob [Lupinus albus], zvonek,</l>
-         <l n="850">bodlák svatý [Cnicus benedictus?] i měkký [artyčok?], fazole a také proso,</l>
-         <l n="851">lilek větší, laskavec, černavý pak koriandr,</l>
-         <l n="852">kostihoj [asi nějaký kostival]; po zemi jahody rostoucí zelenají se.</l>
-         <l n="853">Oman, jenž rozpouští hleny, jenž jediný rozhání větry,</l>
-         <l n="854"
-            >zdravínek uchovávající očím sílu a ostrost. [Odontites vernus ssp. serotinus, Augentrost]</l>
-         <l n="855"
-            >Svítil tam krokus [šafrán, Crocus sativus] a máta také vzrůstala řecká [Menta graeca],</l>
-         <l n="856"
-            >pelyněk [Artemisia sp.], psí jazyk [Cynoglossum], hřejivá řeřicha [Nasturtium]  i babí kapsa [Capsella bursa pastoris],</l>
-         <l n="857">je tu roketa, hořčice, je tu i pontický nechrast,</l>
-         <l n="858">zdvihá své stonky čirok, amarant zase své květy,</l>
-         <l n="859">zelená se tu bylina srdeční [Leonurus cardiaca] i drobný topol,</l>
-         <l n="860">Španěl zde nachází bylinu rodnou [špenát, holus hispanicum], šplhají tamhle</l>
-         <l n="861">výhony břečťanu, blín zase sype z lodyhy plodné</l>
-         <l n="862">semena, která mohou ti snadno zatemnit mysl.</l>
-         <l n="863">Kdo by spočítal hrášky? Jedny škodlivou šťávou</l>
-         <l n="864">trhajícímu kradmo obrátí útroby v břiše,</l>
-         <l n="865">narůstat jiné uvidíš bez jinak běžné slupky.</l>
-         <l n="866">Všechny však předčí RŮŽE, květ květů, vůní své ctnosti,</l>
-         <l n="867">a svými poupaty zdobí všechny sousední květy.</l>
-         <l n="868">Zde kolem dokola výsadby stromků dík hojné péči</l>
-         <l n="869">ovoce nesou, nikterak horší vedlejších bylin.</l>
-         <l n="870">Hned teď spatřit je můžeš zkrášlené novými, hned zas</l>
-         <l n="871">novými tvary, vpravdě to známky nebeské přízně.</l>
-         <l n="872">Kdo by schopen byl přesně tu spočíst všechny ty barvy?</l>
-         <l n="873">Kdo jen vychválí takové poklady? Kdo nekonečně</l>
-         <l n="874">obsáhlé klenoty? Jen ten, kdo Jovovo postihne jmění.</l>
-         <l n="875">Přemnoho věcí, po jménech líčit které je dlouhé.</l>
-         <l n="876">Kdo by najednou prohlédnul jedním pohledem všechno,</l>
-         <l n="877">kdopak všechny ty zázraky přírody uvážit může?</l>
-         <l n="878">Ony procházet role bylo mi jedinou slastí</l>
-         <l n="879">nad slasti jiné, a to, co zbývá, uvyklou písní</l>
-         <l n="880">vypovím: zeleným trávníkem dokola lemován rybník,</l>
-         <l n="881">plný ryb, jehož břehy houževnatě vždy svírá</l>
-         <l n="882">kamenů zápoj utěsněný mechem jak klihem.</l>
-         <l n="883">Na vršku nejvyšším co vítěz hrdina kyllénský mává</l>
-         <l n="884">vítěznou zbraní, rozrážeje tak vanutí vzduchu.</l>
-         <l n="885">Pravice třímá meč, ruka druhá za vlasy hlavu</l>
-         <l n="886">Argovu, tělo skácené ostřím na zemi leží.</l>
-         <l n="887">Z ostražitého hrdla, odtrženého, tepna</l>
-         <l n="888">do rybníka vodu chrlí, ze srdce krev to,</l>
-         <l n="889">kterýžto zločin Júnó, tiší memfitská Íó</l>
-         <l n="890">věčnými slzami; a trouba hlásná znamení smutné,</l>
-         <l n="891">smáčena třikrát deseti druhy, do proudu dává.</l>
-         <l n="892">Ach, pole líbezná, ach sílo věcí, ty, cizokrajná,</l>
-         <l n="893">při založení jaká již krásná rozkoší tvářnost,</l>
-         <l n="894">a s času pokrokem v jaképak lásek nemůžem slasti</l>
-         <l n="895">doufat? Zakrátko tady na našich spatříme rolích,</l>
-         <l n="896">cokoli v Alkinoových hájích, v Adonidově</l>
-         <l n="897">zahradě roste; dryády půvabné a milé lesní</l>
-         <l n="898">víly z venkovních pokladnic sem své nosíce dary</l>
-         <l n="899">rozvinou a rodnou půdu vpravdě učiní šťastnou.</l>
-         <l n="900">Ó ty líbezné stíny, příjemné stany a libá</l>
-         <l n="901">loubí; a v mnohohlasých ptačích pištcích tu pěje</l>
-         <l n="902">Filomela, společně hlaholí „gloria“ BOHU.</l>
-         <l n="903">Zvučí-li houfek nérejských žínek v zurčení měkkém,</l>
-         <l n="904">vane-li z východu lehký větřík a v listech šustí,</l>
-         <l n="905">milo je člověku pod stromkem révy trhat si sladké</l>
-         <l n="906">hrozny či odevzdat oči v náruč něžného spánku</l>
-         <l n="907">nebo čas trávit pátráním, jaké jsou příčiny věcí.</l>
-         <l n="908">Zelené najády a víly horské nechť zahradu zdobí,</l>
-         <l n="909">dryády, nymfy, růžový tento Růžosad střežte</l>
-         <l n="910">mezi našimi kopci, ve chladných údolích všechnu</l>
-         <l n="911">Ctnost i ozdobu Růže; políčko obžeňte ploty</l>
-         <l n="912">a braňte dobytčatům, by květinám nebyly k škodě,</l>
-         <l n="913">aby neneslo kotvičník či lopuch, výhony s trny</l>
-         <l n="914">jedovatými, byliny zvrhlé, by svými stonky</l>
-         <l n="915">nenakazily role, jak železo balzám, jak zelí</l>
-         <l n="916">révu či česnek magnet či nízkopudný chtíč smaragd;</l>
-         <l n="917">aby labutím neškodil severák, aby jim klíště</l>
-         <l n="918">nekladlo nástrahy, anebo nádory od černých plazů;</l>
-         <l n="919">aby výři, havrani a s nimi dudek, či</l>
-         <l n="920">jejíž záda pestrá jsou pěknými flíčky, a sovy</l>
-         <l n="921">ke škodě nebyly Filomele a holubicím.</l>
-         <l n="922">Ó vy dryády, nymfy, přejte nábožné prosbě</l>
-         <l n="923">a pozdraveny buďte, buďte všechny tu zdrávy.</l>
+         <div ana="hc:Section">
+            <l n="1">﻿Jaká tu v tomto jevišti světa, země i nebe,</l>
+            <l n="2">od samých počátků trvale přebývá vrozená tvářnost,</l>
+            <l n="3">na tisíc podob a tvarů, na tisíc věcí, a schopnost</l>
+            <l n="4">odlišnost nabýt rozličných stupňů, rozličné síly,</l>
+            <l n="5">tak je tomu i v okrsku malém rozličných srdcí</l>
+            <l n="6">s podobou povahy, v rozličných hrudích rozdílná touha,</l>
+            <l n="7">nestálá k životu láska, hnutí prchavé mysli.</l>
+            <l n="8">Kdokoli skrytý vydává plamen v práci a mravech,</l>
+            <l n="9">každý sleduje sémě, jež je mu do vínku dáno,</l>
+            <l n="10">ten běsní, onen se bojí, slzí ten, jiný se směje.</l>
+            <l n="11">K tomu přidej, co zmůže síla, jež skryta je temnu</l>
+            <l n="12">našeho ducha,  podivná věc: moc nebeských těles,</l>
+            <l n="13">účinky jejíž tajemné působí, že mysl bují</l>
+            <l n="14">zproštěna obav nebo je naopak zchromena v mracích.</l>
+            <l n="15">Proto jedněm se líbí líčit benátská blata</l>
+            <l n="16">a břehy Pádu, veškeré potom zálivy mořské.</l>
+            <l n="17">Kolik štítovec flotil zastaví uprostřed moří,</l>
+            <l n="18">kolik jich potopí mečoun, Syrty, Skylla, Charybdis,</l>
+            <l n="19">jaké vody či země na širém uviděl moři,</l>
+            <l n="20">jakých pak dotknul se hvězd, když byla loď mrštěna vzhůru,</l>
+            <l n="21">bublin zanechav vír pak když se v podsvětí řítil.</l>
+            <l n="22">Jiní zas k Maurům, lítým Garamantům a k Indům</l>
+            <l n="23">či k protinožcům, dál k řekám Tagu, Paktolu, Hermu,</l>
+            <l n="24">za obchodem se honí, a když se za notný čas vrátí,</l>
+            <l n="25">nemalé líčí nástrahy ze své předlouhé cesty:</l>
+            <l n="26">hrozby počasí a jeho sílu, lupiče, skály.</l>
+            <l n="27">Vidíš, jak voják jásá, za přízně Marta jak chlubně</l>
+            <l n="28">krvavou strhává řež, a střely všude jen sviští,</l>
+            <l n="29">vojska zmařená vniveč, krále zahnané v zkázu;</l>
+            <l n="30">na odiv dává svou kořist, bájí o třpytu zbraní,</l>
+            <l n="31">dává za mamon život, tělo na pospas ranám.</l>
+            <l n="32">Člověk zrozený v plevách na tisíc jmen svého rodu,</l>
+            <l n="33">stovky jmenuje roků, předky a prapředky čítá,</l>
+            <l n="34">chvástavě předvádí na štítech erby, námahou předků</l>
+            <l n="35">nabyté bysty; toho kostky zruinují, toho</l>
+            <l n="36">nehlučná ochromí rána ukrytá v nehlučné hrudi.</l>
+            <l n="37">Píší pak o umu Glaukově, o síle byliny Kapsis</l>
+            <l n="38">z utopijského kraje, i o Cilendru vzešlém</l>
+            <l n="39">pod vrchem Thapsu; a k tomu taje Sibylly mísí:</l>
+            <l n="40">k těm pak čítají svařená játra, plíce, útroby, části</l>
+            <l n="41">srdce a mozku, ba aniž by kdo co namítal, tvrdí,</l>
+            <l n="42">že tak zneplatní byliny zrozené pro naše břicho.</l>
+            <l n="43">Chrámy génia žhnou a srdce čerstvými voní</l>
+            <l n="44">věnci; klidu tu není; cílem se nežije jedním;</l>
+            <l n="45">jazyk nevratně letí poháněn lalokem měchu;</l>
+            <l n="46">chocholy hodnosti nadzvedává i vlečky Sparty:</l>
+            <l n="47">těší se ze svého každý, unášen vlastní svou vášní.</l>
 
+            <l n="48">Nuže, Thalie, za přízně nebes lyry se ujmi,</l>
+            <l n="49">a je-li mezi rozkošmi tvými nějaká rozkoš</l>
+            <l n="50">z přírody, nějaká síla, schopnost uchopit veršem,</l>
+            <l n="51">u břehů Vltavy v sadu růžovém, ve stínu Růže,</l>
+            <l n="52">otevři náruč a žírné košíky bohyně Ceres.</l>
+            <l n="53">Neponech navždy beze msty výsměch, posměšky hrubé</l>
+            <l n="54">nad naší půdou; nicotnost odplať pravdivou zprávou!</l>
+            <l n="55">Kam se však obrátit? Kdepak mám začít? A jakou látku</l>
+            <l n="56">za námět zvolit? Táži se: Co je pro jazyk sladší,</l>
+            <l n="57">co máš častěji nežli zahradu v očích i v mysli,</l>
+            <l n="58">tu, již k účelům různým vysázel ursínský kníže,</l>
+            <l n="59">ať již k potěše srdci anebo k prospěchu zdraví.</l>
+            <l n="60">Tam si navykl znaven na pomoc přispěchat zchablým</l>
+            <l n="61">silám, nazpátek přivést svoji obvyklou živost,</l>
+            <l n="62">tam chce ulevit mrzosti ducha zurčením libým,</l>
+            <l n="63">rozptýlit těžkost tíživých úvah veselou řečí.</l>
+            <l n="64">Tam zná rozličné druhy rostlin, tam jejich sílu,</l>
+            <l n="65">tam jejich léčivost tělu jakož i pro zdraví mysli.</l>
+            <l n="66">Jaké tam mohou být skvosty? Jaké ve stínu lesů</l>
+            <l n="67">mohou být krásy, pod trním jaké že byliny rostou?</l>
+            <l n="68">Cožpak křovité role, nivy pokryté šábím</l>
+            <l n="69">na strmých svazích, u krajů polí nerovné meze</l>
+            <l n="70">mohou nést balzám či snad zelené olivy rodit?</l>
+            <l n="71">Kolem dokola mimo prstenec rozlehlých hvozdů,</l>
+            <l n="72">zdejších hřebenů horských, všude se rozléhá žírná</l>
+            <l n="73">krajina česká; tu jsou však místa, která se brání</l>
+            <l n="74">paprskům slunce, kde leží ba i uprostřed léta</l>
+            <l n="75">zatvrdlý sníh, zde mrazy jsou zhoubné, povaha nebe</l>
+            <l n="76">zavile krutá, rostlinám jistě záhubou hrozíc.</l>
+            <l n="77">Nechť si je půda v plodnosti mdlá, nechť nebe je strohé,</l>
+            <l n="78">tímto přec třeba jim vlídně vstříc vyjít: cožpak se prací</l>
+            <l n="79">nečiní poddajnou setba, což není rolníkům země</l>
+            <l n="80">k obdělávání dána? Co tedy? Upřena není</l>
+            <l n="81">proto všem polím plodnost, roli nádhera květin.</l>
+            <l n="82">V půdě je síla přírody skryta, vloží-li však kdo</l>
+            <l n="83">takové sémě a není mu líto potu a dřiny,</l>
+            <l n="84">odloží půda divokost, a díky snaživé pěstbě</l>
+            <l n="85">plodna ti poslušně vydá byliny, jež se ti zlíbí.</l>
+            <l n="86">Je-li hostem snad tedy zde v kraji posměvač jaký,</l>
+            <l n="87">nechť se přesvědčit nechá: smysly vnímaje svolně</l>
+            <l n="88">nechť si poslechne, očima jedno po druhém zhlédne:</l>
+            <l n="89">Jak ruka zručná trvalou pílí přírodu mění,</l>
+            <l n="90">mění povahu místa, sílu mocností nebe:</l>
+            <l n="91">tu řekne, že snad přes Alpy přenesla hesperské nivy,</l>
+            <l n="92">že stáhla částečku slunce zrozenou u bohů v nebi,</l>
+            <l n="93">která v políčkách našich probouzí takovou žírnost.</l>
+
+            <l n="94">Veselá planinka leží pod svahy vysokých kopců,</l>
+            <l n="95">kterou mnozí již Češi mohli zrakem svým zhlédnout,</l>
+            <l n="96">důstojná avšak i v očích jiných ze zemí cizích.</l>
+            <l n="97">Ať se ti zlíbí projít se zprava anebo zleva,</l>
+            <l n="98">rozkoší uvidíš tisíc, na tisíc zázračných věcí.</l>
+            <l n="99">Tam stojí fíkovník v květu – řádný nemaje původ –</l>
+            <l n="100">fíkovník, který ztěžklými větvemi vztahuje tučné</l>
+            <l n="101">paže; s širokým listím, jež má laloků hojnost,</l>
+            <l n="102">v rozdílném čase pyšní se vesel z dvojího plodu.</l>
+            <l n="103">Hle však, macecha cizími kořeny živoucí skýtá</l>
+            <l n="104">mízu a rovněž země dodává živiny skryté.</l>
+            <l n="105">By mu však nebyly ku škodě sněhy, nápory vichru,</l>
+            <l n="106">ni by nezhynul pokryt zimní námrazou, zkřehlý</l>
+            <l n="107">alpským ledem, či aby na svém zůstal stát místě,</l>
+            <l n="108">když přijdou ponuré deště, jsou kolem přístřešky temné</l>
+            <l n="109">pokryté hnojem, který jej takto svým teplem chrání:</l>
+            <l n="110">pročež i kdyby zima snad chmurná lámala mrazem</l>
+            <l n="111">skály, nemůže přece tu býti pražádnou hrozbou.</l>
+            <l n="112">Rybníček – můžeš mi věřit – vpravdě je královskou slastí,</l>
+            <l n="113">určenou knížecím pánům, králům samotným vhodnou,</l>
+            <l n="114">zmůže-li krása je jaká či zjev osádky dojme.</l>
+            <l n="115">Skrytým vedením v zemi kmen sem přivádí těžký</l>
+            <l n="116">schovaným vrtaným otvorem zdálky pramennou vodu,</l>
+            <l n="117">jež již pozbyvši prudkost je tu líbezně sladká;</l>
+            <l n="118">a ta s dvojitým klokotem ústím dvojité trubky</l>
+            <l n="119">vytéká, svým měkkým tokem a chladem přináší doušky</l>
+            <l n="120">živného vzduchu, hýbání rybám rozkoše plné;</l>
+            <l n="121">není zelená mechem, nehnije v bahnitém kalu</l>
+            <l n="122">jako stojací voda; v tomto se nezdrží bytu</l>
+            <l n="123">déle, že by se mohla snad kazit: odtokem svižným</l>
+            <l n="124">průběžně odchází zase skrze pozemky strouhou.</l>
+            <l n="125">Na stranách vzájemně protějších povždy svrchu je krytá,</l>
+            <l n="126">by zima mrazem nemohla škodu působit, ani</l>
+            <l n="127">Sirius žárem. Proč jsou stěna i podlaha pevně</l>
+            <l n="128">stlučeny z prken? Proto, by vlákna převislé půdy</l>
+            <l n="129">nemohly stále spadávat, ryby rušit ni vodu.</l>
+            <l n="130">skrze dovedně zsazené kameny není však vidět,</l>
+            <l n="131">ač lze sotva jen zmýlit úhoře s chmýřitou kůží,</l>
+            <l n="132">na dna okraji uvidíš ovšem na délku pídě</l>
+            <l n="133">vysoké kmeny z těchto končin a dřevěný příkryv,</l>
+            <l n="134">zakryté hladkými plochými kameny: pod nimi pak se</l>
+            <l n="135">ukrývá kluzký lín a had se ohebný plazí,</l>
+            <l n="136">raci všech druhů – poseté hvězdami krunýře tvrdé,</l>
+            <l n="137">zlacené rudými tečkami, a také plašiví pstruzi.</l>
+            <l n="138">Copak milého přináší rybičky, jež se loudají v hustém</l>
+            <l n="139">hejnu? Proč však některé plavou s ploutvemi, břichem</l>
+            <l n="140">vzhůru? Copak jsou mrtvé? Nebo spíš sežrané způli?</l>
+            <l n="141">Copak jim hrozí? Když krutý hlad ty ostatní zmáhá,</l>
+            <l n="142">schované mezi stromy ve smrtonosném stínu</l>
+            <l n="143">náhle surovým skokem vyrazí k těm, co si hrají,</l>
+            <l n="144">chycené v pasti trhají, rvouce je nepřátelskými</l>
+            <l n="145">zuby, hřbetem dolů je o překot převracejíce,</l>
+            <l n="146">a syty hned zas prchají, za sebou takové rány</l>
+            <l n="147">kořisti sežrané způli zanechávají, takové stopy.</l>
+            <l n="148">Uprostřed na kupě leží vysoká hromada písku,</l>
+            <l n="149">ta nám pro ryby slouží coby lesík a zřídla,</l>
+            <l n="150">kde by se sem a tam mohly jako v potoce toulat.</l>
+            <l n="151">Aby však vysokým skokem nemohly přeskočit přes kraj</l>
+            <l n="152">břehu a by je co kořist dravý nesežral moták,</l>
+            <l n="153">tomu svrchu skloněný strop tu účinně brání.</l>
+            <l n="154">Líbezný druh to rozkoší, zrak se nabažit nechce,</l>
+            <l n="155">když slyšíš lehce klokotat vodu v rozličných toulkách</l>
+            <l n="156">a tak s rybami hrát si, tak ryby samy si hrávat.</l>
+            <l n="157">Mezi fíky s širokým vlasem a měkkým bytem</l>
+            <l n="158">dcery Nérea pěšinka přímo zelenou travou</l>
+            <l n="159">vede kroky, jichž z tolika věcí chápe se závrať,</l>
+            <l n="160">a dvojí otvírá branku, dvojznačný chodníku ohyb,</l>
+            <l n="161">jak je libo, po stezce možno do chodeb vejít.</l>
+            <l n="162">Kterou chceš cestou, tam vede loubí, listovím pěkně</l>
+            <l n="163">porostlé; jako první zimolez vzhůru se zdvihá,</l>
+            <l n="164">jeho vlas pohybem vánku vůni vydává milou.</l>
+            <l n="165">V záhoně z opačné strany libá réva se skrývá:</l>
+            <l n="166">po zemi plazí se, na strany všechny hned se však člení,</l>
+            <l n="167">mocnými pilíři rukou co klihem chytá se tyčí,</l>
+            <l n="168">stupeň po stupni vzhůru směle ovzduším pluje.</l>
+            <l n="169">Zde se list líbá s listem, větev líbá se s větví,</l>
+            <l n="170">spojením svorným klenbě sloupoví vytváří příkryv.</l>
+            <l n="171">Sladce květy se vznáší, leskem třpytivých barev</l>
+            <l n="172">lichotí očím a krmí mysl líbeznou vůní.</l>
+            <l n="173">O své dílo se dělí, rozkoš by byla věčná.</l>
+            <l n="174">Prvně rozličné květy do ostruh rázně se opřou:</l>
+            <l n="175">část jich v rodivé snaze bělostné odhalí šíje,</l>
+            <l n="176">zdobnými jazyky kývá, vzhůru ve svůdném běhu</l>
+            <l n="177">ihned se dere; jiná část ovšem v zavřených ústech</l>
+            <l n="178">svůj poklad skrývá, než ona první odkvete stárnouc,</l>
+            <l n="179">ve hroznech těžknouc závdavkem bobulí obdaří větve.</l>
+            <l n="180">Sem pojď: v kamenné kašně průzračná voda tu tryská,</l>
+            <l n="181">kašna, již dokola obhání ze všech stran zdobené mříže,</l>
+            <l n="182">jež dělník vytvořil z bronzu. zručností, dovednou rukou,</l>
+            <l n="183">v kruhy tyto je vyved; železo železu uhnout</l>
+            <l n="184">ohněm přiměl a četnými postupy přichytil kruhy</l>
+            <l n="185">rozličné vedené podivuhodně v obězích skrytých.</l>
+            <l n="186">V ovoci opičák dovádí, veverka v žaludech zase,</l>
+            <l n="187">papoušek hlučnými ústy všechny příchozí zdraví,</l>
+            <l n="188">na větvi hraje si datel, pták ten Martovi vlastní.</l>
+            <l n="189">Pohleď, u křídel branky strom kvete v listoví cizím</l>
+            <l n="190">a byl pryč-li jsi déle, žárlivě klamat tě touží</l>
+            <l n="191">nestravitelnými plody: s blyštivou jablka slupkou,</l>
+            <l n="192">zlatá jablka vidíš, železné hrušky tu uzříš,</l>
+            <l n="193">jak syn z Kyllény drží, jak sestra, Jovova dcera,</l>
+            <l n="194">božské trofeje RŮŽE, thrácký jak také kníže</l>
+            <l n="195">trofeje velkého triumfu v evropský kalendář vpsané.</l>
+            <l n="196">Spodní část trubky z kamene vzhůru do výšky stoupá,</l>
+            <l n="197">druhá část zvedá se z cínu, na vršku kruhu pak stojí</l>
+            <l n="198">Trítónská Pallas bohatá dary moudrého ducha,</l>
+            <l n="199">Juno zas mocí, bohyně z Amathu nápoji lásky,</l>
+            <l n="200">Trítónka bledne, ta druhá rdí se, třetí se směje;</l>
+            <l n="201">zápasí spolu slávou svých těl i nadání svého.</l>
+            <l n="202">Ídský potomek Priamův, boje srdnatý sudí,</l>
+            <l n="203">stojí stranou: jak on sám, lehký je též jeho výrok.</l>
+            <l n="204">Vlasy skořicí vonné, hladké spánky a hebké</l>
+            <l n="205">čelo, obočí jemné, oční neklidné koutky,</l>
+            <l n="206">pleti vzezření žluté, zvlhčená ústa, rty rudé,</l>
+            <l n="207">výřečný jazyk, brada oblá, a tělo hbité,</l>
+            <l n="208">štědrá ruka, mrštná pata a čiperné údy,</l>
+            <l n="209">šat má z nachové látky, kolem boků pak upnut</l>
+            <l n="210">opasek zlatý, na němž se míhá dvojice hadů.</l>
+            <l n="211">Pravice předvádí dílo, levice obdivně míří</l>
+            <l n="212">na bohyň krásu, na cenu pře, jež došla tu klidu.</l>
+            <l n="213">Každá v dutém bronzu svoje velebí dary,</l>
+            <l n="214">líbezným zvukem uchvácí Dardaniovcovu přízeň,</l>
+            <l n="215">flétna líbezně zpívá, voda pokojně zurčí,</l>
+            <l n="216">by zlákán odměnou, prosbami, svůdným pohledem oček</l>
+            <l n="217">v nestranném soudu jablko daroval té, jež ho hodna.</l>
+            <l n="218">Každá je stejně mu blízká a chrastítkem o čest se hlásí,</l>
+            <l n="219">avšak rozum je klamán, ošálen Cupida lukem,</l>
+            <l n="220">a klame sám zas: hanebná bohyně přemáhá LÁSKU.</l>
+            <l n="221">Proti křížení aiolského číšníka tiskne</l>
+            <l n="222">– vysoká na lehkém stonku – z obou stran protáhlá tykev</l>
+            <l n="223">své dlouhé boky, na samé špičce spojuje vršky</l>
+            <l n="224">v objetí; z listů slunečníky co pružné štíty</l>
+            <l n="225">vztyčuje, pomocí vinutých uzlů úponky poutá</l>
+            <l n="226">a svírá bezduché pruty, ke dřevu připlétá paže</l>
+            <l n="227">a pevných rámů drží se háky stočených drápů.</l>
+            <l n="228">Předměty pevné a pro lidské potřeby nemálo vhodné</l>
+            <l n="229">tvoří se ve žlutých pohárcích: ve květů nejzazším chřtánu</l>
+            <l n="230">obnažují plody svou hlavu; postupně nabývá sílu</l>
+            <l n="231">nezměrně rostouc: zhusta pak v tělo dospěje s váhou</l>
+            <l n="232">dvakrát po sedmi librách, ocení-li ji snad mísa</l>
+            <l n="233">kývavých vah; však půvab je nemenší: kulatá ona,</l>
+            <l n="234">tato zas oblá, ona je překrásná v zeleném šatu,</l>
+            <l n="235">ta zas nad zlato jasnější. – Copak je ovzduší pestré? –</l>
+            <l n="236">žasneš as, jak se zelená tkání tou zastřené loubí.</l>
+            <l n="237">Jemu předlohou stojí zelené údolí Tempé,</l>
+            <l n="238">Tempé, jež keře věnčí shora visící révy.</l>
+            <l n="239">V sousedním přístřeší rozkládá zas své úpony réva,</l>
+            <l n="240">připnuta k opěrným latím: s pomocí vidliček mladých</l>
+            <l n="241">obmyká zdvojené pruty a bezbranná získává síly.</l>
+            <l n="242">S takovou podporou – po výškách toužíc – výhonem bujným</l>
+            <l n="243">vzhůru se zvedá, v stoupavém elánu překonat schopna</l>
+            <l n="244">vzpřímené, tesařem zroubené oblouky vyduté klenby.</l>
+            <l n="245">Již žene pupeny, již zas rozkládá listoví i své</l>
+            <l n="246">hrozny, a takto po trámcích zdolává visuté loubí.</l>
+            <l n="247">Když tvá Panna stinnou svou náručí umírní horka</l>
+            <l n="248">a pak vanoucím větříkům Zefyra otevře cestu,</l>
+            <l n="249">s příchodem podzimu réva ti podá slaďoučké hrozny,</l>
+            <l n="250">vzácné to dary půdy; však v zahradě roste jich hojnost.</l>
+            <l n="251">Jak se zelená, jak těší, směje se čtverhranný pořad</l>
+            <l n="252">ochozu, zamlouvá po stranách podél se rozličná rozkoš,</l>
+            <l n="253">jak kolem stříhanou travou suchá vede tě cesta.</l>
+            <l n="254">Vykroče kamkoli obrátíš nohy, kamkoli zraky</l>
+            <l n="255">otočíš, nalezneš leda pozemků lahodnost libou.</l>
+            <l n="256">Plocha v pestrobarevném mládí a líbezná zeleň,</l>
+            <l n="257">bujná tu země věnčí se korunou z rozličných květin.</l>
+            <l n="258">Těžko jen pomyslet na to, vypsat bylin těch květy,</l>
+            <l n="259">vykreslit štětcem druhy a jména, početné barvy:</l>
+            <l n="260">k tomuto chybí síla, schází odvaha mysli.</l>
+            <l n="261">Možno však bude dotknout se přece obdivným prstem,</l>
+            <l n="262">bys viděl, jaká v údolím našem přebývá hojnost.</l>
+            <l n="263">Když se pomalu přiblíží jaro, úrodná země</l>
+            <l n="264">svrchu se kopáním rozhodnou motyčkou nadrobno zkypří;</l>
+            <l n="265">je-li pak rovná, sám pan zahradník umně si projde</l>
+            <l n="266">pozemek, všelijak nato ostrým provazem v zvláštních</l>
+            <l n="267">vzájemných odstupech, ve zvláštním pořádku rozvrhne přitom</l>
+            <l n="268">záhonky, a ty rozdělí podle pravítka skrze</l>
+            <l n="269">byliny tuzemské, do kterých vetká rostlinky vzácné</l>
+            <l n="270">v končině naší, rolníkům neznámé, neznámé půdě.</l>
+            <l n="271">Některé vyvádí ze starých kořenů, svěřuje jiné</l>
+            <l n="272">zas pak zorané zemi tak, že rozhodí sémě.</l>
+            <l n="273">Sklízí hned, hned pak sází, hned o vše pečuje snažně.</l>
+            <l n="274">Nepřejde jediný den, kdy nedošel dohlédnout by snad</l>
+            <l n="275">na své rostlinky; věčná to práce, věčná i starost,</l>
+            <l n="276">hladí když vánky, posilní slunce, svlažují deště.</l>
+            <l n="277">Ony však rostou ve velkém horku souhvězdí Lvova,</l>
+            <l n="278">za jehož řevu spaluje půdu bezcitná žízeň,</l>
+            <l n="279">která zbavuje sil a bere živoucí mízu</l>
+            <l n="280">stravujíc všechno. Z obavy před ní na krajích pole</l>
+            <l n="281">ve střetu cest tu stojí konev měděná, plna</l>
+            <l n="282">vody, již paprsky svými přihřívá nebeský oheň,</l>
+            <l n="283">vadnoucí byliny by džbán tisícem v cedníku dírek</l>
+            <l n="284">zavlažil, tak jako deště jižním přihnané větrem.</l>
+            <l n="285">Když Slunce novým světlem země začíná skrápět,</l>
+            <l n="286">tu opět slabými proudy vodu dávává, a pak</l>
+            <l n="287">někdy i se Slunce západem opět žíznivé sytí,</l>
+            <l n="288">když jim dochází sil, a k dřívější mladosti volá.</l>
+            <l n="289">Zde Jovův pták byl vysazen – na zemském okrsku stálý –;</l>
+            <l n="290">zjevuje moc svou: hněvivé zraky, zející tlama,</l>
+            <l n="291">vyplazen jazyk, k útoku zdviženy zahnuté drápy,</l>
+            <l n="292">tak jako mávaje by již tloukl mocnými křídly,</l>
+            <l n="293">když se v závanu vánku květy sem a tam hýbou.</l>
+            <l n="294">Zde oř, jehož ústa král Aiolos pobízí uzdou</l>
+            <l n="295">s ostny po obou stranách, již měkkou pokládá patou</l>
+            <l n="296">plece, již tvrdým rohem mocně kopyto duní.</l>
+            <l n="297">Strmě se hned na ty, hned zas na ony oblouky nohou</l>
+            <l n="298">stavě, nelehá na zem, ba hrdě směřuje k výškám.</l>
+            <l n="299">Po zvuku zahnutých trubek sálaje bez bázně letí</l>
+            <l n="300">hned zpět, hned kupředu, krokem tu vysokým, pomalým, rychlým,</l>
+            <l n="301">jak Kníže káže – létá mu sem tam ohon i hříva –</l>
+            <l n="302">a jak mu lehký či mocný vítr otěže řídí.</l>
+            <l n="303">Neumí postát: ušima míhá a třese údy.</l>
+            <l n="304">Dodej, že je tu UMĚLOU RŮŽE ztvárněna snahou</l>
+            <l n="305">s falešným vzhledem; a o kousek dále v smyšlené barvě</l>
+            <l n="306">perutěmi svých křídel se rozmáchá halasná Husa.</l>
+            <l n="307">Těší o tomto slyšet, vidět – toť líbezná rozkoš,</l>
+            <l n="308">z bezčetných květin a pestrých bylin všemožných barev:</l>
+            <l n="309">neznaje přeludu umění z výšky bys zajisté věřil,</l>
+            <l n="310">že vidíš erby, jež někdo z barev vykreslil živých.</l>
+            <l n="311">Lůnem všeplodným nabízí se tak divákům Země,</l>
+            <l n="312">radostná z Boží péče, každý vydává stonek</l>
+            <l n="313">svou vlastní vůni, ostré meče vysouvá rákos</l>
+            <l n="314">z rozprasklé pochvy, jež znamení dává, správný čas kdy je</l>
+            <l n="315">k orbě, co Skylla zjevujíc řezem lepivé šťávy.</l>
+            <l n="316">Vzadu se na chlupatém kořenu zelená vlákny</l>
+            <l n="317">kýchavice; tulipán různý, meduňka prostá,</l>
+            <l n="318"
+               >včelník [Dracocephalum moldavica; Melissa Moldavica seu Turcica], blatouch; kdo by pak všechny vyčetl tvary</l>
+            <l n="319">spánkonosného máku? Mezi stonky se blýská</l>
+            <l n="320">překrásný narcis, s příjemnou vůní vyráží vzhůru</l>
+            <l n="321">do vzduchu, roztrhav závoj ukazuje své květy.</l>
+            <l n="322"
+               >Tečkatými koly se točí smrtelný kovům [viz něm. Wikipedia Lilium martagon]</l>
+            <l n="323">zlatohlav; dále šáchor; vícero lilií s různou</l>
+            <l n="324">barvou: lilie, jež jsou nejhezčí na horských lukách.</l>
+            <l n="325">Po zemi plazí se, široko daleko kořeny klade</l>
+            <l n="326">lékořice; chrpy pak v lesku rozličných barev.</l>
+            <l n="327">Růžové růžice bezu, komonice [lotus: Melilotus sp.?] a pilát,</l>
+            <l n="328"
+               >tromín [Smyrnium olusatrum n. perfoliatum], bylina vhodná k zástavě výtoku krve,</l>
+            <l n="329">stejně tak kerblík; fenykl prospěšný raněným hadům,</l>
+            <l n="330">pórek zas pro nás, pórek ten snadno rozloupatelný,</l>
+            <l n="331">i květ bukvice skrývá se zahalen ve stínu křovin,</l>
+            <l n="332">Pelyněk krásný, hleď, jenž se zalévá ledovou rosou,</l>
+            <l n="333">ne když již šero přikrývat začne v oparu hory,</l>
+            <l n="334">alébrž když žhne vprostřed oblohy ohnivé Slunce;</l>
+            <l n="335">ona bylina kvítává vsazena v úrodné vody</l>
+            <l n="336">anebo do lůna země; – je mi divné to říci –;</l>
+            <l n="337">začasto dává semena, ana zbavena půdy,</l>
+            <l n="338">začasto odkládá vrozenou tvářnost a bere si jinou,</l>
+            <l n="339">může se proměnit v mátu anebo mateřídoušku.</l>
+            <l n="340">Obtěžkán zlátne dále tu sléz na dřevitém stonku,</l>
+            <l n="341">sléz coby královna mezi ostatními, pak zrna</l>
+            <l n="342">kumínu, potom hledík, pryskyřník, tymián, yzop,</l>
+            <l n="343">a dále – protivný zvěři, protivný plamenům – odkryl</l>
+            <l n="344">frygický zimostráz zde svou nádheru trvale stálou,</l>
+            <l n="345">nad ostatními se pyšní rozechvěn na silném vršku,</l>
+            <l n="346">jejž však nezvrátí ni mráz ani běsnění bouře.</l>
+            <l n="347">V kališích prázdných jásá, jásá v bohatě plných</l>
+            <l n="348">jistý druh pivoňky; milenci, galánu, smrtelná kdysi,</l>
+            <l n="349">ledva ji okusil, šalvěj, smrtelná i jeho milé.</l>
+            <l n="350">Italská žhavost kopřivy, náprstník, kadeřná routa,</l>
+            <l n="351">jež břichu v bolesti uleví, pomůže k mateřství ženě,</l>
+            <l n="352">routa, jedovým ropuchám nemilosrdná zhouba.</l>
+            <l n="353">Sporýš [Verbena officinalis] a fialy, majorán prospěšný mozku, (5!)</l>
+            <l n="354"
+               >brutnák, proskurník, brotan [altdeutsche gartenfl. 75], dlouhý a zakulacený</l>
+            <l n="355">roste podražec, libeček, jara ohlašovatel</l>
+            <l n="356">petrklíč, levandule jarní i běžná, a pertrám.</l>
+            <l n="357"
+               >Portulák [správně šrucha zelná, Portulaca oleracea] ostřící zuby, rebarbora, jež pita</l>
+            <l n="358">vyhání ven žluč v chorobách těžkých ozdravnou silou.</l>
+            <l n="359">Hle na svých záhonech orlíček, máta účinná při dně</l>
+            <l n="360">přírodě úkol svůj splní; bělolist [Evax (pygmaea?)], Minervin to štít,</l>
+            <l n="361">artyčok nebo ostnatec, Chrysippem chválené zelí</l>
+            <l n="362">skrývá zde hlavu v listech, koše z ohebných prutů</l>
+            <l n="363">spletené naplní sdostatek bujný hlávkový salát.</l>
+            <l n="364">Kolik karafiátů na věnce kříži i Trojici libých!</l>
+            <l n="365">Kolik ředviček! Plazivá, vonná mateřídouška!</l>
+            <l n="366">Polním záhonem  bloudí v šiškách podlouhlých také</l>
+            <l n="367"
+               >haditá okurka; dotykem rukou anebo nohou [Palladius IV, 9, 8: quotiens tonat, [cucumis] uelut timore conuertitur.]</l>
+            <l n="368">děsí ve svých šťávách a v semenu bezelstně dlící</l>
+            <l n="369">útroby; kolik jen nebdělých náhlým ovládne strachem</l>
+            <l n="370">chladná míza, kolikrát teplo opustí kosti,</l>
+            <l n="371">takže teprve po notné době k sobě zas přijdou?</l>
+            <l n="372">Vždy když plamene silou záblesk v povzduší zahřměl</l>
+            <l n="373">anebo když snad strašlivé hromy duněním budou</l>
+            <l n="374">skály lámat, budou-li blesky smrtí nám hrozit.</l>
+            <l n="375">Rozkoše očím dává a dává spočinout mysli</l>
+            <l n="376">spořádán po ploše místa, rozvržen v rozličných tvarech</l>
+            <l n="377">početný tento zástup bylin, potomstvo četné.</l>
+            <l n="378">Ty, jež se stlačeny dlouho skrývaly v zesláblé půdě</l>
+            <l n="379">pod jinou již teď vzcházejí hvězdou, střídání časů</l>
+            <l n="380">čas tak poctívá, aby nic nezbylo bez květů holé.</l>
+            <l n="381">Libo je vlevo či vpravo, nebo vepředu či snad</l>
+            <l n="382">vzadu shlédnout rozkošné věci vedle již známých?</l>
+            <l n="383">Nač je zeleným zimostrázem bující dráha?</l>
+            <l n="384">Nač cifry, uprostřed kruhu oblá k čemu je linka?</l>
+            <l n="385">Zdalipak určuje se čas kovu proměnným stínem</l>
+            <l n="386">a s ním zelená bylina přes den hodinu hlásí?</l>
+            <l n="387">Zde je námaha, zde dílo a spleť neřešitelná,</l>
+            <l n="388">která bludištním ohybem chodce na scestí svádí</l>
+            <l n="389">a tak zmýlené obhání z květin dvojitou hradbou.</l>
+            <l n="390">Bylinné radosti však již na chvíli opusťme; naše</l>
+            <l n="391">uši i mysli, zraky i nohy pohání sem dál</l>
+            <l n="392">vložená jiných líbeznost slastí, vymezujíc tu</l>
+            <l n="393">odlišnou tvářnost věcí, změněné též položení</l>
+            <l n="394">nádhernou směruje zelení jinam stočené kroky.</l>
+            <l n="395">Místo se zprostřed vody a zahrad vypíná jako</l>
+            <l n="396">rozhledna, vysoko zdvihlé, nástavba o stěnách dvojích.</l>
+            <l n="397">Ty na svých ramenou jako pilíře stropení nesou,</l>
+            <l n="398">kde skrze vzdušná okna fouká lehoučký vánek,</l>
+            <l n="399">ze kterých podle libosti lze nám spatřovat mnoho:</l>
+            <l n="400">Blankytné sídlo nymfy, rosou skropenou říši</l>
+            <l n="401">Neptuna i dravé proudy toku Vltavy mocné,</l>
+            <l n="402">zachce-li komu se zhlížet pěstěné zahrady krásy</l>
+            <l n="403">anebo komu se líbí u vod průzračných rybář,</l>
+            <l n="404">jak lstivě na ryby lačné políčeno má háčkem,</l>
+            <l n="405">aby je na červa chytil: chycené na dlouhém prutu</l>
+            <l n="406">jak pak do vzduchu tahá, aby je udičky zbavil.</l>
+            <l n="407">Zbloudí-li ovšem jaký kmet rybí ke krmi klamné</l>
+            <l n="408">a zbrklou hubou neblahou nabídku překotně zhltne,</l>
+            <l n="409">hravým prutem tahá sem, tahá pak zase onam</l>
+            <l n="410">a znovu zpátky, dlouho tak ve vlnách snaží se zůstat,</l>
+            <l n="411">než jej vysíleného, neznala proradné léčky,</l>
+            <l n="412">ke břehu přivolá vlasec, jenž v něm vzbuzuje neklid.</l>
+            <l n="413">Již je tu cosi pozoruhodného, hodného zmínky:</l>
+            <l n="414">veprostřed proudu závažím potápí rybáři vrši</l>
+            <l n="415">ve stínu listoví stromů; strany pod vodou cele</l>
+            <l n="416">sítěmi hradí, sevřeným aby nezbyla někde</l>
+            <l n="417">k úniku možnost, naděje, úkryt nějaký, leda</l>
+            <l n="418">by ryba urputná přehradu přelétla v kuráži hrdé.</l>
+            <l n="419">Notný kus odtud proti proudu pozvolným krokem</l>
+            <l n="420">houfec mužů kráčí, do kolen nahých a uzlem</l>
+            <l n="421">svázavších zmáchané šaty; s velkým úsilím míří</l>
+            <l n="422">k cílové čáře, tlukouce do břehů, kamenů, křovin.</l>
+            <l n="423">Silná je naděje na kořist; silná i dychtivost jmění</l>
+            <l n="424">žene je, aby nehleděli na zmáčené tváře,</l>
+            <l n="425">nýbrž tu stejným, tu zase krokem nestejným bloudí.</l>
+            <l n="426">Tak jako ohař svižným během a štěkotem žene</l>
+            <l n="427">bezbranné jeleny, stejně tak tito z hlubinných sídel</l>
+            <l n="428">ryby vypouzí; ozývají se halasným řevem</l>
+            <l n="429">křičících břehy, okolní svahy, údolí i les.</l>
+            <l n="430">Povyk k nebi se nese. Trojzubec vzduchem se míhá,</l>
+            <l n="431">u hrotu hrot, noha u nohy, natěsno u muže je muž.</l>
+            <l n="432">Část ryb snaží se hbitými ploutvemi soupeře zmýlit,</l>
+            <l n="433">muže přeskakujíce, část se zas bojí i doufá</l>
+            <l n="434">zvažuje únik ten i onen, kdejaký úskok,</l>
+            <l n="435">prchá a znovu prchá směrů tisícem, skály</l>
+            <l n="436">obíhá, hned se pod listy vrací, v hlubině dýchá;</l>
+            <l n="437">v léčce se ocitá, kdo se vyhnout bolesti snaží.</l>
+            <l n="438">Dotírají a tisknou, již jsou tu sítě a otvor</l>
+            <l n="439">koše, a lovec pobízí druhy vzrušené v křehkém</l>
+            <l n="440">soustojí, aby ty, jež jsou lapeny, neskočily zpět:</l>
+            <l n="441">Rychle přineste sítě, dravý proud obkličte vzadu</l>
+            <l n="442">dočasnou hrází, aby nám dřina zahnaná v koutu</l>
+            <l n="443">neprchla, bychom už darebné parmici nebyli k smíchu.</l>
+            <l n="444">Je tam? A co? Hle, co bude? Dost je jich a dost jsou velké!</l>
+            <l n="445">Postůjte, muži, námahu naši odmění kořist:</l>
+            <l n="446">Kolik je ve vrši okounů, v nevodu kranasů chytlých!</l>
+            <l n="447">Plná vatka pstruhy se blýská, pyskouny [Labrus turdus] tone!</l>
+            <l n="448">Domluvil a stáhnuv sítě, pažemi ztěžklými vahou</l>
+            <l n="449">– kolik jen trojzubec unese – úlovek do bečky vkládal</l>
+            <l n="450">jásaje a tu zavíral nato listěným krytem.</l>
+            <l n="451">A houf ozdoben větvemi, řítí se, vyzbrojen holí</l>
+            <l n="452">s páleným koncem, třesa se zmáčen a s halasným křikem.</l>
+            <l n="453">Obraťme pohled: pod střechu drátěnou postupme nyní</l>
+            <l n="454">pohlédnout, jaká je líbeznost a jaká rozkošnost zpěvné</l>
+            <l n="455">Melpomeny, jakým že půvabem vzpružují mysl</l>
+            <l n="456">ptáci se zbarveným peřím, kterak pak poutají k sobě</l>
+            <l n="457">naše zraky a jakými hlasy uši nám plní.</l>
+            <l n="458">Očarovával bohy, podsvětí očarovával</l>
+            <l n="459">thrácký pěvec, i byliny, květy, křoviny lyrou,</l>
+            <l n="460">uchvácel trubkou gryfy a delfíny, dokonce i lvy,</l>
+            <l n="461">tak proč by člověka obdařeného rozumu světlem,</l>
+            <l n="462">soudností, nemohla okouzlit ptáků zpěvavých píseň,</l>
+            <l n="463">pozvednout ducha posazeného pod tvrdou šíjí?</l>
+            <l n="464">Ledva jitřenka v běhu svém červeně obarví nebe,</l>
+            <l n="465">už je tu hrdlička, tesknými povzlyky rozráží první</l>
+            <l n="466">světlo, po dlouhé dny pak ze své hlásky žalostnou píseň</l>
+            <l n="467">přednáší znovu a znovu, hojné prolévá slzy</l>
+            <l n="468">nad popelem a urnou, vrk vrk nad údy druha,</l>
+            <l n="469">utonulé své oplaká mladé, oplaká chotě,</l>
+            <l n="470">žádná známost a žádný sňatek nezlomí nářky,</l>
+            <l n="471">nesnese manželství, žádnou se nechce uvázat láskou,</l>
+            <l n="472">samotu pouze hledaje, vrk vrk bránici vzpíná.</l>
+            <l n="473">Jiné však žijí zápalem jiným: se sobě rovným</l>
+            <l n="474">klapavé zobáčky pojí, snaží se navzájem měřit</l>
+            <l n="475">v plnění závazků, ve vlídné lásce, ve věrné péči.</l>
+            <l n="476">Žárem vzněcují žár a lásce plameny lásky</l>
+            <l n="477">vdechují, ve svorném objetí předtím okoušejíce</l>
+            <l n="478">polibky, ke křídlu křídlo, k hubičce hubičku kladou.</l>
+            <l n="479">Tudy odchází a zas zpět vrací se vzájemný plamen,</l>
+            <l n="480">jeden druhému navzájem sladkou oplácí lásku.</l>
+            <l n="481"
+               >Hřivnáči vzdušní hojně strachem třesou se, nohy [aeriae palumbes Verg. Buc. 3, 69!]</l>
+            <l n="482"
+               >když kladou a zpět zas stahují přes známý práh, mávou křídly [Fasti VI, 334]</l>
+            <l n="483">ve skoku váhavém, s příchodem cizího rámusí prudkým</l>
+            <l n="484">poletováním, nevěří ani hlasu své milé.</l>
+            <l n="485">Mezi šábím se spoustou listů a planým křovím</l>
+            <l n="486">v srovnané řadě stojí pinie, planika, zimnář,</l>
+            <l n="487">lípa se zelená, jalovec, platan, dub, také olše,</l>
+            <l n="488">a na těch rejdí ptáci, již v větvoví hustém</l>
+            <l n="489">společně sedají, nedělajíce v pohlaví rozdíl.</l>
+            <l n="490">Obraz z peří tu skví se, podoben goblénům navlas.</l>
+            <l n="491">Táži se, kolik zaslechnout můžeš líbezných řečí?</l>
+            <l n="492">Na sto rozličných jazyků, na tisíc zpěvavých hlásků.</l>
+            <l n="493">Všichni se na svůj chystají úkol, neb zpěvné dílo</l>
+            <l n="494">o závod konají snažně, a to konopka milá,</l>
+            <l n="495">a s ní pěnkava, s nimi pak čečetka v zpěvu se měří.</l>
+            <l n="496">V souzvuku ladném otevírají nestejná ústa,</l>
+            <l n="497">bys dobře mohl rozeznat funkce jazýčků různých.</l>
+            <l n="498">Vedle pak BOHU žalmy polní chocholouš zpívá,</l>
+            <l n="499">v rákosí zvlněném přednáší písně odstupy sedmi.</l>
+            <l n="500">Křepelka, jež zrána vesele hlásí, že se den blíží,</l>
+            <l n="501">nejinak sokol, a hlídač kohout hlasitě tleská</l>
+            <l n="502">křídly a vyhání z lůžek naše supící údy.</l>
+            <l n="503">Všechny popohánějí k závodu jazýčků umných</l>
+            <l n="504">halasní kosi, ozvukem hlasů svých znavují lesy,</l>
+            <l n="505">vavříny v zvučení strhují na sebe i chválu pění.</l>
+            <l n="506">Hle, vztekle se tu vztekajíc na trnu zeleném visí</l>
+            <l n="507"
+               >křivka, čížek [asi Carduelis spinus] a stehlík [Carduelis carduelis], k nebesům vrhají hlasy</l>
+            <l n="508">plné BOŽÍ chvály, střídavě vzdávají jemu</l>
+            <l n="509">plesání chval, a lidskou mysl zlomenou bolem</l>
+            <l n="510">občerstvují a nápěvem vyhání starost a bázeň.</l>
+            <l n="511">Kým zpěvem líbezným mohlo by srdce se zanítit více?</l>
+            <l n="512">Ano, viděli jsme i ptáka, jenž v mnoha krajích</l>
+            <l n="513">cizí je, s pestrobarevným peřím, pro nás zdroj masa.</l>
+            <l n="514">Co bych zpěvy ty ptáků jeden po druhém líčil?</l>
+            <l n="515">Sám si vyslechni s myslí užaslou, se srdcem celým,</l>
+            <l n="516">můžeš-li vnímat harfy po čtyřech s paterem hlasů</l>
+            <l n="517">anebo na sto rozličných rolí z živého tónu.</l>
+            <l n="518">Zajatí jiné vábí, které v ovzduší celém</l>
+            <l n="519">matou ze sídel ne zcela zřejmých; umírá jeden</l>
+            <l n="520">zpěvem druhého; úmrtím zdolat za krásné platí,</l>
+            <l n="521">hanba je zdolán být tlakem. Jaká jen ze smrti sláva</l>
+            <l n="522">ostruhy dává, jak že se chopila i srdcí ptáků!</l>
+            <l n="523">Avšak, Král mocný, nejsa zajatcem v jemných těch klecích</l>
+            <l n="524">na břehu přilehlém Slavík v hustém ukrytý stínu,</l>
+            <l n="525">svoboden, posvátným žalmem vězněné k souboji volá,</l>
+            <l n="526">a tak zpěvem svým přidává ke dni i dobu noci.</l>
+            <l n="527">K čemu však obydlí četná kolem stropení slouží?</l>
+            <l n="528">K čemu otvory temné a k čemu dutiny ve zdi?</l>
+            <l n="529">To aby neustal prvotní věcí pořádek pevný:</l>
+            <l n="530">Zajaté neméně dráždí ony svým puzením šípy,</l>
+            <l n="531">šípy, jež trvalou vazbou zřízení uchovávají</l>
+            <l n="532">a povždy v podobě potomstva rozmnožují se dále,</l>
+            <l n="533">než ty, jež z nestálých bytů vzlétají v nejisté výšky</l>
+            <l n="534">a do obydlí vzdušných, by kladli bezpečná lože.</l>
+            <l n="535">Tam je svobody zbaveným sladko těšit se stínem</l>
+            <l n="536">žaláře, líbezno moci uměním předestírané</l>
+            <l n="537">dřiny ulevit žáru, který Venuše vzbouzí.</l>
+            <l n="538">S neklidnou myslí a s tělem těhotným budoucí matka</l>
+            <l n="539">sem a tam polétá, prohlíží věci a všechna místa,</l>
+            <l n="540">dokud nenajde to, co třeba jí k životu nutně,</l>
+            <l n="541">to, co dodává sil a co skrovné hnízdečko pojme.</l>
+            <l n="542">Na tom, co nalezne, zobákem, nohami svrchu se pachtí,</l>
+            <l n="543">roztřásá na různé částky, strká a odnáší s sebou,</l>
+            <l n="544">sama jsouc těžká těžké to břímě bedlivě nese.</l>
+            <l n="545">Sebravši všechny síly nejprve základy klade,</l>
+            <l n="546">nato vyvádí stěny, vztyčuje na tisíc sloupů,</l>
+            <l n="547">pevnými pilíři protkává vztyčené výstění celé,</l>
+            <l n="548">a tak je zpevňuje. Listěná chýše konečně stojí.</l>
+            <l n="549">Vedle vidíš, jak sousedka na vratkém potí se těle,</l>
+            <l n="550">stojí, sedí, nahýbá, na všechny kloní se strany</l>
+            <l n="551">oči tam točíc; břicho nadmula takovým tlakem,</l>
+            <l n="552">že je jak buben, a potom pevně dech zadrževši</l>
+            <l n="553">peří čepýří, údy se třese, slabiny vzpíná.</l>
+            <l n="554">Na nohy staví se a hlas jí vázne v nejhlubším hrdle,</l>
+            <l n="555">než břímě položí, šťastna pak – dřiny již nevzpomínajíc –</l>
+            <l n="556">svalům oddechu přeje a sil dodává silám,</l>
+            <l n="557">vzdává Gloria BOHU, chvalozpěv přírodě věrné.</l>
+            <l n="558">Ta první zatím pokojně hnízdí; po dlouhé noci</l>
+            <l n="559">táhlý přichází den; však ona únavou nikdy</l>
+            <l n="560">v dřímotu nesklouzne sladkou, žádná pro oči ni pro</l>
+            <l n="561">srdce noc není, starosti vzrůstají, potomstva žhavá</l>
+            <l n="562">naděje vzplává a bělostná vejce stěží ji tiší.</l>
+            <l n="563">Ta horká věrně pod prsy obrací a mezi křídly,</l>
+            <l n="564">mateřskou hřeje je přízní a věrného zápalu věrným</l>
+            <l n="565">ohněm tak dlouho, než správně zteplají a než je hřáním</l>
+            <l n="566">ke správné přivede podobě; před žádným neuhne dravcem,</l>
+            <l n="567">žádným lijavcem, žádnými bouřemi nedá se z místa</l>
+            <l n="568">odtrhnout; neboť přebývá usazen ve hloubce srdce</l>
+            <l n="569">elán plození, nutkavý zápal potomstvo přivést.</l>
+            <l n="570">Láskou k mláďatům novým sytí žaludek prázdný</l>
+            <l n="571">a něžným citem k budoucím kuřátkům tiší svou žízeň.</l>
+            <l n="572">Tu pak surová látka, nespořádaná hmota,</l>
+            <l n="573">jako semeno v poli, hnána klíčivou silou</l>
+            <l n="574">žhavě vyvřívá a z neprůhledné povstává kupky,</l>
+            <l n="575">a již změněna přijímá novou podobu věrné</l>
+            <l n="576">matky, a aby čerstvý vzduch posílil zbrocené slizem</l>
+            <l n="577">údy i lepší mocnost, matka kostěnou šavlí</l>
+            <l n="578">zobáku, zlomivši stěnu, otvírá skořápky hradbu</l>
+            <l n="579">a dělá živému kuřátku cestu, na světlo denní</l>
+            <l n="580">ven jej vyvádí, vlahými křídly utírá špínu</l>
+            <l n="581">a ve své teplé náruči halí holátko, by chlad</l>
+            <l n="582">nezvyklý bezbrannému neublížil snad náhle.</l>
+            <l n="583">Bez ustání pak dítkům droboučkým potravu nosí</l>
+            <l n="584">a, jako zuby ji břichu, ono pak předává játrům,</l>
+            <l n="585">tak jim ona též drobí a tak v ústech svých žvýká</l>
+            <l n="586">a pípajícím následně klade do lačných bříšek.</l>
+            <l n="587">Ona dolů se snáší a zase průzračným vzduchem</l>
+            <l n="588">ve výšce pluje a tichým letem snaží se svoje</l>
+            <l n="589">kuřátka pobídnout, do hejna s sebou vyvést je spolem.</l>
+            <l n="590">Začasto polétává nad hnízdem hravými křídly,</l>
+            <l n="591">lehkým pohybem pozvolna ve volném vzduchu se houpe,</l>
+            <l n="592">aby poklidnou plavbou mládě zlákané vyšlo</l>
+            <l n="593">ven a důvěřujíc svým křídlům do oblak vzlétlo.</l>
+            <l n="594">Jedno se rychle stopy své matky sledujíc vznese</l>
+            <l n="595">rovnou a přímo, jiné však, nerozhodnější, zase</l>
+            <l n="596">zřítí se, nebo když vprostřed běhu snad povolí vazy,</l>
+            <l n="597">zmoženo, ochablé svaly svých perutí ponechá pádu.</l>
+            <l n="598">Je místo v dlouhé průrvě zrakům odevšad skryté,</l>
+            <l n="599">kde se, zahnána strachem, v klamných ukrývá slujích,</l>
+            <l n="600">kde myslí na svolnou lásku k odstavenému houfu,</l>
+            <l n="601">kam se utíká, kam se stahuje a kde se skrývá,</l>
+            <l n="602">když snad Sírius žhoucí paprsků praživým ohněm</l>
+            <l n="603">zaplane či když střechou na ploché proniknou lože</l>
+            <l n="604">blesky, když v plen vydaným domem běsnícím vichrům</l>
+            <l n="605">jižní vítr i Severák od obou světových pólů</l>
+            <l n="606">lomcují či když v svištivých kroupách divoká bouře</l>
+            <l n="607">zaduní, ana lomcujíc kmenem slabého stromu</l>
+            <l n="608">suché větve i spolu s kořeny ze země vyrve.</l>
+            <l n="609">V hejna se shlukují velkým doprovázeni houfem</l>
+            <l n="610">Naupliovcovi jeřábi, vlaštovka, kachna i morčák,</l>
+            <l n="611">když se podzim o slovo hlásí, chladná část roku,</l>
+            <l n="612">drsná když přichází zima, tu chmurné opouští nivy,</l>
+            <l n="613">vracejíce se vyhledávají dalekou zemi,</l>
+            <l n="614">jež je zrodila, v polohách teplých, zákoutí známá,</l>
+            <l n="615">kde je trvalé jaro, potůčky na svěžích lukách.</l>
+            <l n="616">Co pak zde bude? Pokdy až naše žalostné hejno</l>
+            <l n="617">lkajících ptáků setrvá zavřené pod krytem střechy,</l>
+            <l n="618">napospas vydané mrazu, se sněhem dokola, šedé</l>
+            <l n="619">námrazou, kampak má letět? Zticha být na prazích dvířek?</l>
+            <l n="620">Což má pod holým nebem vydržet ukrutné mrazy?</l>
+            <l n="621">V sousedství k oněm přiléhá stěnám stavení jisté,</l>
+            <l n="622">jež pod umělým souhvězdím Raka co Egypt leží,</l>
+            <l n="623">kde se v pecích trvale drží hořící oheň,</l>
+            <l n="624">který zimní zahání mrazy, slzy a sněhy</l>
+            <l n="625">stravuje a svými paprsky slunná vytváří místa.</l>
+            <l n="626">A sem spěchají kuřata s matkami semknutá v houfu,</l>
+            <l n="627">shluknutá rota, spokojujíc se s prostorem těsným,</l>
+            <l n="628">stažená křídla, klapavý zobák, prochází se tou</l>
+            <l n="629">síní, lehává v hnízdech zrobených důmyslem vtipným,</l>
+            <l n="630">a tak nepociťuje časů ledové zimy.</l>
+            <l n="631">Jsou tu i kopečky z písku, jsou tu rozesypaná</l>
+            <l n="632">po zemi, příhodně pro zobák, semena – obživa četné</l>
+            <l n="633">rodiny, je tu i nápoj – svorně chodí sem k pití.</l>
+            <l n="634">Již se též kradmým krokem, s hrudí smáčknutou k zemi,</l>
+            <l n="635">kocour, ten střešní tulák, plíží, sleduje rychlé</l>
+            <l n="636">poskoky ptáků, očima po všem sem a tam rejdí,</l>
+            <l n="637">drápy vztažené k masu, tlama dokořán zejíc.</l>
+            <l n="638">Přijde-li jaký, s peřím jsa v bezpečí, chráněnou cestou,</l>
+            <l n="639">s ústy lačnými smrti onen vrhne se ze své</l>
+            <l n="640">zálohy výpadem prudkým, v neblahém běhu a skoku.</l>
+            <l n="641">A jak tak váhu těla všemi silami žena</l>
+            <l n="642">pobízí spěšně, řítí se ptáka uchvátit – ouvej! –,</l>
+            <l n="643">odražen kovem odskočí nazpět, s krvavou tlamou</l>
+            <l n="644">a drápy stažené ze šikmé plochy střechy se řítí</l>
+            <l n="645">přímo na hlavu, a pak se kutálí na nohy, na plec.</l>
+            <l n="646">Opusťme kosy, opusťme tyto přístřešky s peřím,</l>
+            <l n="647">přejděme dál, dí Bohyně, pohleďme, zdali kde ještě</l>
+            <l n="648">zbývají rozkoše další, navštivme ostatní krásy.</l>
+            <l n="649">Nemálo pěkná roste tu hrušeň – škoda ji minout –</l>
+            <l n="650">jež se pne v nezměrné výšky, větvemi vyčnívá nad vše,</l>
+            <l n="651">čerstvými silami rostouc, a jež úrodna kypí</l>
+            <l n="652">plody Lyaiovými; by ji náporem mocným</l>
+            <l n="653">alpský Severák hned sem, hned onam foukaje rázně</l>
+            <l n="654">nezvrátil, čelí mu hrazena plůtky a příčnými trámci.</l>
+            <l n="655">Když se vzduch vlahý naplní jarem a Zefyrové</l>
+            <l n="656">vlídně prování lístky, obětuj Cereři, Bakchu.</l>
+            <l n="657">Co že však meškám o duších předků povědět a též</l>
+            <l n="658">o našich podobách? Jak to, že mlčím o tvářích strážců</l>
+            <l n="659">hrůzně zbarvených, o nestvůrnosti obludy hrůzné,</l>
+            <l n="660">o tom i, jaké rozkoše a jaké poklady, v našich</l>
+            <l n="661">krajinách cizí, ukryty síně chovají, jež zdí</l>
+            <l n="662">trojitou v příchodu brání; s goblény nádherná předsíň</l>
+            <l n="663">zraky stíhá obrazem klamným, jakoby na sklo</l>
+            <l n="664">vmalován, částečně malby na druhou draly se stranu.</l>
+            <l n="665">I kdybych měl snad nastokrát jazyk, nastokrát ústa,</l>
+            <l n="666">nebyl bych přec s to, nebyl dle pravdy popsat tu brkem</l>
+            <l n="667">hrozné ty zjevy: bránily by mi děsivé stíny.</l>
+            <l n="668">Stojí nad vysokými dveřmi hrozivé malby:</l>
+            <l n="669">Král a Královna podsvětní říše; s výrazem chtivým</l>
+            <l n="670">coby strážci hlídají napříč pohledem kozli,</l>
+            <l n="671">strašlivé zuby, hlasitě cvakavé tlamy, a uši</l>
+            <l n="672">se psí podobou, zahnuté rohy, ježatá chřípí,</l>
+            <l n="673">sledují křídla dveří s průvodem Kerbera hodným:</l>
+            <l n="674"
+               >daleko odtud, daleko odtud zachraň se, prchni před harpyjemi zlými, tyrhénskými to ptáky,</l>
+            <l n="675">před obrem storukým, skyllami, hydrami, s Gorgonou také</l>
+            <l n="676">před sfingami a chimérami, jež oheň chrlí.</l>
+            <l n="677">Zhoubu nesoucí dým chrlí z chřtánů a žhavou výheň,</l>
+            <l n="678">ústy pochodně soptí, chřípím a očima louče,</l>
+            <l n="679">namísto veškerých vlasů visí jim stočení hadi,</l>
+            <l n="680">v smrtelném uzlu svíjející se okolo hrdel,</l>
+            <l n="681">by ohni odhnaly zloděje, lidi pak a také ptáky</l>
+            <l n="682">trojklatými pařáty, by vše bezpečné bylo.</l>
+            <l n="683">Ejhle, v kopulích stojí v první hned řadě velcí</l>
+            <l n="684">vojevůdcové dávní: tento – rek Amphitriónův –</l>
+            <l n="685">stojí zde a na svých zádech nese vznešené rouno;</l>
+            <l n="686">pán z Makedonie, Pyrrhus, Telamonovec Ájáx,</l>
+            <l n="687">Scipionovští, Deciové a Camillus mocný,</l>
+            <l n="688">statný ctnostmi, však statnější slavným ve zbrani zdarem.</l>
+            <l n="689">Bronzem hlava se skví, bok štítem, pavéza svírá</l>
+            <l n="690">břicho, purpurem barvený plášť a zářivá trofej:</l>
+            <l n="691">Ne ježat chocholem koňským, nýbrž ověnčen květy,</l>
+            <l n="692">smyšlené podoby ostatních samoten přerůstá statný</l>
+            <l n="693">vítěz transylvánský, po nikom v mužnosti druhý.</l>
+            <l n="694">V sloupoví tom však i dívky s růžemi věnce své vijí:</l>
+            <l n="695">Bríséjka, Dóris, Schoinejka, Dafné, Déianeira</l>
+            <l n="696">vlídná, Galatea i Neaira, Lykóris spolem;</l>
+            <l n="697">libé podobou tváře, v hávech půvabných krásné:</l>
+            <l n="698">Spona z ramenou splývající spojuje oděv</l>
+            <l n="699">umně zrobený, ohnivým purpurem zbarvený celý,</l>
+            <l n="700">na hladkém krku pak září klenoty z kamenů drahých.</l>
+            <l n="701">S těmito soupeří úctyhodností mravů i tváře</l>
+            <l n="702">pod nimi Hyacint, Apollón, Achelóus a Jásón,</l>
+            <l n="703">klamný Hippomenés, Aktaión, Adónis, Júlus –</l>
+            <l n="704">očima lákají k očím, svými květy zas k květům</l>
+            <l n="705">ze Sáby, přátelským kynutím hlavy šťastně se zdraví,</l>
+            <l n="706">za smíchu společně rostou, společně rozvíjejí se;</l>
+            <l n="707">trhají fialky chlapci, trhají fialky dívky.</l>
+            <l n="708">Jsou tu i Mohamedáni s turbany okolo skrání,</l>
+            <l n="709">Etiopané s bílými zuby, Hiéra, Sílén,</l>
+            <l n="710">divoši s tělem zeleným, s kudrnatými vlasy.</l>
+            <l n="711">Jsou tu též lidé vydutí, kterým namísto prsou</l>
+            <l n="712">visí pod zduřelým hrdlem napěchované vole.</l>
+            <l n="713">I zde jim společnost dělá temnovládná ta cháska</l>
+            <l n="714">s podobou na pohled strašnou, ve tvářích příšery hrůzné:</l>
+            <l n="715">tak mají divoké líce, z Plútona samého tolik</l>
+            <l n="716">raší hadů, i z fúrií, chřípí jak u nosorožců</l>
+            <l n="717">Flegetónovi i Proserpině roste, a děsnou</l>
+            <l n="718">pekelnou propast rozevírají široce, ústa</l>
+            <l n="719">s divými odhalujíce zuby, jak kdyby měli</l>
+            <l n="720">ve vlčím vzteku již roztrhat kořist; zde také stojí</l>
+            <l n="721">medvěd držený v železném obojku, a v těžké zbroji</l>
+            <l n="722">bouřlivý lev, a vzácný hřebec v kolena kleká.</l>
+            <l n="723">Hle, hlava holá a tělo tučnou otylé stravou,</l>
+            <l n="724">jak by se v rozlehlé tlamě plovoucí obludy údy</l>
+            <l n="725">Jonáše třásly, jakoby chodidly do vzduchu kopal.</l>
+            <l n="726">Po šatu možná poznáš, kdo že pochází odkud:</l>
+            <l n="727">Mezi nimi tu Tatar skvostný s vousatou tváří</l>
+            <l n="728">v dlouhé roucho si skládá oděv nachové barvy.</l>
+            <l n="729">Brútovci mají svou krásu, toto se Iberům líbí,</l>
+            <l n="730">na purpur falešný leckterý národ staví svou slávu.</l>
+            <l n="731">Takými bezpočetnými zjevy vzduch se zde plní;</l>
+            <l n="732">nejenže skrze obrazy sděluje milostné city,</l>
+            <l n="733">a tyto jsou tak dokladem vášně, která však míjí:</l>
+            <l n="734">Ne, mají užitek milý: Když jaro plodivé dává</l>
+            <l n="735">povstávat věcem novým, vezena Zefyry, Chlóris</l>
+            <l n="736">v průvodu vznešeném, obývá tělo kypící po krk,</l>
+            <l n="737">a vytahujíc ven upomínky na slavný triumf</l>
+            <l n="738">ze země, po holém povrchu klade konečky bylin,</l>
+            <l n="739">květů medové plásty a truhly s poklady semen.</l>
+            <l n="740">Nevemlouvá se odkryta zrakům příchozích hostů,</l>
+            <l n="741">v dutinách skrytých vyrašit dává rozkošným klíčkům.</l>
+            <l n="742">Nemá jakým se těšit pohledem na amon vonný,</l>
+            <l n="743">však sama ze svého chřípí do chřípí vydechá vůni,</l>
+            <l n="744">neubližuje zvláštními ústy či ostrým zubem,</l>
+            <l n="745">ale zpleněna v ústech květy ti podává rukou.</l>
+            <l n="746">A tak tě šálí mámivý obraz: nemaje smyslů</l>
+            <l n="747">smysly výjevem straší i ony výjevem těší.</l>
+            <l n="748">Na pláni zelené natáhli lana, vztyčili vzhůru</l>
+            <l n="749">vysokou dřevěnou žerď a na březích ležících kolem</l>
+            <l n="750">na pevně zatlouklých tyčích rozkládají tu stany:</l>
+            <l n="751">Nechť je pročistí vanoucí vzduch, nechť vypálí Slunce,</l>
+            <l n="752">aby v přístřeší klidném neshnily zatuchlou plísní,</l>
+            <l n="753">nýbrž bez újmy zchystány pro pole byly a válku.</l>
+            <l n="754">Prý je stráže povinně střeží, aby když zazní</l>
+            <l n="755">Martovo troubení z kovových trumpet v sousedních krajích,</l>
+            <l n="756">mohl se v opětné nouzi povždy Panonský ostrov</l>
+            <l n="757">bráněn spolehnout na stálou věrnost a mužnost RŮŽÍ.</l>
+            <l n="758">Je-li tu tyrhénský host či čeští velmoži nebo</l>
+            <l n="759">syn z rodu medvědičího, pohleď, jak REKU hraje</l>
+            <l n="760">thymbrejský Apollón na rohu břeskném pokaždé píseň</l>
+            <l n="761">líbeznou, jak ta zní v dáli, jak v dáli s sebou zní Echo.</l>
+            <l n="762">Nyní sem pojď, ó Pómóno, matko zahrad, a buď zde</l>
+            <l n="763">božskou přítomna přízní, do žil našich se velij,</l>
+            <l n="764">rozevři hesperskou náruč, vyjmi klenoty ze svých</l>
+            <l n="765">pokladů, kterým místní se diví, cizinec žasne</l>
+            <l n="766">ohromen, že v našem kraji takové pupeny raší</l>
+            <l n="767">mezi strmými kopci, skalními štíty a sněhy.</l>
+            <l n="768">V údolích bylinonosných z sazenic vyvádí  vánek</l>
+            <l n="769">ovoce, vonné plody tvé rodné půdy, ó země</l>
+            <l n="770">italská, pomeranče rozkošné, ohýbající</l>
+            <l n="771">větve mohutnou vahou zlatovlasého plodu.</l>
+            <l n="772">Stálezelené listí vidíš, jak nese bujný</l>
+            <l n="773">nysejský strom, totiž cedrát; nad něj silněji žádný</l>
+            <l n="774">nevysmívá se prudkému jedu uštknutí zmije;</l>
+            <l n="775">překypující cedrát, který dle staré víry</l>
+            <l n="776">Abrahámovci chovají v roce měsíc co měsíc.</l>
+            <l n="777">Tam mezi mladou zelení rostou spojené spolu</l>
+            <l n="778">dva stinné jasmíny, šťastné, že zeď u sebe mají,</l>
+            <l n="779">výšeji však své vztahují proutí a listoví bujné,</l>
+            <l n="780">přesadíš-li je, zelenají se – ač bez kořene – dlouho.</l>
+            <l n="781">Jazyk dvojitý chrání rozmarýn chvějivým hrotem,</l>
+            <l n="782">vedle zelené stonky jalovce mladistvou silou</l>
+            <l n="783">statečně snášejí mrazivé chladno i šedé jíní.</l>
+            <l n="784"
+               >Vzrůstají fialy zimní [chejr vonný, Cheiranthus cheiri], vytrvalý pak vedle</l>
+            <l n="785">stromek majoránový, menší i větší tabák,</l>
+            <l n="786"
+               >a mošusová růže, ločidlo s bělostným květem [laser Parthicum: Ferula asa-foetida],</l>
+            <l n="787"
+               >bazalka, tymián, fíkovník šplhavý [Ficus humilis = quercifo-lia], vytáhlý cypřiš</l>
+            <l n="788">v kuželi větve svírá, pistácie a kmín též</l>
+            <l n="789">s kamenným semenem, pinie, oliva, citron.</l>
+            <l n="790">Granátovníku květy s okrajem tečkatým, lístky</l>
+            <l n="791">nachové barvy, v jablku potom shluknutá zrna;</l>
+            <l n="792">parnaský vavřín věnčící bobulemi ti skráně</l>
+            <l n="793">trnoucí před ohněm blesků, ničivým úderem hromu.</l>
+            <l n="794">Copak nezmůže mysl lidská, píle a stálá</l>
+            <l n="795">práce, co si není s to obstarat svou zkušeností!</l>
+            <l n="796">Umí měnit přírodní síly, jedovost nebe.</l>
+            <l n="797">To je vláda danostem přírody, to vláda světu.</l>
+            <l n="798">Co zapovídá příroda, zdolají pokusy smělé,</l>
+            <l n="799">jejich ohnivá síla pomáhá rozhřátým údům.</l>
+            <l n="800">Když se rohy Měsíce po sedmé vyplní světlem</l>
+            <l n="801">a sled roku postoupí, přestane těšit se z bylin</l>
+            <l n="802">změkčilý noční hlídač, pod chráněnou se vrátí</l>
+            <l n="803">střechu, boje se zimy, políčka ponechá pustá.</l>
+            <l n="804">Co nyní zkusit, by vzduchu zhoubné vanutí zcela</l>
+            <l n="805">rostliny nemohlo zbavit mízy, mátožný spánek</l>
+            <l n="806">by je svou kosou nesťal? Bez odkladu tu činí</l>
+            <l n="807">opět práce, k nimž třeba mužů: schované kryty</l>
+            <l n="808">sem nosí, ze všech stran přikrývají poklady Flóry,</l>
+            <l n="809">a povrch podlahy podestýlají sušenou travou,</l>
+            <l n="810">ba i zející mezery na stranách snaží se mechem</l>
+            <l n="811">utěsnit tak, aby nezbyla ani jediná spára.</l>
+            <l n="812">Až leda vlažné slunce podá zas ozdravný vánek,</l>
+            <l n="813">lze bude tyto uvolnit svory, pod nebem jasným,</l>
+            <l n="814">aby v zavřeném vzduchu nezahynuly stonky</l>
+            <l n="815">dušením, zbaveny tepla od spřízněného světla.</l>
+            <l n="816">Ochrana tato výsadbě ovšem nestačí zcela:</l>
+            <l n="817">Výklenky duté proto na krajích nejzazších uzříš,</l>
+            <l n="818">kde se dá zapálit oheň: kamna ukrytá v kamnech</l>
+            <l n="819">pozvolna sálají, planouce životodárným žárem,</l>
+            <l n="820">který se jakoby kradmo, skrytými cestami šíří,</l>
+            <l n="821">aby snad žhoucí přísun horka prudkého všechno</l>
+            <l n="822">nespálil, onen sžíravý dech svou vydává výheň</l>
+            <l n="823">dlouhou rozvodů spletí, a své ztupuje síly</l>
+            <l n="824">pozvolným vějířem, takže co skrytým horkem se všechno</l>
+            <l n="825">zahřívá; co by rok co rok hynulo lítými mrazy,</l>
+            <l n="826">hřáto tak životním teplem pod světlem ožívá novým.</l>
+            <l n="827">Dvorana krásné síně pestrými zdobena skvostně</l>
+            <l n="828">barvami materiálů, goblény tkanými zlatem,</l>
+            <l n="829">má tyto věci, ty zdobí přilehlý palác a loubí:</l>
+            <l n="830">Umu veliké dílo, umění skvělého svědek</l>
+            <l n="831">umělce zrobena rukou, zrobena prací a snahou</l>
+            <l n="832">tabule v barvě bohata tolika drobnými díly,</l>
+            <l n="833">kolik je květů v zahradě či semen v pouzdérkách květů;</l>
+            <l n="834">noha též z mramoru, netvarována k účelu tomu.</l>
+            <l n="835">Má své poklady také zahrádka s plocením z pestrých</l>
+            <l n="836">latěk, u našich krbů známé i neznámé chová:</l>
+            <l n="837"
+               >Ceněna rozchodnice je růžová [Rhodia radix = Rhodiola rosea], divoká mrkev [Daucus carota = Staphilinus silvestris?],</l>
+            <l n="838">ceněny jsou tu melouny rostoucí s dužninou tučnou.</l>
+            <l n="839">Jsou zde cibule bílé, kozí brada [Tragopogon sp.] a hebký</l>
+            <l n="840"
+               >ptačinec [Stellaria alsine / nemorum] – dětská láska; náramně rozvětven rod je</l>
+            <l n="841">durmanu [Datura stramonium] s ostnatými jablky, s semenem černým.</l>
+            <l n="842">Druh pak brotanu, byliny se jménem účinným: vršky</l>
+            <l n="843">menšího kostivalu vstávají, kvetoucí různě,</l>
+            <l n="844">odporující zánětu hrdla; dále pak tykev.</l>
+            <l n="845"
+               >Hledík [Antirrhinum / nebO: kohoutek - Lychnis], chřest, vratič, řepa, oměj šalamounek,</l>
+            <l n="846">jenž barví, rozemnut, na rudo ruce krvavou šťávou,</l>
+            <l n="847">jenž ďábla zahání a jenž zhojuje surové rány.</l>
+            <l n="848">Byla tu také světlice; komonice a kopr,</l>
+            <l n="849"
+               >dobromysl (nebo jiné druhy Or.), lesknice [Phalaris canariensis], čočka, vlčí bob [Lupinus albus], zvonek,</l>
+            <l n="850"
+               >bodlák svatý [Cnicus benedictus?] i měkký [artyčok?], fazole a také proso,</l>
+            <l n="851">lilek větší, laskavec, černavý pak koriandr,</l>
+            <l n="852">kostihoj [asi nějaký kostival]; po zemi jahody rostoucí zelenají se.</l>
+            <l n="853">Oman, jenž rozpouští hleny, jenž jediný rozhání větry,</l>
+            <l n="854"
+               >zdravínek uchovávající očím sílu a ostrost. [Odontites vernus ssp. serotinus, Augentrost]</l>
+            <l n="855"
+               >Svítil tam krokus [šafrán, Crocus sativus] a máta také vzrůstala řecká [Menta graeca],</l>
+            <l n="856"
+               >pelyněk [Artemisia sp.], psí jazyk [Cynoglossum], hřejivá řeřicha [Nasturtium]  i babí kapsa [Capsella bursa pastoris],</l>
+            <l n="857">je tu roketa, hořčice, je tu i pontický nechrast,</l>
+            <l n="858">zdvihá své stonky čirok, amarant zase své květy,</l>
+            <l n="859">zelená se tu bylina srdeční [Leonurus cardiaca] i drobný topol,</l>
+            <l n="860"
+               >Španěl zde nachází bylinu rodnou [špenát, holus hispanicum], šplhají tamhle</l>
+            <l n="861">výhony břečťanu, blín zase sype z lodyhy plodné</l>
+            <l n="862">semena, která mohou ti snadno zatemnit mysl.</l>
+            <l n="863">Kdo by spočítal hrášky? Jedny škodlivou šťávou</l>
+            <l n="864">trhajícímu kradmo obrátí útroby v břiše,</l>
+            <l n="865">narůstat jiné uvidíš bez jinak běžné slupky.</l>
+            <l n="866">Všechny však předčí RŮŽE, květ květů, vůní své ctnosti,</l>
+            <l n="867">a svými poupaty zdobí všechny sousední květy.</l>
+            <l n="868">Zde kolem dokola výsadby stromků dík hojné péči</l>
+            <l n="869">ovoce nesou, nikterak horší vedlejších bylin.</l>
+            <l n="870">Hned teď spatřit je můžeš zkrášlené novými, hned zas</l>
+            <l n="871">novými tvary, vpravdě to známky nebeské přízně.</l>
+            <l n="872">Kdo by schopen byl přesně tu spočíst všechny ty barvy?</l>
+            <l n="873">Kdo jen vychválí takové poklady? Kdo nekonečně</l>
+            <l n="874">obsáhlé klenoty? Jen ten, kdo Jovovo postihne jmění.</l>
+            <l n="875">Přemnoho věcí, po jménech líčit které je dlouhé.</l>
+            <l n="876">Kdo by najednou prohlédnul jedním pohledem všechno,</l>
+            <l n="877">kdopak všechny ty zázraky přírody uvážit může?</l>
+            <l n="878">Ony procházet role bylo mi jedinou slastí</l>
+            <l n="879">nad slasti jiné, a to, co zbývá, uvyklou písní</l>
+            <l n="880">vypovím: zeleným trávníkem dokola lemován rybník,</l>
+            <l n="881">plný ryb, jehož břehy houževnatě vždy svírá</l>
+            <l n="882">kamenů zápoj utěsněný mechem jak klihem.</l>
+            <l n="883">Na vršku nejvyšším co vítěz hrdina kyllénský mává</l>
+            <l n="884">vítěznou zbraní, rozrážeje tak vanutí vzduchu.</l>
+            <l n="885">Pravice třímá meč, ruka druhá za vlasy hlavu</l>
+            <l n="886">Argovu, tělo skácené ostřím na zemi leží.</l>
+            <l n="887">Z ostražitého hrdla, odtrženého, tepna</l>
+            <l n="888">do rybníka vodu chrlí, ze srdce krev to,</l>
+            <l n="889">kterýžto zločin Júnó, tiší memfitská Íó</l>
+            <l n="890">věčnými slzami; a trouba hlásná znamení smutné,</l>
+            <l n="891">smáčena třikrát deseti druhy, do proudu dává.</l>
+            <l n="892">Ach, pole líbezná, ach sílo věcí, ty, cizokrajná,</l>
+            <l n="893">při založení jaká již krásná rozkoší tvářnost,</l>
+            <l n="894">a s času pokrokem v jaképak lásek nemůžem slasti</l>
+            <l n="895">doufat? Zakrátko tady na našich spatříme rolích,</l>
+            <l n="896">cokoli v Alkinoových hájích, v Adonidově</l>
+            <l n="897">zahradě roste; dryády půvabné a milé lesní</l>
+            <l n="898">víly z venkovních pokladnic sem své nosíce dary</l>
+            <l n="899">rozvinou a rodnou půdu vpravdě učiní šťastnou.</l>
+            <l n="900">Ó ty líbezné stíny, příjemné stany a libá</l>
+            <l n="901">loubí; a v mnohohlasých ptačích pištcích tu pěje</l>
+            <l n="902">Filomela, společně hlaholí „gloria“ BOHU.</l>
+            <l n="903">Zvučí-li houfek nérejských žínek v zurčení měkkém,</l>
+            <l n="904">vane-li z východu lehký větřík a v listech šustí,</l>
+            <l n="905">milo je člověku pod stromkem révy trhat si sladké</l>
+            <l n="906">hrozny či odevzdat oči v náruč něžného spánku</l>
+            <l n="907">nebo čas trávit pátráním, jaké jsou příčiny věcí.</l>
+            <l n="908">Zelené najády a víly horské nechť zahradu zdobí,</l>
+            <l n="909">dryády, nymfy, růžový tento Růžosad střežte</l>
+            <l n="910">mezi našimi kopci, ve chladných údolích všechnu</l>
+            <l n="911">Ctnost i ozdobu Růže; políčko obžeňte ploty</l>
+            <l n="912">a braňte dobytčatům, by květinám nebyly k škodě,</l>
+            <l n="913">aby neneslo kotvičník či lopuch, výhony s trny</l>
+            <l n="914">jedovatými, byliny zvrhlé, by svými stonky</l>
+            <l n="915">nenakazily role, jak železo balzám, jak zelí</l>
+            <l n="916">révu či česnek magnet či nízkopudný chtíč smaragd;</l>
+            <l n="917">aby labutím neškodil severák, aby jim klíště</l>
+            <l n="918">nekladlo nástrahy, anebo nádory od černých plazů;</l>
+            <l n="919">aby výři, havrani a s nimi dudek, či</l>
+            <l n="920">jejíž záda pestrá jsou pěknými flíčky, a sovy</l>
+            <l n="921">ke škodě nebyly Filomele a holubicím.</l>
+            <l n="922">Ó vy dryády, nymfy, přejte nábožné prosbě</l>
+            <l n="923">a pozdraveny buďte, buďte všechny tu zdrávy.</l>
+         </div>
       </body>
    </text>
 </TEI>
