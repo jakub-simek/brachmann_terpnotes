@@ -361,7 +361,7 @@
                <head>FONS SACER.</head>
                <lg>
                   <l n="1">FOns calidis hîc fumat  aquis: ſacer omnibus: ægris</l>
-                  <l n="2">Vtilis: hæc intres <caesura/>balnea,, ſanus eris.</l>
+                  <l n="2">Vtilis: hæc intres <caesura/>balnea, ſanus eris.</l>
                </lg>
             </div>
             <div xml:id="ep_33" n="33">
@@ -422,35 +422,48 @@
             </div>
          </div>
          <div>
-            <l n="1">﻿‌QValis in hoc Mundi, terræque, polique theatro Br</l>
-            <l n="2">Insita subsistit facies ab origine prima;</l>
-            <l n="3">Mille figurarum species, res mille, potestas</l>
-            <l n="4">Multiplici distincta gradu, distincta vigore:</l>
+            <pb n="Br"/>
+            <cb/>
+            <head>
+               <lb/>
+               <w>HORTVS</w>
+               <pc>.</pc>
+            </head>
+            <l n="1">QValis in hoc Mundi, terræqꝫ́, poliqꝫ́ theatro</l>
+            <l n="2">Inſita ſubſiſtit facies ab origine prima;</l>
+            <l n="3">Mille figurarum ſpecies, res mille, poteſtas</l>
+            <l n="4">Multiplici diſtincta gradu, diſtincta vigore :</l>
             <l n="5">Talis inest parvo naturæ vultus in orbe</l>
-            <l n="6">Diversi cordis, diversi pectoris æstus;</l>
-            <l n="7">Atque caducus amor vitæ motusque fugaces.</l>
-            <l n="8">Quisque suæ sequitur naturæ semina, quisquis</l>
-            <l n="9">Exhibet occultum studiis, et moribus ignem:</l>
+            <l n="6">Diverſi cordis, diverſi pectoris æſtus;</l>
+            <l n="7">Atqꝫ́ caducus amor vitæ motusqꝫ́ fugaces.</l>
+            <l n="8">Quisqꝫ́ ſuæ ſequitur naturæ ſemina, quisquis</l>
+            <l n="9">Exhibet occultum ſtudiis, &amp; moribus ignem :</l>
             <l n="10">Ille furit, timet hic, pars humet, rideat alter.</l>
             <l n="11">Adde quid hîc valeat virtus ignota tenebris</l>
-            <l n="12">Ingenii: quid res miranda, potentia cœli:</l>
+            <l n="12">Ingenii : quid res miranda, potentia cœli:</l>
             <l n="13">Cujus ad effectus dubios mens libera curis</l>
             <l n="14">Luxuriat: contra fuerint si nubila torpet.</l>
             <l n="15">Hinc aliis Venetas placet enumerare paludes</l>
-            <l n="16">Eridani ripas: inflexus Tethyos omnes.</l>
-            <l n="17">Quot medio classes Echeneis marmore sistat;</l>
-            <l n="18">Quot Gladius mergat, quot Syrtes, Scylla, Charybdis,</l>
-            <l n="19">Quæ freta, quas terras pelago vidisset in alto;</l>
-            <l n="20">Et quae jactata tetigisset sidera puppi:</l>
-            <l n="21">Et positis rursum bullis ad tartara lapsus.</l>
-            <l n="22">Ad Mauros alii, sævos Garamantas, et Indos</l>
-            <l n="23">Antipodasque, Tagi, Pactoli flumen, et Hermi,</l>
-            <l n="24">Merces quæsitum currunt: seroque reversi</l>
-            <l n="25">Exponunt longi non vana pericula cursus,</l>
-            <l n="26">Vim multam, cœlique minas, fera saxa, latrones.</l>
-            <l n="27">Cernis ut insultet miles: tumidusque secundo</l>
-            <l n="28">Marte ferat cædes: et tela, sonantia tela;</l>
-            <l n="29">Deletas acies; actos in funera reges:‌ Bv</l>
+            <l n="16">Eridani ripas : inflexus Tethyos omnes.</l> <!-- inflexus: korrigiert aus inflexos -->
+            <l n="17">Quot medio claſſes Echeneis marmore ſiſtat;</l>
+            <l n="18">Quot Gladius mergat, quot Syrtes,Scylla,Charybdis,</l>
+            <l n="19">Quæ freta,quas terras pelago vidiſſet in alto;</l>
+            <l n="20">Et quae jactata tetigiſſet ſidera puppi:</l>
+            <l n="21">Et poſitis rurſum bullis ad tartara lapſus.</l>
+            <l n="22">Ad Mauros alii, ſævos Garamantas, &amp; Indos</l>
+            <l n="23">Antipodasqꝫ́, Tagi, Pactoli flumen, &amp; Hermi,</l>
+            <l n="24">Merces quæſitum currunt : ſeroqꝫ́ reverſi</l>
+            <l n="25">Exponunt longi non vana pericula curſus,</l>
+            <l n="26">Vim multam, cœliqꝫ́ minas, fera ſaxa, latrones.</l>
+            <l n="27">Cernis ut inſultet miles : tumidusqꝫ́ ſecundo</l>
+            <l n="28">Marte ferat cædes : &amp; tela, ſonantia tela;</l>
+            <lb rendition="hc:FlushRight"/>
+            <fw ana="hc:PageNumber">B</fw>
+            <space unit="character" quantity="10"></space>
+            <fw ana="hc:Catchword">Deletas</fw>
+            <pb n="Bv"/>
+            <cb/>
+            <l n="29">Deletas acies; actos in funera reges:</l>
             <l n="30">Ostentat spolium, gliscentia somniat arma;</l>
             <l n="31">Pro stipe dat vitam: sanum pro vulnere corpus.</l>
             <l n="32">Furfure natus homo naturæ nomina mille,</l>
