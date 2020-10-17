@@ -2,4 +2,8 @@
 
 A scholarly digital edition and translation of "Johannes Brachmann: Terpnotes (Liegnitz 1600)".
 
-The edition and translations are currently work-in-progress. They are being published here freely in Open Access. However, all rights remain reserved. Please contact me for any reuse.
+Source: http://digital.slub-dresden.de/id333979028
+
+The edition and translations are currently work-in-progress. 
+
+Free access, all rights reserved.
